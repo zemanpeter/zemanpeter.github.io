@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 #profile:
 #  align: right
@@ -19,10 +20,8 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 ---
 
 
-2023--2024: postdoc at the [Technical University of Denmark](https://www.dtu.dk). I am working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph theory](https://en.wikipedia.org/wiki/Graph_theory). 
+I am a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I am working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph theory](https://en.wikipedia.org/wiki/Graph_theory). 
 
-2022: postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com)
+2022: I was a postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com).
 
-2017--2021: PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam) of the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en) at the [Charles University](https://cuni.cz/uken-1.html). [My thesis](/assets/pdf/thesis.pdf).
-
-
+2017--2021: I was a PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam) of the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en) at the [Charles University](https://cuni.cz/uken-1.html). My thesis, titled Groups of Automorphisms of Graphs, can be found [here](/assets/pdf/thesis.pdf).
