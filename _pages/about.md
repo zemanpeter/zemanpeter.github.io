@@ -23,6 +23,6 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 2022: postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com)
 
-2017--2021: PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam) of the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en) at the[Charles University](https://cuni.cz/uken-1.html). [My thesis](/assets/pdf/thesis.pdf).
+2017--2021: PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam) of the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en) at the [Charles University](https://cuni.cz/uken-1.html). [My thesis](/assets/pdf/thesis.pdf).
 
 
