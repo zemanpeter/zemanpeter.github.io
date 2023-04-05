@@ -20,7 +20,6 @@ subtitle:
 ---
 
 
-Test
 I am a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I am working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph theory](https://en.wikipedia.org/wiki/Graph_theory). 
 
 2022: I was a postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com).
