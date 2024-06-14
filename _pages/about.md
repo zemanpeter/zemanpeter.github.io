@@ -26,6 +26,6 @@ I am a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I a
 
 2017--2021: I was a PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam) of the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en) at the [Charles University](https://cuni.cz/uken-1.html). My thesis is titled "[Groups of Automorphisms of Graphs](/assets/pdf/thesis.pdf)".
 
-## Research interests:
+### Current research areas:
 * graph isomorphism problem, symmetries of discrete objects
 * quantum infomration theory, operator algebras, quantum groups
