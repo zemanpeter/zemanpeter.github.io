@@ -29,7 +29,6 @@ I am a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I a
 ### Current research areas:
 * **Symmetries of discrete structures: graph isomorphism problem, automorphism groups of graphs, Weisfeiler-Leman dimension.**
 * **Quantum information theory, quantum groups, operator algebras, and graph theory.**
--|-
 The mathematics of quantum mechanics led to the theory of operator algebras, and quantum groups were invented to study quantum integrable systems.
 Quantum information theory emerged as framework for processing information which makes use of the quantum theory.
 Over the past decade, there has been a huge interest in understanding probability distributions arising from models of entangled quantum systems.
