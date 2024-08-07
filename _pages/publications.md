@@ -16,7 +16,11 @@ nav_order: 1
 
 ### Journal papers
 
-1. 
+1. P. Klavík, D. Knop, P. Zeman: **Graph Isomorphism Restricted by Lists**, Theoretical Computer Science (2021).
+2. S. Chaplick, F. V. Fomin, P. A. Golovach, D. Knop, P. Zeman: **Kernelization of Graph Hamiltonicity: Proper H-Graphs**, SIAM Journal on Discrete Mathematics (2021).
+3. S. Chaplick, M. Töpfer, J. Voborník, P. Zeman: **On $$H$$-Topological Intersection Graphs**, Algorithmica (2021).
+4. P. Klavík, R. Nedela, P. Zeman: **Jordan-like Characterization of Automorphism Groups of Planar Graphs**, Journal of Combinatorial Theory, Series B (2022).
+5. K. Kawarabayashi, B. Mohar, R. Nedela, P. Zeman: **Automorphisms and Isomorphisms of Maps in Linear Time**, ACM Transactions on Algorithms (2024).
 
 ### Conference proceedings
 
