@@ -1,18 +1,16 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: publications 
 description:
-years: [1967, 1956, 1950, 1935, 1905]
-nav: false
+nav: true
 nav_order: 1
 ---
-<!-- _pages/publications.md -->
-<div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+### Conference proceedings
 
-</div>
+1. P. Klavík, P. Zeman: *Automorphism Groups of Geometrically Represented Graphs*, 32nd International Symposium on Theoretical Aspects of Computer Science (STACS 2015).
+2. S. Chaplick, M. Töpfer, J. Voborník, P. Zeman: *On $$H$$-Topological Intersection Graphs*, 43rd International Workshop on Graph-Theoretic Concepts in Computer Science (WG 2017).
+3. S. Chaplick, F. V. Fomin, P. A. Golovach, D. Knop, P. Zeman: *Kernelization of Graph Hamiltonicity: Proper $$H$$-Graphs*, 16th Algorithms and Data Structures Symposium (WADS 2019).
+4. P. Klavík, D. Knop, P. Zeman: *Graph Isomorphism Restricted by Lists*, 46th International Workshop on Graph-Theoretic Concepts in Computer Science (WG 2020).
+5. K. Kawarabayashi, B. Mohar, R. Nedela, P. Zeman: *Automorphisms and Isomorphisms of Maps in Linear Time*, 48th International Colloquium on Automata, Languages, and Programming (ICALP 2021).

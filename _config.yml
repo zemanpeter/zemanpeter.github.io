@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Peter
 middle_name:
 last_name: Zeman
@@ -259,8 +259,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zeman]
+  first_name: [Peter]
 
   style: apa
   locale: en
