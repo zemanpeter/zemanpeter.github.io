@@ -28,10 +28,9 @@ I am a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I a
 
 ### Current research areas:
 
-$$\DeclareMathOperator{\poly}{poly}$$
 **Symmetries of discrete structures: graph isomorphism, automorphism groups of graphs, Weisfeiler-Leman dimension.**
 Graph isomorphism problem is one of the few natural problems that are neither known to be NP-complete nor polynomial-time solvable.
-In a recent breakthrough, Babai gave an algorithm that runs in time $$n^{\poly(\log{n})}$$.
+In a recent breakthrough, Babai gave an algorithm that runs in time $$n^{\text{poly}(\log{n})}$$.
 The problem of computing the generators and the problem of computing the orbits of the automorphism group of a graph have the same computational complexity as testing isomorphism.
 The *$$k$$-dimensional Weisfeiler-Leman algorithm* ($$k$$-WL) iteratively computes an automorphism-invariant partition the set of all $$k$$-tuples of vertices of a graph, approximating the $$k$$-orbits of the automorphism group.
 A graph is *identified* by the $$k$$-WL if the algorithm distinguishes it from all other graphs.
