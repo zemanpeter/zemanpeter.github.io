@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 permalink: /publications/
 title: papers 
 description:
@@ -11,7 +11,7 @@ nav_order: 1
 
 1. P. N. Kar, D. E. Roberson, T. Seppelt, P. Zeman: **NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability**, submitted to SODA 2025.
 2. J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, S. Schmidt, P. Zeman: **Quantum automorphism groups of trees**, submitted to Journal of Noncommutative Goemetry.
-3. A. S. Árnadóttir, J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, P. Zeman: **Quantum Sabidussi's Theorem**, submitted to Journal of Combinatorial Theory Series B.
+3. A. S. Árnadóttir, J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, P. Zeman: **Quantum Sabidussi's Theorem**, submitted to Journal of Combinatorial Theory, Series B.
 4. H. Li, I. Ponomarenko, P. Zeman: **On the Weisfeiler-Leman dimension of some polyhedral graphs**, submitted to Journal of Algebraic Combinatorics.
 
 ### Journal papers
