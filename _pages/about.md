@@ -28,5 +28,5 @@ I am a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I a
 
 ### Research interests:
 
-* Symmetries of discrete structures: graph isomorphism problem, automorphism groups of graphs, Weisfeiler-Leman dimension.
-* Interactions of quantum information theory, quantum groups, operator algebras, and graph theory.
+* Symmetries of discrete structures: [graph isomorphism problem, automorphism groups of graphs, Weisfeiler-Leman dimension](https://dl.acm.org/doi/pdf/10.1145/3372123).
+* Interactions of [quantum information theory, quantum groups, operator algebras, and graph theory](https://www.newton.ac.uk/event/qia/). See [Quantum Symmetry](https://www.math.uni-sb.de/ag/speicher/weber/SnapshotQuantumSymmetryMoritzWeber2019.pdf) for an exposition of quantum spaces, quantum groups, and quantum symmetry.
