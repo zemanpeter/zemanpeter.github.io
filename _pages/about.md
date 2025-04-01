@@ -22,9 +22,9 @@ subtitle:
 I am a postdoc at the Department of Algebra, Faculty of Mathematics and Physics, Charles University.
 I am working on the ERC Synergy project [POCOCOP](https://pococop.eu), supervised by [Libor Barto](https://www2.karlin.mff.cuni.cz/~barto/index.html).
 
-2023--2024: I was a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I am working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph homomorphisms](https://en.wikipedia.org/wiki/Graph_homomorphism). 
+Apr 23 -- Mar 2025: I was a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I am working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph homomorphisms](https://en.wikipedia.org/wiki/Graph_homomorphism). 
 
-2022: I was a postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com).
+Apr 22 -- Mar 23: I was a postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com).
 
 2017--2021: I was a PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam) of the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en) at the [Charles University](https://cuni.cz/uken-1.html).
 
