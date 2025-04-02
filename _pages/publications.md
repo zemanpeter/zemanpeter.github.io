@@ -9,13 +9,13 @@ nav_order: 1
 
 ### Preprints
 
-1. P. N. Kar, D. E. Roberson, T. Seppelt, P. Zeman: **NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability**, submitted to SODA 2025.
-2. J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, S. Schmidt, P. Zeman: **Quantum automorphism groups of trees**, submitted to Journal of Noncommutative Goemetry.
-3. A. S. Árnadóttir, J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, P. Zeman: **Quantum Sabidussi's Theorem**, submitted to Journal of Combinatorial Theory, Series B.
-4. H. Li, I. Ponomarenko, P. Zeman: **On the Weisfeiler-Leman dimension of some polyhedral graphs**, submitted to Journal of Algebraic Combinatorics.
+1. P. N. Kar, D. E. Roberson, T. Seppelt, P. Zeman: **NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability**, submitted to ICALP 2025.
+4. H. Li, I. Ponomarenko, P. Zeman: **On the Weisfeiler-Leman dimension of some polyhedral graphs**, submitted to Electronic Journal of Combinatorics.
 
 ### Journal papers
 
+7. A. S. Árnadóttir, J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, P. Zeman: **Quantum Sabidussi's Theorem**, Journal of London Mathematical Society (2025).
+6. J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, S. Schmidt, P. Zeman: **Quantum automorphism groups of trees**, Journal of Noncommutative Goemetry (2025).
 5. K. Kawarabayashi, B. Mohar, R. Nedela, P. Zeman: **Automorphisms and Isomorphisms of Maps in Linear Time**, ACM Transactions on Algorithms (2024).
 4. P. Klavík, R. Nedela, P. Zeman: **Jordan-like Characterization of Automorphism Groups of Planar Graphs**, Journal of Combinatorial Theory, Series B (2022).
 3. S. Chaplick, M. Töpfer, J. Voborník, P. Zeman: **On $$H$$-Topological Intersection Graphs**, Algorithmica (2021).
