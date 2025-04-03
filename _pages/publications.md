@@ -7,12 +7,12 @@ nav: true
 nav_order: 1
 ---
 
-### Preprints
+# Preprints
 
 1. P. N. Kar, D. E. Roberson, T. Seppelt, P. Zeman: **NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability**, submitted to ICALP 2025.
 4. H. Li, I. Ponomarenko, P. Zeman: **On the Weisfeiler-Leman dimension of some polyhedral graphs**, submitted to Electronic Journal of Combinatorics.
 
-### Journal papers
+# Journal papers
 
 7. A. S. Árnadóttir, J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, P. Zeman: **Quantum Sabidussi's Theorem**, Journal of London Mathematical Society (2025).
 6. J. van Dobben de Bruyn, P. N. Kar, D. E. Roberson, S. Schmidt, P. Zeman: **Quantum automorphism groups of trees**, Journal of Noncommutative Goemetry (2025).
@@ -22,7 +22,7 @@ nav_order: 1
 2. S. Chaplick, F. V. Fomin, P. A. Golovach, D. Knop, P. Zeman: **Kernelization of Graph Hamiltonicity: Proper H-Graphs**, SIAM Journal on Discrete Mathematics (2021).
 1. P. Klavík, D. Knop, P. Zeman: **Graph Isomorphism Restricted by Lists**, Theoretical Computer Science (2021).
 
-### Conference proceedings
+# Conference proceedings
 
 10. D. Agaoglu Çagirici, P. Zeman: **Recognition and Isomorphism of Proper $$H$$-Graphs for Unicyclic $$H$$ in FPT-Time**, 18th International Conference and Workshop on Algorithms and Computation (WALCOM 2024).
 9. D. Agaoglu Çagirici, O. Çagirici, J. Derbisz, T. A. Hartmann, P. Hlinený, J. Kratochvíl, T. Krawczyk, P. Zeman: **Recognizing $$H$$-Graphs - Beyond Circular-Arc Graphs**, 48th International Symposium on Mathematical Foundations of Computer Science (MFCS 2023).
