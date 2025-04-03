@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zemanpeter.github.io/sitemap.xml
+Sitemap: https://zemanpeter.github.io/blog//sitemap.xml
