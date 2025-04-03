@@ -1,0 +1,20 @@
+**Symmetries of discrete structures: graph isomorphism, automorphism groups of graphs, Weisfeiler-Leman dimension.**
+Graph isomorphism problem is one of the few natural problems that are neither known to be NP-complete nor polynomial-time solvable.
+In a recent breakthrough, Babai gave an algorithm that runs in time $$n^{\text{poly}(\log{n})}$$.
+The problem of computing the generators and the problem of computing the orbits of the automorphism group of a graph have the same computational complexity as testing isomorphism.
+The *$$k$$-dimensional Weisfeiler-Leman algorithm* ($$k$$-WL) iteratively computes an automorphism-invariant partition the set of all $$k$$-tuples of vertices of a graph, approximating the $$k$$-orbits of the automorphism group.
+A graph is *identified* by the $$k$$-WL if the algorithm distinguishes it from all other graphs.
+The $$k$$-WL algorithm has strong links to seemingly unrelated notions.
+For instance, if $$k$$ is the smallest such that $$k$$-WL distinguishes two graphs, then $$k+1$$ is the smallest number of variables of a sentence in first-order logic with counting distinguishing the two graphs.
+There are futher links to linear programming, duplicator-spoiler games, and coherent configurations.
+
+**Quantum information theory, quantum groups, operator algebras, and graph theory.**
+The mathematics of quantum mechanics led to the theory of operator algebras, and quantum groups were invented to study quantum integrable systems.
+Quantum information theory emerged as framework for processing information which makes use of the quantum theory.
+Over the past decade, there has been a huge interest in understanding probability distributions arising from models of entangled quantum systems.
+Quantum groups enter the picture by capturing the natural notion of symmetry in this context.
+At the same time, extensive links have been established with long-standing problems in the area of operator algebras.
+The groud-breaking resolution of the Connes Embedding Problem uses methods from quantum information theory.
+The intersection between graph theory, quantum information and compact quantum groups offers a wealth of open problems and questions.
+Quantum graphs include the confusability graphs of quantum channels and arise naturally in the study of quantum automorphism groups.
+
