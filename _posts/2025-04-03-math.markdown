@@ -1,6 +1,6 @@
 ---
 title:  "Math"
-layout: default
+layout: post
 ---
 Here is inline math: $x^2 + y^2 = z^2$
 
