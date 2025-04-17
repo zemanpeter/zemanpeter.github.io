@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-quadratic-equation",
+        },{id: "post-graham-pollak-determinant-formula",
+        
+          title: "Graham-Pollak determinant formula",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/graham-pollak/";
+          
+        },
+      },{id: "post-quadratic-equation",
         
           title: "Quadratic equation",
         
