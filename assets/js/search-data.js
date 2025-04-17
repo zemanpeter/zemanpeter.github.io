@@ -9,14 +9,32 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-posts",
+  },{id: "nav-papers",
+          title: "papers",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/papers/";
+          },
+        },{id: "nav-posts",
           title: "posts",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-a-distill-style-blog-post",
+        },{id: "post-quadratic-equation",
+        
+          title: "Quadratic equation",
+        
+        description: "quadratic equation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/quadratic-equation/";
+          
+        },
+      },{id: "post-a-distill-style-blog-post",
         
           title: "a distill-style blog post",
         
