@@ -27,33 +27,11 @@ ninja.data = [{
         
           title: "Graham-Pollak determinant formula",
         
-        description: "",
+        description: "A beautiful formula for the determinant of the distance matrix of a tree.",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2025/graham-pollak/";
-          
-        },
-      },{id: "post-quadratic-equation",
-        
-          title: "Quadratic equation",
-        
-        description: "quadratic equation",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/quadratic-equation/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
           
         },
       },{id: "books-the-godfather",
@@ -118,18 +96,18 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-dblp',
-        title: 'DBLP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://dblp.org/pid/149/2225-1.html", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%70%65%74%65%72.%7A%65%6D%61%6E@%6D%61%74%66%79%7A.%63%75%6E%69.%63%7A", "_blank");
+        },
+      },{
+        id: 'social-telegram',
+        title: 'telegram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://telegram.me/zemanpe", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -146,11 +124,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=fljgbUIAAAAJ&hl", "_blank");
         },
       },{
-        id: 'social-telegram',
-        title: 'telegram',
+        id: 'social-dblp',
+        title: 'DBLP',
         section: 'Socials',
         handler: () => {
-          window.open("https://telegram.me/zemanpe", "_blank");
+          window.open("https://dblp.org/pid/149/2225-1.html", "_blank");
         },
       },{
       id: 'light-theme',
