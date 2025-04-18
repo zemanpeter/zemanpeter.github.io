@@ -2,13 +2,13 @@
 layout: post
 title: Graham-Pollak determinant formula
 date: 2025-04-16 11:12:00-0400
-description:
-tags: math
-categories: exposition
+description: A beautiful formula for the determinant of the distance matrix of a tree.
+tags: math combinatorics
+categories:
 related_posts: false
 ---
 
-Graham Pollak (1971) proved the following theorem.
+**Theorem** (Graham Pollak, 1971):
 Let $D_n$ be the distance matrix of a tree, i.e.,
 
 $$
