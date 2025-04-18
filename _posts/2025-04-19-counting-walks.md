@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Couting walks
-date: 2025-04-19 11:12:00-0400
+title: Counting walks
+date: 2025-04-18 11:12:00-0400
 description: Recurrence relations for counting several types of walks.
 tags: combinatorics
 categories: mathematics
@@ -47,3 +47,4 @@ $$B_{k-1} = B_{k-1}A - B_{k-2}(D - I).$$
 
 **Are there some simple formulas for counting walks with some other constraints?**
 **For example, what if every edge can appear only at most once in every subwalk of length $\ell$?**.
+
