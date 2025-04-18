@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-graham-pollak-determinant-formula",
+        },{id: "post-counting-walks",
+        
+          title: "Counting walks",
+        
+        description: "Recurrence relations for counting several types of walks.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/counting-walks/";
+          
+        },
+      },{id: "post-graham-pollak-determinant-formula",
         
           title: "Graham-Pollak determinant formula",
         
