@@ -11,12 +11,10 @@ related_posts: false
 **Theorem** (Graham Pollak, 1971):
 Let $D_n$ be the distance matrix of a tree, i.e.,
 
-$$
-(D_n)_{x,y} = d(x,y).
-$$
+$$ (D_n)_{x,y} = d(x,y). $$
 
 Then
 
-$$
-\det(D_n) = (-1)^{n-1}(n-1)2^{n-2}.
-$$
+$$\det(D_n) = (-1)^{n-1}(n-1)2^{n-2}.$$
+
+Thus, surprisingly, the the determinant of $D_n$ dopends solely on on the number of the vertices of a tree and not at all on its structure.
