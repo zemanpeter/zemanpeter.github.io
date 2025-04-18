@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoc at the [Department of Algebra](https://www.mff.cuni.cz/cs/math/ka/katedra), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en), [Charles University](https://cuni.cz/uken-1.html), Prague, Czechia.
+I am a postdoc at the [Department of Algebra](https://www.mff.cuni.cz/cs/math/ka/katedra), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en), [Charles University](https://cuni.cz/uken-1.html), Prague, Czech republic.
 I am working on the ERC Synergy project [POCOCOP](https://pococop.eu), supervised by [Libor Barto](https://www2.karlin.mff.cuni.cz/~barto/index.html).
 
 Apr 2023 -- Mar 2025: I was a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I was working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph homomorphisms](https://en.wikipedia.org/wiki/Graph_homomorphism). 
