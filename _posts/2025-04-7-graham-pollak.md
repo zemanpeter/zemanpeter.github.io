@@ -4,7 +4,7 @@ title: Graham-Pollak determinant formula
 date: 2025-04-7 11:12:00-0400
 description: A beautiful formula for the determinant of the distance matrix of a tree.
 tags: trees determinant
-categories: math.CO
+categories: combinatorics
 related_posts: false
 ---
 

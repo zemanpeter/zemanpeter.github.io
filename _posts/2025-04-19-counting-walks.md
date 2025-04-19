@@ -4,7 +4,7 @@ title: Counting walks
 date: 2025-04-18 11:12:00-0400
 description: Recurrence relations for counting several types of walks.
 tags: graphs counting
-categories: math.CO
+categories: combinatorics
 related_posts: false
 ---
 
