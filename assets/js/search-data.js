@@ -50,16 +50,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-got-accepted-to-icalp-2025",
+          title: 'Our paper ``NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’’ got accepted to...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-will-give-a-talk-at-algebra-colloqium-about-our-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-paper",
+          title: 'I will give a talk at Algebra colloqium about our NPA Hierarchy for...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
