@@ -51,10 +51,10 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-our-paper-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-got-accepted-to-icalp-2025",
-          title: 'Our paper ``NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability’’ got accepted to...',
+          title: 'Our paper NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability got accepted to...',
           description: "",
           section: "News",},{id: "news-our-paper-free-inhomogeneous-wreath-product-of-quantum-groups-just-appeared-on-arxiv",
-          title: 'Our paper ``Free Inhomogeneous Wreath Product of Quantum Groups’’ just appeared on arXiv....',
+          title: 'Our paper Free Inhomogeneous Wreath Product of Quantum Groups just appeared on arXiv....',
           description: "",
           section: "News",},{id: "news-i-will-give-a-talk-at-algebra-colloqium-about-our-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-paper",
           title: 'I will give a talk at Algebra colloqium about our NPA Hierarchy for...',
