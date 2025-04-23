@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-counting-walks",
+        },{id: "post-quantum-automorphism-groups-of-connected-graphs",
+        
+          title: "Quantum automorphism groups of connected graphs",
+        
+        description: "An exposition of our recent paper about quantum automorphism groups of graphs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/aut-connected/";
+          
+        },
+      },{id: "post-counting-walks",
         
           title: "Counting walks",
         
