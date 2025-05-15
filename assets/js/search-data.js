@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/papers/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-posts",
           title: "posts",
@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-quantum-automorphism-groups-of-connected-graphs",
+        },{id: "post-orbit-counting",
+        
+          title: "Orbit counting",
+        
+        description: "A graph-theoretic proof of the orbit-counting theorem.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/orbit-counting/";
+          
+        },
+      },{id: "post-quantum-automorphism-groups-of-connected-graphs",
         
           title: "Quantum automorphism groups of connected graphs",
         
@@ -32,6 +43,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/aut-connected/";
+          
+        },
+      },{id: "post-counting-trees",
+        
+          title: "Counting trees",
+        
+        description: "Recurrence relations for counting several types of walks.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/counting-trees/";
           
         },
       },{id: "post-counting-walks",
