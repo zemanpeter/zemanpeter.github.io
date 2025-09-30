@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-posts",
           title: "posts",
           description: "",
@@ -149,6 +156,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-introduction-to-the-complexity-of-csps",
+          title: 'Introduction to the complexity of CSPs',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/25-winter-csp/";
+            },},{id: "teaching-quantum-information-theory",
+          title: 'Quantum Information Theory',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/25-winter-qit/";
             },},{
         id: 'social-email',
         title: 'email',
