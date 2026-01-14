@@ -163,12 +163,12 @@ ninja.data = [{
           title: 'Introduction to the complexity of CSPs',
           description: "",
           section: "Teaching",handler: () => {
-              window.location.href = "/teaching/csp/";
+              window.location.href = "/teaching/2526-winter-csp/";
             },},{id: "teaching-quantum-information-theory",
           title: 'Quantum Information Theory',
           description: "",
           section: "Teaching",handler: () => {
-              window.location.href = "/teaching/qit/";
+              window.location.href = "/teaching/2526-winter-qit/";
             },},{
         id: 'social-email',
         title: 'email',
