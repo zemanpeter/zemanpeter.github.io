@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/reading/";
           },
-        },{id: "post-counting-walks",
+        },{id: "post-orbit-counting-lemma",
+        
+          title: "Orbit counting lemma",
+        
+        description: "A graph-theoretic proof of the orbit-counting theorem.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/orbit-counting/";
+          
+        },
+      },{id: "post-counting-walks",
         
           title: "Counting walks",
         
