@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/reading/";
           },
-        },{id: "post-orbit-counting-lemma",
+        },{id: "post-infinity-of-primes",
+        
+          title: "Infinity of primes",
+        
+        description: "A group-theoretic proof of infinity of primes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/infinity-of-primes/";
+          
+        },
+      },{id: "post-orbit-counting-lemma",
         
           title: "Orbit counting lemma",
         
