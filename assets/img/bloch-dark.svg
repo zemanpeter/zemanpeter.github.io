@@ -292,12 +292,12 @@
 <path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M -79.373063 0.00096875 L 78.912094 0.00096875 " transform="matrix(1, 0, 0, -1, 90.709, 90.708)"/>
 <path fill="none" stroke-width="0.31879" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M -1.196079 1.594719 C -1.094516 0.997062 -0.00076625 0.098625 0.300015 0.00096875 C -0.00076625 -0.100594 -1.094516 -0.995125 -1.196079 -1.592781 " transform="matrix(1, 0, 0, -1, 169.62186, 90.708)"/>
 <g fill="rgb(100%, 100%, 100%)" fill-opacity="1">
-<use xlink:href="#glyph-0-0" x="173.598" y="92.853"/>
+<use xlink:href="#glyph-0-0" x="160.865" y="98.518"/>
 </g>
 <path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 0.0019375 -79.370125 L 0.0019375 78.911125 " transform="matrix(1, 0, 0, -1, 90.709, 90.708)"/>
 <path fill="none" stroke-width="0.31879" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M -1.197048 1.595719 C -1.095485 0.998063 -0.001735 0.099625 0.299046 -0.0019375 C -0.001735 -0.0995937 -1.095485 -0.998031 -1.197048 -1.595687 " transform="matrix(0, -1, -1, 0, 90.709, 11.79514)"/>
 <g fill="rgb(100%, 100%, 100%)" fill-opacity="1">
-<use xlink:href="#glyph-0-1" x="88.173" y="7.819"/>
+<use xlink:href="#glyph-0-1" x="82.117" y="19.148"/>
 </g>
 <path fill="none" stroke-width="0.3985" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M 28.345687 28.348625 L -28.0215 -28.022469 " transform="matrix(1, 0, 0, -1, 90.709, 90.708)"/>
 <path fill="none" stroke-width="0.31879" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 100%, 100%)" stroke-opacity="1" stroke-miterlimit="10" d="M -1.197099 1.594453 C -1.094899 0.995063 -0.00108277 0.100123 0.297231 0.000685016 C -0.00108277 -0.0987528 -1.097661 -0.996456 -1.197099 -1.593083 " transform="matrix(-0.7071, 0.7071, 0.7071, 0.7071, 62.68625, 118.73075)"/>
