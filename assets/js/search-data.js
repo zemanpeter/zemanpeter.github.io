@@ -171,8 +171,8 @@ ninja.data = [{
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/2526-summer-pg/";
-            },},{id: "teaching-quantum-information-tutorials",
-          title: 'Quantum Information (tutorials)',
+            },},{id: "teaching-quantum-information",
+          title: 'Quantum Information',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/2526-summer-qi/";
