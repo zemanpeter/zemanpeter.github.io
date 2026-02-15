@@ -161,6 +161,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-permutation-groups",
+          title: 'Permutation Groups',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/2526-summer-pg/";
             },},{id: "teaching-introduction-to-the-complexity-of-csps",
           title: 'Introduction to the complexity of CSPs',
           description: "",
