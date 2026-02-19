@@ -167,7 +167,7 @@ ninja.data = [{
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/2526-winter-csp/";
             },},{id: "teaching-quantum-information-theory",
-          title: 'Quantum Information Theory',
+          title: 'Quantum information theory',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/2526-winter-qit/";
@@ -177,12 +177,12 @@ ninja.data = [{
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/csp/";
             },},{id: "teaching-permutation-groups",
-          title: 'Permutation Groups',
+          title: 'Permutation groups',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/pg/";
             },},{id: "teaching-quantum-information",
-          title: 'Quantum Information',
+          title: 'Quantum information',
           description: "",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/qi/";
