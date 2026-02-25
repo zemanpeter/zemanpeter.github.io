@@ -26,27 +26,29 @@
 </g>
 </defs>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-0" x="19.2836" y="79.936"/>
+<use xlink:href="#glyph-0-0" x="-4.54375" y="79.936"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-1-0" x="33.4801" y="79.936"/>
+<use xlink:href="#glyph-1-0" x="9.65275" y="79.936"/>
+<use xlink:href="#glyph-1-0" x="33.461474" y="79.936"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-1" x="57.3078" y="79.936"/>
+<use xlink:href="#glyph-0-1" x="57.30785" y="79.936"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-1-1" x="76.6519" y="79.936"/>
+<use xlink:href="#glyph-1-1" x="76.65165" y="79.936"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-0" x="113.348" y="79.936"/>
+<use xlink:href="#glyph-0-0" x="113.34775" y="79.936"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-1-2" x="127.5445" y="79.936"/>
+<use xlink:href="#glyph-1-2" x="127.54465" y="79.936"/>
+<use xlink:href="#glyph-1-2" x="151.353374" y="79.936"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-0-1" x="151.3718" y="79.936"/>
+<use xlink:href="#glyph-0-1" x="175.19935" y="79.936"/>
 </g>
-<path fill="none" stroke-width="23" stroke-linecap="butt" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 192.851562 960.15625 L 1707.148438 960.15625 " transform="matrix(0.1, 0, 0, -0.1, 0, 190)"/>
+<path fill="none" stroke-width="23" stroke-linecap="butt" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -45.429688 960.15625 L 1945.429688 960.15625 " transform="matrix(0.1, 0, 0, -0.1, 0, 190)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#glyph-0-2" x="63.4512" y="101.6348"/>
 </g>
