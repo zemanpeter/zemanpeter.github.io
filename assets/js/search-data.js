@@ -168,6 +168,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-introduction-to-the-complexity-of-csp",
+          title: 'Introduction to the complexity of CSP',
+          description: "NMAG563",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/csp1/";
+            },},{id: "teaching-seminar-on-csp",
+          title: 'Seminar on CSP',
+          description: "NMAG573",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/csp2/";
             },},{id: "teaching-permutation-groups",
           title: 'Permutation groups',
           description: "NMAL432",
@@ -178,6 +188,11 @@ ninja.data = [{
           description: "NMMB534",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/qi/";
+            },},{id: "teaching-quantum-information-theory",
+          title: 'Quantum information theory',
+          description: "NMMB537",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/qit/";
             },},{
         id: 'social-email',
         title: 'email',
