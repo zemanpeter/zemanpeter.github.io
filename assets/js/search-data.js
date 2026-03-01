@@ -180,7 +180,7 @@ ninja.data = [{
               window.location.href = "/teaching/2526-winter-qit/";
             },},{id: "teaching-seminar-on-csp",
           title: 'Seminar on CSP',
-          description: "",
+          description: "NMAG573",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/csp/";
             },},{id: "teaching-permutation-groups",
@@ -188,9 +188,9 @@ ninja.data = [{
           description: "NMAL432",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/pg/";
-            },},{id: "teaching-quantum-information-tutorial",
-          title: 'Quantum information (tutorial)',
-          description: "",
+            },},{id: "teaching-quantum-information-practicals",
+          title: 'Quantum information (practicals)',
+          description: "NMMB534",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/qi/";
             },},{
