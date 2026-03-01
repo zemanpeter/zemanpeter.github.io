@@ -185,7 +185,7 @@ ninja.data = [{
               window.location.href = "/teaching/csp/";
             },},{id: "teaching-permutation-groups",
           title: 'Permutation groups',
-          description: "",
+          description: "NMAL432",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/pg/";
             },},{id: "teaching-quantum-information-tutorial",
