@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-papers",
-          title: "papers",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-quantum-constraint-satisfaction-problems-2026",
+  },{id: "nav-quantum-constraint-satisfaction-problems-2026",
           title: "Quantum Constraint Satisfaction Problems 2026",
           description: "Sattelite workshop of ICALP 2026.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/qucsps2026/";
+          },
+        },{id: "nav-papers",
+          title: "papers",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "nav-teaching",
           title: "teaching",
