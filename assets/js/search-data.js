@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-quantum-constraint-satisfaction-problems-2026",
-          title: "Quantum Constraint Satisfaction Problems 2026",
-          description: "Sattelite workshop of ICALP 2026.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/qucsps2026/";
-          },
-        },{id: "nav-papers",
+  },{id: "nav-papers",
           title: "papers",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-quantum-constraint-satisfaction-problems-2026",
+          title: "Quantum Constraint Satisfaction Problems 2026",
+          description: "Sattelite workshop of ICALP 2026.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/qucsps2026/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -120,8 +120,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-got-published-in-the-journal-quantum",
           title: 'Our paper NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability got published in...',
           description: "",
-          section: "News",},{id: "news-from-10-20-february-i-am-attending-the-operator-algebras-and-quantum-information-programme-at-the-mittag-leffler-institute",
-          title: 'From 10–20 February I am attending the Operator Algebras and Quantum Information programme...',
+          section: "News",},{id: "news-together-with-samson-abramsky-amin-karamlou-and-nihil-shah-we-will-be-organizing-an-icalp-2026-satellite-workshop-on-quantum-csps",
+          title: 'Together with Samson Abramsky, Amin Karamlou and Nihil Shah, we will be organizing...',
           description: "",
           section: "News",},{id: "projects-quantum-information-theory",
           title: 'Quantum Information Theory',
