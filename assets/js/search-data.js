@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-reading",
+          title: "reading",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/reading/";
+          },
         },{id: "post-infinity-of-primes",
         
           title: "Infinity of primes",
