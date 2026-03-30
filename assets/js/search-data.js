@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/reading/";
           },
-        },{id: "post-infinity-of-primes",
+        },{id: "post-automorphism-group-of-the-quanternion-group",
+        
+          title: "Automorphism group of the quanternion group",
+        
+        description: "Quaternion group and its automorphism group.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/aut-quaternion-group/";
+          
+        },
+      },{id: "post-infinity-of-primes",
         
           title: "Infinity of primes",
         
