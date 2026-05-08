@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/qucsps2026/";
           },
-        },{id: "nav-papers",
-          title: "papers",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
         },{id: "nav-výuka-teaching",
           title: "výuka (teaching)",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-papers",
+          title: "papers",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "nav-posts",
           title: "posts",
@@ -104,7 +104,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-got-accepted-to-icalp-2025",
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-our-paper-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-got-accepted-to-icalp-2025",
           title: 'Our paper NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability got accepted to...',
           description: "",
           section: "News",},{id: "news-our-paper-free-inhomogeneous-wreath-product-of-quantum-groups-just-appeared-on-arxiv",
@@ -137,14 +148,14 @@ ninja.data = [{
           section: "News",},{id: "news-together-with-samson-abramsky-amin-karamlou-and-nihil-shah-we-will-be-organizing-an-icalp-2026-satellite-workshop-on-quantum-csps",
           title: 'Together with Samson Abramsky, Amin Karamlou and Nihil Shah, we will be organizing...',
           description: "",
-          section: "News",},{id: "projects-quantum-information-theory",
-          title: 'Quantum Information Theory',
-          description: "Course on quantum information theory.",
+          section: "News",},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-permutation-groups",
-          title: 'Permutation groups',
-          description: "Course on permutation groups.",
+            },},{id: "projects-project-2",
+          title: 'project 2',
+          description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
@@ -182,31 +193,41 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teaching-introduction-to-the-complexity-of-csp",
+            },},{id: "teachings-introduction-to-the-complexity-of-csp",
           title: 'Introduction to the complexity of CSP',
           description: "NMAG563",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/csp1/";
-            },},{id: "teaching-seminar-on-csp",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/csp1/";
+            },},{id: "teachings-seminar-on-csp",
           title: 'Seminar on CSP',
           description: "NMAG573",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/csp2/";
-            },},{id: "teaching-permutation-groups",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/csp2/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{id: "teachings-permutation-groups",
           title: 'Permutation groups',
           description: "NMAL432",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/pg/";
-            },},{id: "teaching-quantum-information-tutorials",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/pg/";
+            },},{id: "teachings-quantum-information-tutorials",
           title: 'Quantum information (tutorials)',
           description: "NMMB534",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/qi/";
-            },},{id: "teaching-quantum-information-theory",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/qi/";
+            },},{id: "teachings-quantum-information-theory",
           title: 'Quantum information theory',
           description: "NMMB537",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/qit/";
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/qit/";
             },},{
         id: 'social-email',
         title: 'email',
