@@ -1,0 +1,76 @@
+/* === LaTeX-like typography for al-folio === */
+
+body {
+  font-variant-ligatures: common-ligatures;
+}
+
+p, td, th {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  margin-bottom: 1.2em;
+}
+
+li {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+table td,
+table th {
+  vertical-align: top !important;
+}
+
+.nobreak {
+  white-space: nowrap;
+}
+
+.nohyphen {
+  hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+}
+
+.only-dark { display: none; }
+html[data-theme="dark"] .only-dark { display: block; }
+html[data-theme="dark"] .only-light { display: none; }
+
+/* Base: mobile (default) */
+.responsive-img {
+  width: 95%;       /* mobile default size */
+  /* max-width: 300px; */
+}
+
+@media (min-width: 1400px) {
+  .responsive-img {
+    width: 55%;
+    /* max-width: 500px; */
+  }
+}
+
+/* Base (light) */
+/* html[data-theme="light"] .only-dark { display: none !important; } */
+/* html[data-theme="light"] .only-light { display: block !important; } */
+/**/
+/* Dark */
+/* html[data-theme="dark"] .only-dark { display: block !important; } */
+/* html[data-theme="dark"] .only-light { display: none !important; } */
+
+/* Visible category headings */
+h2.category {
+  color: var(--global-text-color) !important;
+  border-bottom-color: var(--global-text-color) !important;
+}
+
+/* No scrollbar on display math */
+mjx-container[jax="CHTML"][display="true"] {
+  overflow-x: visible;
+}
+
+/* Theme-aware images */
+html[data-theme="light"] .theme-img-dark { display: none; }
+html[data-theme="dark"] .theme-img-light { display: none; }
+

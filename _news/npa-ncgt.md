@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2025-10-07 15:59:00-0400
+inline: true
+related_posts: false
+---
+
+I gave a talk at the [Noncommutative geometry and topology seminar](https://ncgandtprague.wordpress.com/2025/10/06/7-october-2025-peter-zeman-charles-university/) about our paper [NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability](https://arxiv.org/abs/2407.10635) paper; see the [slides](assets/pdf/npa-slides-quasar.pdf) and [video](https://www.youtube.com/watch?v=Onqodsfot6k).
