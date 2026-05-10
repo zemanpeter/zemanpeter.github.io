@@ -41,6 +41,6 @@ Oct 2016 -- Feb 2022: I was a PhD student at the [Department of Applied Mathemat
 
 ### research
 
-* Mathematics of quantum information, particularly problems arising from the interactions of [quantum information theory, quantum groups, operator algebras, and graph theory](https://www.newton.ac.uk/event/qia/); see also [this](https://www.mittag-leffler.se/activities/operator-algebras-and-quantum-information/). 
-* Quantum groups, with a focus on quantum automorphism groups of graphs; see, for example, Moritz Weber's [exposition](https://www.math.uni-sb.de/ag/speicher/weber/SnapshotQuantumSymmetryMoritzWeber2019.pdf) on quantum symmetry.
-* Symmetries of discrete objects, especially [the graph isomorphism problem, automorphism groups of graphs, Weisfeiler-Leman dimension](https://dl.acm.org/doi/pdf/10.1145/3372123).
+* Mathematics of quantum information: problems arising from the interactions of [quantum information theory, quantum groups, operator algebras, and graph theory](https://www.newton.ac.uk/event/qia/); see also [this](https://www.mittag-leffler.se/activities/operator-algebras-and-quantum-information/). 
+* Quantum automorphism groups of graphs: see Moritz Weber's [exposition](https://www.math.uni-sb.de/ag/speicher/weber/SnapshotQuantumSymmetryMoritzWeber2019.pdf) on quantum symmetry.
+* Symmetries of discrete objects: [the graph isomorphism problem, automorphism groups of graphs, Weisfeiler-Leman dimension](https://dl.acm.org/doi/pdf/10.1145/3372123).
