@@ -3,7 +3,7 @@ layout: page
 permalink: /reading/
 title: reading
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 Here is a list of books I find interesting and more or less related to my work.

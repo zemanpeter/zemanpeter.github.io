@@ -3,8 +3,8 @@ layout: page
 permalink: /notes/
 title: notes
 description:
-nav: false
-nav_order: 2
+nav: true
+nav_order: 5
 ---
 
-* [C*-algeras](/assets/pdf/cstar.pdf)
+* [Group representations](../assets/notes/gr.pdf)
