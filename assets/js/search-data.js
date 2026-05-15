@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/qucsps2026/";
           },
         },{id: "nav-výuka-teaching",
-          title: "výuka (teaching)",
+          title: "výuka/teaching",
           description: "",
           section: "Navigation",
           handler: () => {
