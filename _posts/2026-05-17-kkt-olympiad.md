@@ -10,7 +10,7 @@ hidden: false
 ---
 
 
-**Problem (SKMO26).** Let $x,y,z$ be positive real numbers such that
+**Problem (SKMO 2026).** Let $x,y,z$ be positive real numbers such that
 
 $$
 x^2+y^2+z^2=75.
