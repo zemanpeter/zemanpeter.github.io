@@ -53,11 +53,13 @@ These are deviations from stock al-folio that must be preserved when merging ups
 - `enable_publication_thumbnails: false` (widens publication list to col-sm-10)
 - `max_author_limit:` (blank — show all authors)
 - `group_by: none` (publications not grouped by year)
-- `display_categories: ["combinatorics", "group-theory", "number-theory"]`
-- `display_tags: []`
+- `display_categories: []` / `display_tags: []` — unused; `_pages/blog.md` auto-derives from `site.categories` / `site.tags` so no manual curation is needed.
 
 ### `_includes/header.liquid`
 Upstream removed `nav_title` support. Restored with `{{- p.nav_title | default: p.title }}` in both navbar link locations.
+
+### `_pages/blog.md`
+Category list at the top of the blog index iterates `site.categories` (sorted) instead of `site.display_categories`, so every category in front matter shows up automatically. Tags are deliberately not listed at the top — they still appear under individual posts.
 
 ### `_includes/teachings.liquid` (custom, not upstream)
 Based on `projects.liquid`. Supports `img_light`/`img_dark` front matter fields on teaching entries, rendered with CSS classes `theme-img-light`/`theme-img-dark` for dark/light mode switching.

@@ -3,8 +3,8 @@ layout: post
 title: Orbit counting lemma
 date: 2025-09-27 01:12:00-0400
 description: A graph-theoretic proof of the orbit-counting theorem.
-tags:
 categories: combinatorics group-theory
+tags: group-actions orbits burnside
 related_posts: false
 hidden: false
 ---
@@ -15,23 +15,18 @@ $$
 \frac{1}{|G|}\sum_{g\in G}\mathrm{fix}(g).
 $$
 
-*Proof.* We form a bipartite graph with the vertex set $G\cup X$.
-There is an edge from $x \in X$ to $g\in G$ if $x^g = x$.
-Recall that the Orbit-stabilizer theorem implies that
+*Proof.* Form a bipartite graph with parts $X$ and $G$, putting an edge between $x \in X$ and $g\in G$ whenever $x^g = x$. We count its edges two ways.
 
-$$
-|G| = |G_x|\cdot |\Delta|,
-$$
-
-where $x \in X$ and $\Delta$ is the orbit of $x$.
-We can count the edges of this graph in two ways.
-
-The number of edges incident to $x$ is $|G_x|$.
-Thus, the number of edges incident to all points in $\Delta$ is $|G|$ and the number of edges incident to all points in $X$ is $k|G|$, where $k$ is the number of orbits.
-On the other hand, the number of edges is exactly
+From the $G$-side, vertex $g$ is incident to exactly $\mathrm{fix}(g)$ edges, so the total is
 
 $$
 \sum_{g\in G}\mathrm{fix}(g).
 $$
 
-This completes the proof.
+From the $X$-side, vertex $x$ is incident to $|G_x|$ edges, where $G_x$ is the stabilizer of $x$. By the orbit–stabilizer theorem, $|G_x|\cdot|\Delta| = |G|$, where $\Delta$ is the orbit of $x$. Summing over a single orbit $\Delta$,
+
+$$
+\sum_{x\in\Delta}|G_x| = |\Delta|\cdot\frac{|G|}{|\Delta|} = |G|,
+$$
+
+so each orbit contributes $|G|$ to the edge count, and the total is $k\,|G|$ where $k$ is the number of orbits. Equating the two counts gives $k\,|G| = \sum_{g\in G}\mathrm{fix}(g)$. $\square$
