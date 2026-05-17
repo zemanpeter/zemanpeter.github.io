@@ -51,9 +51,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/reading/";
           },
-        },{id: "post-an-olympiad-problem-via-kkt-conditions",
+        },{id: "post-imo-1981-2-via-generating-functions",
         
-          title: "An olympiad problem via KKT conditions",
+          title: "IMO 1981/2 via generating functions",
+        
+        description: "A generating-functions proof that the average minimum of an r-subset of {1,...,n} is (n+1)/(r+1).",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/imo-1981-subset-minima/";
+          
+        },
+      },{id: "post-a-skmo-2026-problem-via-kkt-conditions",
+        
+          title: "A SKMO 2026 problem via KKT conditions",
         
         description: "Solving a problem from SKMO with the Karush–Kuhn–Tucker conditions.",
         section: "Posts",
