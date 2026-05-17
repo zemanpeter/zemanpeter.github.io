@@ -51,15 +51,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/reading/";
           },
-        },{id: "post-automorphism-group-of-the-quanternion-group",
+        },{id: "post-an-olympiad-problem-via-kkt-conditions",
         
-          title: "Automorphism group of the quanternion group",
+          title: "An olympiad problem via KKT conditions",
         
-        description: "Quaternion group and its automorphism group.",
+        description: "Solving a problem from SKMO with the Karush–Kuhn–Tucker conditions.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/aut-quaternion-group/";
+            window.location.href = "/blog/2026/kkt-olympiad/";
           
         },
       },{id: "post-infinity-of-primes",
