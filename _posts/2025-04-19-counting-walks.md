@@ -3,18 +3,17 @@ layout: post
 title: Counting walks
 date: 2025-04-18 11:12:00-0400
 description: Recurrence relations for counting several types of walks.
-categories: combinatorics recreational-mathematics
-tags: recurrences
+categories: recreational-mathematics combinatorics
+tags: graphs recurrences
 related_posts: false
 ---
 
 Let $X$ be a simple graph and $A$ its adjacency matrix.
 It is well-known that the number of length-$k$ walks from a vertex $x$ to $y$ corresponds to the entry $(x, y)$ of the $k$th power of $A$.
-
-What if we impose some constraints on the walks? For instance, suppose that we want to count walks of length $k$ in which no edge repeats twice in a row; see for example [this](https://codeforces.com/problemset/problem/1662/C). It turns out that there is a nice formula to count such walks, although, it is a bit more involved.
+Suppose that we want to count walks of length $k$ in which no edge repeats twice in a row ([see this](https://codeforces.com/problemset/problem/1662/C)).
 
 For $k = 1$, this is still achieved by the adjacency matrix $A$.
-For $k = 2$, the matrix $A^2$ ignores the constraint. However, this is not difficult to fix.
+For $k = 2$, the matrix $A^2$ ignores the constraint.
 All the walks that violate the constraint are of type $xyx$, for some edge $xy\in E(X)$.
 For every vertex $x$, the number of such walks is exactly $\deg(x)$ and they are all stored on the diagonal of $A^2$.
 Thus, for $k = 2$, we can refine the formula by subtracting $D$, where
