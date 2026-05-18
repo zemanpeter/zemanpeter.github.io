@@ -95,11 +95,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/orbit-counting/";
           
         },
-      },{id: "post-counting-walks",
+      },{id: "post-matrix-recurrence-for-non-backtracking-walks",
         
-          title: "Counting walks",
+          title: "Matrix recurrence for non-backtracking walks",
         
-        description: "Recurrence relations for counting several types of walks.",
+        description: "A matrix recurrence for walks that avoid immediately retracing the last edge.",
         section: "Posts",
         handler: () => {
           
