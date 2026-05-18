@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A SKMO 2026 problem via KKT conditions
+title: SKMO 2026/1 via KKT conditions
 date: 2026-04-05 12:00:00+0200
 description: Solving a problem from SKMO with the Karush–Kuhn–Tucker conditions.
 categories: recreational-mathematics optimization
