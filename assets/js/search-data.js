@@ -62,9 +62,9 @@ ninja.data = [{
             window.location.href = "/blog/2026/imo-1981-subset-minima/";
           
         },
-      },{id: "post-a-skmo-2026-problem-via-kkt-conditions",
+      },{id: "post-skmo-2026-1-via-kkt-conditions",
         
-          title: "A SKMO 2026 problem via KKT conditions",
+          title: "SKMO 2026/1 via KKT conditions",
         
         description: "Solving a problem from SKMO with the Karush–Kuhn–Tucker conditions.",
         section: "Posts",
