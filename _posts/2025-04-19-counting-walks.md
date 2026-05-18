@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Counting walks
+title: Matrix recurrence for non-backtracking walks
 date: 2025-04-18 11:12:00-0400
-description: Recurrence relations for counting several types of walks.
+description: A matrix recurrence for walks that avoid immediately retracing the last edge.
 categories: recreational-mathematics combinatorics
 tags: graphs recurrences
 related_posts: false
