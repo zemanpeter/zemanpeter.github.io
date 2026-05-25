@@ -4,7 +4,7 @@ title: IMO 1981/2 via generating functions
 date: 2026-05-17 12:00:00+0200
 description: A generating-functions proof that the average minimum of an r-subset of {1,...,n} is (n+1)/(r+1).
 categories: recreational-mathematics combinatorics
-tags: olympiad imo generating-functions
+tags:
 related_posts: false
 hidden: false
 ---

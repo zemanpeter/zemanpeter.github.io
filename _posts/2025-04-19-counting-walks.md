@@ -4,7 +4,7 @@ title: Matrix recurrence for non-backtracking walks
 date: 2025-04-18 11:12:00-0400
 description: A matrix recurrence for walks that avoid immediately retracing the last edge.
 categories: recreational-mathematics combinatorics
-tags: graphs recurrences
+tags:
 related_posts: false
 ---
 

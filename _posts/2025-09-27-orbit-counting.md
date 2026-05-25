@@ -4,7 +4,7 @@ title: Orbit counting lemma
 date: 2025-09-27 01:12:00-0400
 description: A graph-theoretic proof of the orbit-counting theorem.
 categories: combinatorics group-theory
-tags: group-actions orbits burnside
+tags:
 related_posts: false
 hidden: false
 ---

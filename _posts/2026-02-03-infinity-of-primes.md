@@ -4,7 +4,7 @@ title: Infinity of primes
 date: 2026-02-03 01:12:00-0400
 description: A group-theoretic proof of infinity of primes.
 categories: number-theory group-theory
-tags: primes lagrange
+tags:
 related_posts: false
 hidden: false
 ---
