@@ -10,7 +10,7 @@ hidden: false
 ---
 
 
-**Problem (SKMO 2026, Problem 1).** Let $x,y,z$ be positive real numbers such that
+**Problem (SKMO 2026, Problem 1).**{:.paragraph} Let $x,y,z$ be positive real numbers such that
 
 $$
 x^2+y^2+z^2=75.
@@ -28,7 +28,7 @@ $$
 
 and ask for the smallest and largest possible value of $x+z$.
 
-**KKT conditions.** For a minimization problem $\min f$ subject to an equality constraint $h=0$ and inequality constraints $g_i\leq 0$, a (regular) local minimum admits multipliers $\lambda\in\mathbb{R}$ and $\mu_i\geq 0$ such that
+**KKT conditions.**{:.paragraph} For a minimization problem $\min f$ subject to an equality constraint $h=0$ and inequality constraints $g_i\leq 0$, a (regular) local minimum admits multipliers $\lambda\in\mathbb{R}$ and $\mu_i\geq 0$ such that
 
 $$
 \nabla f + \lambda\,\nabla h + \sum_i \mu_i\,\nabla g_i = 0,
@@ -37,7 +37,7 @@ $$
 
 The slackness condition $\mu_i g_i = 0$ says that each inequality is either *active* ($g_i=0$) or has zero multiplier. The sign requirement $\mu_i\geq 0$ singles out minima; maxima satisfy the same equations with $\mu_i\leq 0$ (equivalently, replace $f$ by $-f$).
 
-**KKT formulation.**
+**KKT formulation.**{:.paragraph}
 We optimize $f(x,y,z)=x+z$ subject to the equality constraint $x^2+y^2+z^2=75$ and the inequality constraints
 
 $$
@@ -65,7 +65,7 @@ $$
 
 together with the complementary slackness conditions $\mu(10-x-y)=0$ and $\nu(10-y-z)=0$.
 
-**Both inequality constraints are active.**
+**Both inequality constraints are active.**{:.paragraph}
 If both were inactive then $\mu=\nu=0$ and the middle equation forces $2\lambda y=0$; since $y>0$ this gives $\lambda=0$, but then the first equation becomes $1=0$. If only $x+y=10$ is active, then $\nu=0$, the third equation gives $\lambda=-\tfrac{1}{2z}<0$, and substituting into the middle equation yields $\mu=2\lambda y=-\tfrac{y}{z}<0$, contradicting $\mu\geq 0$. The other one-active case is symmetric.
 
 Therefore $x+y=10$ and $y+z=10$, so $x=z$. Writing $x=z=a$ and $y=10-a$, the sphere condition becomes
@@ -92,7 +92,7 @@ $$
 
 with $x+z=10$ at $P_1$ and $x+z=\tfrac{10}{3}$ at $P_2$.
 
-**Sign of the multipliers.** Plugging each candidate into the KKT system,
+**Sign of the multipliers.**{:.paragraph} Plugging each candidate into the KKT system,
 
 $$
 P_1:\ \lambda=-\tfrac{1}{5},\ \mu=\nu=-1,
@@ -108,7 +108,7 @@ $$
 
 attained at $P_2$ and $P_1$ respectively.
 
-**A purely algebraic argument.**
+**A purely algebraic argument.**{:.paragraph}
 KKT singles out the two candidates but, strictly speaking, only certifies that they are stationary; one still has to rule out the values outside $[\tfrac{10}{3},10]$. Here is a self-contained inequality proof. Write $s=x+z$. From $x\geq 10-y$ and $z\geq 10-y$,
 
 $$
@@ -143,7 +143,7 @@ $$
 
 Therefore $\tfrac{10}{3}\leq s\leq 10$, as KKT predicted.
 
-**The bounds are attained.**
+**The bounds are attained.**{:.paragraph}
 The lower bound is attained at $x=z=\tfrac{5}{3}$, $y=\tfrac{25}{3}$: indeed
 
 $$

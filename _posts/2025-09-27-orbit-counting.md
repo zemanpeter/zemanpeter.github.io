@@ -9,7 +9,7 @@ related_posts: false
 hidden: false
 ---
 
-**Theorem.** Let $G\leq \mathrm{Sym}(X)$. Then the number of orbits of $G$ on $X$ is
+**Theorem.**{:.paragraph} Let $G\leq \mathrm{Sym}(X)$. Then the number of orbits of $G$ on $X$ is
 
 $$
 \frac{1}{|G|}\sum_{g\in G}\mathrm{fix}(g).

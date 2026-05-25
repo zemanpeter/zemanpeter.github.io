@@ -74,3 +74,8 @@ mjx-container[jax="CHTML"][display="true"] {
 html[data-theme="light"] .theme-img-dark { display: none; }
 html[data-theme="dark"] .theme-img-light { display: none; }
 
+/* LaTeX-style \paragraph{...} — use as **Label.**{:.paragraph} */
+.paragraph {
+  color: var(--global-theme-color);
+}
+

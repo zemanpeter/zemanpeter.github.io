@@ -8,7 +8,7 @@ tags:
 related_posts: false
 ---
 
-**Theorem** (Graham, Pollak; 1971):
+**Theorem**{:.paragraph} (Graham, Pollak; 1971):
 Let $D_n$ be the distance matrix of a tree, i.e.,
 
 $$ (D_n)_{xy} = d(x,y). $$
@@ -19,7 +19,7 @@ $$\det(D_n) = (-1)^{n-1}(n-1)2^{n-2}.$$
 
 Thus, surprisingly, the determinant of $D_n$ depends solely on the number of vertices of a tree and not at all on its structure.
 
-**Proof.** Pick a leaf $\ell$ with neighbor $v$, and let $T'=T-\ell$ be the tree on $n-1$ vertices obtained by deleting $\ell$. Order the vertices so that $\ell$ is last. Since $\ell$ is a leaf, every path from $\ell$ to a vertex $i\neq\ell$ passes through $v$, hence $d_T(i,\ell)=d_{T'}(i,v)+1$. The operations $R_\ell\leftarrow R_\ell - R_v$ and $C_\ell\leftarrow C_\ell - C_v$ leave the determinant invariant and bring $D_n$ to
+**Proof.**{:.paragraph} Pick a leaf $\ell$ with neighbor $v$, and let $T'=T-\ell$ be the tree on $n-1$ vertices obtained by deleting $\ell$. Order the vertices so that $\ell$ is last. Since $\ell$ is a leaf, every path from $\ell$ to a vertex $i\neq\ell$ passes through $v$, hence $d_T(i,\ell)=d_{T'}(i,v)+1$. The operations $R_\ell\leftarrow R_\ell - R_v$ and $C_\ell\leftarrow C_\ell - C_v$ leave the determinant invariant and bring $D_n$ to
 
 $$
 \widetilde D = \begin{pmatrix} D_{n-1} & \mathbf 1 \\ \mathbf 1^T & -2 \end{pmatrix},
@@ -33,7 +33,7 @@ $$
 
 The remaining quantity has a clean closed form.
 
-**Lemma.** *For any tree $T$ on $n\geq 2$ vertices, $D_T\,\tau = (n-1)\,\mathbf 1$, where $\tau_w := 2-\deg(w)$.*
+**Lemma.**{:.paragraph} *For any tree $T$ on $n\geq 2$ vertices, $D_T\,\tau = (n-1)\,\mathbf 1$, where $\tau_w := 2-\deg(w)$.*
 
 *Proof.* Induction on $n$. For $n=2$, $\tau=(1,1)^T$ and $D\tau=\mathbf 1$. For $n\geq 3$, take $\ell, v, T'$ as above. The only degrees that change between $T$ and $T'$ are at $v$ (loses one neighbor) and at $\ell$ (absent in $T'$), so
 
