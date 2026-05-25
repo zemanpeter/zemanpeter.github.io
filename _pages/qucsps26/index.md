@@ -10,7 +10,8 @@ horizontal: false
 ---
 
 * [Aim and scope](#background)
-* [Oraganizers](#organizers)
+* [Call for papers](/qucsps2026/cfp/)
+* [Organizers](#organizers)
 
 <hr>
 
