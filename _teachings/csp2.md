@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Seminar on CSP
-img: assets/img/csplogo.svg
-img_light: assets/img/csplogo.svg
-img_dark:  assets/img/csplogo-dark.svg
+img: assets/img/csp-logo.svg
+img_light: assets/img/csp-logo.svg
+img_dark:  assets/img/csp-logo-dark.svg
 description: NMAG573
 importance: 1
 category: "25/26: letný semester (summer term)"

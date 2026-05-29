@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Permutation groups
-img: assets/img/pg.svg
-img_light: assets/img/pg.svg
-img_dark: assets/img/pg-dark.svg
+img: assets/img/pg-logo.svg
+img_light: assets/img/pg-logo.svg
+img_dark: assets/img/pg-logo-dark.svg
 description: NMAL432
 importance: 1
 category: "25/26: letný semester (summer term)"

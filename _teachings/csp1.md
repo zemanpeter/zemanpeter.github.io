@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Introduction to the complexity of CSP
-img: assets/img/csplogo.svg
-img_light: assets/img/csplogo.svg
-img_dark:  assets/img/csplogo-dark.svg
+img: assets/img/csp-logo.svg
+img_light: assets/img/csp-logo.svg
+img_dark:  assets/img/csp-logo-dark.svg
 description: NMAG563
 importance: 1
 category: "25/26: zimný semester (winter term)"

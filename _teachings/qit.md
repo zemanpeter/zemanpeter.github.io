@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Quantum information theory
-img: assets/img/bloch.svg
-img_light: assets/img/bloch.svg
-img_dark:  assets/img/bloch-dark.svg
+img: assets/img/qit-logo.svg
+img_light: assets/img/qit-logo.svg
+img_dark:  assets/img/qit-logo-dark.svg
 description: NMMB537
 importance: 1
 category: "25/26: zimný semester (winter term)"
