@@ -52,14 +52,15 @@ We invite submissions of original research, work-in-progress, and survey abstrac
 
 ### Submission guidelines {#submission}
 
-Submissions take the form of extended abstracts (2–4 pages) for contributed talks. Submissions should be sent in PDF format to [EMAIL/PDF FORM]. Accepted contributions will be invited for presentation during the workshop.
+Submissions take the form of extended abstracts (2–4 pages) for contributed talks. Submissions are made via the [online submission form](https://docs.google.com/forms/d/e/1FAIpQLSdPtNuHGd91k8g0oAOieR9_zeAgRWykjguSt6oNsCCm1rQEYA/viewform). Accepted contributions will be invited for presentation during the workshop.
+
 
 <hr>
 
 ### Important dates {#dates}
 
-* **Submission deadline:** *to be announced*
-* **Notification of acceptance:** *to be announced*
+* **Submission deadline:** June 12, 2026
+* **Notification of acceptance:** by June 26, 2026
 * **Workshop date:** July 6, 2026
 * **Main ICALP conference:** July 7–10, 2026
 
@@ -67,7 +68,7 @@ Submissions take the form of extended abstracts (2–4 pages) for contributed ta
 
 ### Venue {#venue}
 
-The workshop will be held in person at **Royal Holloway, University of London** (Egham, UK), as part of the ICALP/PODC/SPAA 2026 week.
+The workshop will be held at **Royal Holloway, University of London** (Egham, UK), as part of the ICALP/PODC/SPAA 2026 week. Remote presentation via Zoom may be possible on request; please indicate your preference in the submission form.
 
 <hr>
 
