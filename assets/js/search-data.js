@@ -170,37 +170,37 @@ ninja.data = [{
           title: 'Introduction to the complexity of CSP',
           description: "NMAG563",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/csp1/";
+              window.location.href = "/teaching/csp1/";
             },},{id: "teachings-seminar-on-csp",
           title: 'Seminar on CSP',
           description: "NMAG573",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/csp2/";
+              window.location.href = "/teaching/csp2/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
+              window.location.href = "/teaching/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teaching/introduction-to-machine-learning/";
             },},{id: "teachings-permutation-groups",
           title: 'Permutation groups',
           description: "NMAL432",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/pg/";
+              window.location.href = "/teaching/pg/";
             },},{id: "teachings-quantum-information-tutorials",
           title: 'Quantum information (tutorials)',
           description: "NMMB534",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/qi/";
+              window.location.href = "/teaching/qi/";
             },},{id: "teachings-quantum-information-theory",
           title: 'Quantum information theory',
           description: "NMMB537",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/qit/";
+              window.location.href = "/teaching/qit/";
             },},{
         id: 'social-email',
         title: 'email',
