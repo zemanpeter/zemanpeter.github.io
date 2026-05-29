@@ -186,6 +186,11 @@ ninja.data = [{
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/introduction-to-machine-learning/";
+            },},{id: "teachings-quantum-entanglement-and-nonlocal-games",
+          title: 'Quantum entanglement and nonlocal games',
+          description: "NMMB470",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/nonloc/";
             },},{id: "teachings-permutation-groups",
           title: 'Permutation groups',
           description: "NMAL432",
