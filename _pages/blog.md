@@ -37,11 +37,8 @@ pagination:
       {% for cat_pair in all_categories %}
         {% assign category = cat_pair[0] %}
         <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+          <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a> ({{ cat_pair[1].size }}){% unless forloop.last %},{% endunless %}
         </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
       {% endfor %}
     </ul>
   </div>
