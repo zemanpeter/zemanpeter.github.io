@@ -29,4 +29,4 @@ $$
 \sum_{x\in\Delta}|G_x| = |\Delta|\cdot\frac{|G|}{|\Delta|} = |G|,
 $$
 
-so each orbit contributes $|G|$ to the edge count, and the total is $k\,|G|$ where $k$ is the number of orbits. Equating the two counts gives $k\,|G| = \sum_{g\in G}\mathrm{fix}(g)$. $\square$
+so each orbit contributes $|G|$ to the edge count, and the total is $k\,|G|$ where $k$ is the number of orbits. Equating the two counts gives $k\,|G| = \sum_{g\in G}\mathrm{fix}(g)$.<span style="float:right">$\square$</span>
