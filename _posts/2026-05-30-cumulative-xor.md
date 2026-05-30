@@ -9,8 +9,8 @@ related_posts: false
 hidden: false
 ---
 
-Let $\oplus$ denote bitwise XOR and write $f(n)=0\oplus 1\oplus 2\oplus\cdots\oplus n$ for $n\geq 0$. Then
-The following is well-known.
+Let $\oplus$ denote bitwise XOR and write $f(n)=0\oplus 1\oplus 2\oplus\cdots\oplus n$ for $n\geq 0$.
+The following formula is well-known:
 
 $$
 f(n)=\begin{cases}
