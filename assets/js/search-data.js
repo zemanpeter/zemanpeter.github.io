@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/reading/";
           },
-        },{id: "post-imo-1981-2-via-generating-functions",
+        },{id: "post-cumulative-xor-via-the-shift-operator-on-mathbb-f-2-infty",
+        
+          title: "Cumulative XOR via the shift operator on $\mathbb{F}_2^\infty$",
+        
+        description: "A closed form for the prefix XOR $0 \oplus 1 \oplus \cdots \oplus n$, proved by telescoping against the unilateral shift on the sequence space $\mathbb{F}_2^\infty$.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cumulative-xor/";
+          
+        },
+      },{id: "post-imo-1981-2-via-generating-functions",
         
           title: "IMO 1981/2 via generating functions",
         
