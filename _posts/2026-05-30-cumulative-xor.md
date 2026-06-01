@@ -2,7 +2,7 @@
 layout: post
 title: "Cumulative XOR via the shift operator on $\\mathbb{F}_2^\\infty$"
 date: 2026-05-30 12:00:00+0200
-description: A closed form for the prefix XOR $0 \oplus 1 \oplus \cdots \oplus n$, proved by telescoping against the unilateral shift on the sequence space $\mathbb{F}_2^\infty$.
+description: A closed form for the prefix bitwise XOR, proved by telescoping against the unilateral shift on the sequence space $\mathbb{F}_2^\infty$.
 categories: recreational-mathematics number-theory functional-analysis
 tags:
 related_posts: false
