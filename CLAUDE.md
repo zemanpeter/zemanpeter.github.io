@@ -49,6 +49,7 @@ git merge upstream/main
 These are deviations from stock al-folio that must be preserved when merging upstream:
 
 ### `_config.yml`
+
 - `theme_color: blue` (light mode; dark mode stays cyan — set in `_sass/_themes.scss`)
 - `enable_publication_thumbnails: false` (widens publication list to col-sm-10)
 - `max_author_limit:` (blank — show all authors)
@@ -56,15 +57,19 @@ These are deviations from stock al-folio that must be preserved when merging ups
 - `display_categories: []` / `display_tags: []` — unused; `_pages/blog.md` auto-derives from `site.categories` / `site.tags` so no manual curation is needed.
 
 ### `_includes/header.liquid`
+
 Upstream removed `nav_title` support. Restored with `{{- p.nav_title | default: p.title }}` in both navbar link locations.
 
 ### `_pages/blog.md`
+
 Category list at the top of the blog index iterates `site.categories` (sorted) instead of `site.display_categories`, so every category in front matter shows up automatically. Tags are deliberately not listed at the top — they still appear under individual posts.
 
 ### `_includes/teachings.liquid` (custom, not upstream)
+
 Based on `projects.liquid`. Supports `img_light`/`img_dark` front matter fields on teaching entries, rendered with CSS classes `theme-img-light`/`theme-img-dark` for dark/light mode switching.
 
 ### `assets/css/_custom.scss` (custom, not upstream)
+
 - LaTeX-like typography (justified text, hyphenation, ligatures)
 - `.nobreak`, `.nohyphen` utility classes
 - `.responsive-img` with breakpoint at 1400px
@@ -73,20 +78,21 @@ Based on `projects.liquid`. Supports `img_light`/`img_dark` front matter fields 
 - `html[data-theme] .theme-img-light/dark` rules for teaching card images
 
 ### `_sass/_themes.scss`
+
 Light mode `--global-theme-color` changed from `$purple-color` to `$blue-color`.
 
 ## Content Structure
 
-| Directory | Purpose |
-|---|---|
-| `_pages/` | Static pages (about, teaching, publications, blog, notes, reading, qucsps26, papers) |
-| `_posts/` | Blog posts (combinatorics, group theory, number theory) |
-| `_teachings/` | Teaching collection entries (csp1, csp2, pg, qi, qit, data-science-fundamentals, introduction-to-machine-learning) |
-| `_news/` | News items shown on about page |
-| `_bibliography/papers.bib` | Publications (rendered by jekyll-scholar) |
-| `_projects/`, `_books/` | Empty — upstream stubs kept for compatibility |
-| `assets/img/` | SVG images for teaching cards (light/dark variants named `foo.svg`/`foo-dark.svg`) |
-| `assets/teaching/` | PDF handouts organized by course |
+| Directory                  | Purpose                                                                                                            |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `_pages/`                  | Static pages (about, teaching, publications, blog, notes, reading, qucsps26, papers)                               |
+| `_posts/`                  | Blog posts (combinatorics, group theory, number theory)                                                            |
+| `_teachings/`              | Teaching collection entries (csp1, csp2, pg, qi, qit, data-science-fundamentals, introduction-to-machine-learning) |
+| `_news/`                   | News items shown on about page                                                                                     |
+| `_bibliography/papers.bib` | Publications (rendered by jekyll-scholar)                                                                          |
+| `_projects/`, `_books/`    | Empty — upstream stubs kept for compatibility                                                                      |
+| `assets/img/`              | SVG images for teaching cards (light/dark variants named `foo.svg`/`foo-dark.svg`)                                 |
+| `assets/teaching/`         | PDF handouts organized by course                                                                                   |
 
 ### Blog posts (`_posts/`)
 
@@ -99,7 +105,7 @@ title: Infinity of primes
 date: 2026-02-03 01:12:00-0400
 description: A group-theoretic proof of infinity of primes.
 tags:
-categories: number-theory group-theory   # space-separated subset of display_categories
+categories: number-theory group-theory # space-separated subset of display_categories
 related_posts: false
 hidden: false
 ---
@@ -115,7 +121,7 @@ layout: page
 title: Introduction to the complexity of CSP
 img: assets/img/csplogo.svg
 img_light: assets/img/csplogo.svg
-img_dark:  assets/img/csplogo-dark.svg
+img_dark: assets/img/csplogo-dark.svg
 description: NMAG563
 importance: 1
 category: "25/26: zimný semester (winter term)"

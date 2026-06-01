@@ -15,7 +15,7 @@ $$
 F(n,r)=\frac{n+1}{r+1}.
 $$
 
-**Reformulation.**{:.paragraph} Write $S(n,r)$ for the *sum* of the smallest elements over all $r$-subsets of $\lbrace 1,\dots,n \rbrace$, so that
+**Reformulation.**{:.paragraph} Write $S(n,r)$ for the _sum_ of the smallest elements over all $r$-subsets of $\lbrace 1,\dots,n \rbrace$, so that
 
 $$
 F(n,r)=\frac{S(n,r)}{\binom{n}{r}}.

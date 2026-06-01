@@ -32,15 +32,14 @@ latest_posts:
 I am a postdoc at the [Department of Algebra](https://www.mff.cuni.cz/cs/math/ka/katedra), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en), [Charles University](https://cuni.cz/uken-1.html), Prague, Czech republic.
 I am working on the ERC Synergy project [POCOCOP](https://pococop.eu), supervised by [Libor Barto](https://www2.karlin.mff.cuni.cz/~barto/index.html).
 
-Apr 2023 -- Mar 2025: I was a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I was working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph homomorphisms](https://en.wikipedia.org/wiki/Graph_homomorphism). 
+Apr 2023 -- Mar 2025: I was a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I was working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph homomorphisms](https://en.wikipedia.org/wiki/Graph_homomorphism).
 
 Apr 2022 -- Mar 2023: I was a postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com).
 
 Oct 2016 -- Feb 2022: I was a PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en), [Charles University](https://cuni.cz/uken-1.html).
 
-
 ### research
 
-* Mathematics of quantum information: problems arising from the interactions of [quantum information theory, quantum groups, operator algebras, and graph theory](https://www.newton.ac.uk/event/qia/); see also [this](https://www.mittag-leffler.se/activities/operator-algebras-and-quantum-information/). 
-* Quantum automorphism groups of graphs: see Moritz Weber's [exposition](https://www.math.uni-sb.de/ag/speicher/weber/SnapshotQuantumSymmetryMoritzWeber2019.pdf) on quantum symmetry.
-* Symmetries of discrete objects: [the graph isomorphism problem, automorphism groups of graphs, Weisfeiler-Leman dimension](https://dl.acm.org/doi/pdf/10.1145/3372123).
+- Mathematics of quantum information: problems arising from the interactions of [quantum information theory, quantum groups, operator algebras, and graph theory](https://www.newton.ac.uk/event/qia/); see also [this](https://www.mittag-leffler.se/activities/operator-algebras-and-quantum-information/).
+- Quantum automorphism groups of graphs: see Moritz Weber's [exposition](https://www.math.uni-sb.de/ag/speicher/weber/SnapshotQuantumSymmetryMoritzWeber2019.pdf) on quantum symmetry.
+- Symmetries of discrete objects: [the graph isomorphism problem, automorphism groups of graphs, Weisfeiler-Leman dimension](https://dl.acm.org/doi/pdf/10.1145/3372123).

@@ -11,19 +11,19 @@ horizontal: false
 **Workshop on Quantum Constraint Satisfaction Problems**
 A satellite workshop of [ICALP 2026](https://icalp2026.cs.rhul.ac.uk/).
 
-* **Date:** July 6, 2026
-* **Location:** Royal Holloway, University of London, Egham, United Kingdom
-* **Workshop website:** [zemanpeter.github.io/qucsps2026](/qucsps2026/)
+- **Date:** July 6, 2026
+- **Location:** Royal Holloway, University of London, Egham, United Kingdom
+- **Workshop website:** [zemanpeter.github.io/qucsps2026](/qucsps2026/)
 
 <hr>
 
-* [Overview](#overview)
-* [Scope and topics](#scope)
-* [Submission guidelines](#submission)
-* [Important dates](#dates)
-* [Venue](#venue)
-* [Organizing committee](#committee)
-* [Contact](#contact)
+- [Overview](#overview)
+- [Scope and topics](#scope)
+- [Submission guidelines](#submission)
+- [Important dates](#dates)
+- [Venue](#venue)
+- [Organizing committee](#committee)
+- [Contact](#contact)
 
 <hr>
 
@@ -41,12 +41,12 @@ For a longer description of the scientific background, see the [workshop page](/
 
 We invite submissions of original research, work-in-progress, and survey abstracts on topics including, but not limited to:
 
-* **Quantum CSPs.** Operator solutions to CSPs (e.g. the Mermin–Peres magic square), and quantum advantage.
-* **Nonlocal games.** Bell inequalities, multi-party verifier-prover games, and quantum correlations.
-* **Complexity theory.** $$\textsf{MIP}^{*} = \textsf{RE}$$, the Bulatov–Zhuk dichotomy, promise CSPs, valued CSPs.
-* **Mathematical physics and algebra.** Functional analysis, the Connes embedding problem, and the representation theory of groups/algebras related to CSPs.
-* **Structural properties.** Graph isomorphism, quantum homomorphisms/polymorphisms, and homomorphism counting results.
-* **Other notions of quantum CSPs.** $$k$$-local Hamiltonians, $$\textsf{QMA}$$-complete problems.
+- **Quantum CSPs.** Operator solutions to CSPs (e.g. the Mermin–Peres magic square), and quantum advantage.
+- **Nonlocal games.** Bell inequalities, multi-party verifier-prover games, and quantum correlations.
+- **Complexity theory.** $$\textsf{MIP}^{*} = \textsf{RE}$$, the Bulatov–Zhuk dichotomy, promise CSPs, valued CSPs.
+- **Mathematical physics and algebra.** Functional analysis, the Connes embedding problem, and the representation theory of groups/algebras related to CSPs.
+- **Structural properties.** Graph isomorphism, quantum homomorphisms/polymorphisms, and homomorphism counting results.
+- **Other notions of quantum CSPs.** $$k$$-local Hamiltonians, $$\textsf{QMA}$$-complete problems.
 
 <hr>
 
@@ -54,15 +54,14 @@ We invite submissions of original research, work-in-progress, and survey abstrac
 
 Submissions take the form of extended abstracts (2–4 pages) for contributed talks. Submissions are made via the [online submission form](https://docs.google.com/forms/d/e/1FAIpQLSdPtNuHGd91k8g0oAOieR9_zeAgRWykjguSt6oNsCCm1rQEYA/viewform). Accepted contributions will be invited for presentation during the workshop.
 
-
 <hr>
 
 ### Important dates {#dates}
 
-* **Submission deadline:** June 12, 2026
-* **Notification of acceptance:** by June 26, 2026
-* **Workshop date:** July 6, 2026
-* **Main ICALP conference:** July 7–10, 2026
+- **Submission deadline:** June 12, 2026
+- **Notification of acceptance:** by June 26, 2026
+- **Workshop date:** July 6, 2026
+- **Main ICALP conference:** July 7–10, 2026
 
 <hr>
 
@@ -74,10 +73,10 @@ The workshop will be held at **Royal Holloway, University of London** (Egham, UK
 
 ### Organizing committee {#committee}
 
-* **[Samson Abramsky](https://profiles.ucl.ac.uk/86621-samson-abramsky)**, University College London
-* **[Amin Karamlou](https://aminkaramlou.github.io)**, University College London
-* **[Nihil Shah](https://www.cst.cam.ac.uk/people/nas54)**, University of Cambridge
-* **[Peter Zeman](https://zemanpeter.github.io)**, Charles University
+- **[Samson Abramsky](https://profiles.ucl.ac.uk/86621-samson-abramsky)**, University College London
+- **[Amin Karamlou](https://aminkaramlou.github.io)**, University College London
+- **[Nihil Shah](https://www.cst.cam.ac.uk/people/nas54)**, University of Cambridge
+- **[Peter Zeman](https://zemanpeter.github.io)**, Charles University
 
 <hr>
 

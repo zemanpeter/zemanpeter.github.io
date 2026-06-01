@@ -23,7 +23,7 @@ $$
 
 Here is a proof using elementary functional-analysis.
 
-**The sequence space.**{:.paragraph} Let $\mathbb F_2^\infty$ denote the space of eventually-zero $\mathbb F_2$-valued sequences, with standard basis vectors $e_0, e_1, e_2, \ldots$ The *unilateral shift* is the linear operator
+**The sequence space.**{:.paragraph} Let $\mathbb F_2^\infty$ denote the space of eventually-zero $\mathbb F_2$-valued sequences, with standard basis vectors $e_0, e_1, e_2, \ldots$ The _unilateral shift_ is the linear operator
 
 $$
 \sigma\colon\mathbb{F}_2^\infty\to\mathbb{F}_2^\infty,\qquad \sigma e_i=e_{i+1},
