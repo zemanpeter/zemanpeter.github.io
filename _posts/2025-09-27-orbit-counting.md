@@ -15,7 +15,7 @@ $$
 \frac{1}{|G|}\sum_{g\in G}\mathrm{fix}(g).
 $$
 
-_Proof._ Form a bipartite graph with parts $X$ and $G$, putting an edge between $x \in X$ and $g\in G$ whenever $x^g = x$. We count its edges two ways.
+*Proof.* Form a bipartite graph with parts $X$ and $G$, putting an edge between $x \in X$ and $g\in G$ whenever $x^g = x$. We count its edges two ways.
 
 From the $G$-side, vertex $g$ is incident to exactly $\mathrm{fix}(g)$ edges, so the total is
 

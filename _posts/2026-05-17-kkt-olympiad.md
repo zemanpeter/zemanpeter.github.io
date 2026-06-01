@@ -9,6 +9,7 @@ related_posts: false
 hidden: false
 ---
 
+
 **Problem (SKMO 2026, Problem 1).**{:.paragraph} Let $x,y,z$ be positive real numbers such that
 
 $$
@@ -34,7 +35,7 @@ $$
 \qquad \mu_i\, g_i = 0 \text{ for each } i.
 $$
 
-The slackness condition $\mu_i g_i = 0$ says that each inequality is either _active_ ($g_i=0$) or has zero multiplier. The sign requirement $\mu_i\geq 0$ singles out minima; maxima satisfy the same equations with $\mu_i\leq 0$ (equivalently, replace $f$ by $-f$).
+The slackness condition $\mu_i g_i = 0$ says that each inequality is either *active* ($g_i=0$) or has zero multiplier. The sign requirement $\mu_i\geq 0$ singles out minima; maxima satisfy the same equations with $\mu_i\leq 0$ (equivalently, replace $f$ by $-f$).
 
 **KKT formulation.**{:.paragraph}
 We optimize $f(x,y,z)=x+z$ subject to the equality constraint $x^2+y^2+z^2=75$ and the inequality constraints
@@ -99,7 +100,7 @@ P_1:\ \lambda=-\tfrac{1}{5},\ \mu=\nu=-1,
 P_2:\ \lambda=\tfrac{1}{5},\ \mu=\nu=\tfrac{5}{3}.
 $$
 
-Only $P_2$ has $\mu,\nu\geq 0$, so $P_2$ is the KKT point for the minimization. At $P_1$ the multipliers are reversed in sign — exactly the pattern required by the KKT system for the _maximization_ (which has the right-hand sides of the stationarity conditions negated). Hence
+Only $P_2$ has $\mu,\nu\geq 0$, so $P_2$ is the KKT point for the minimization. At $P_1$ the multipliers are reversed in sign — exactly the pattern required by the KKT system for the *maximization* (which has the right-hand sides of the stationarity conditions negated). Hence
 
 $$
 \min(x+z) = \tfrac{10}{3}, \qquad \max(x+z) = 10,

@@ -4,9 +4,7 @@ body {
   font-variant-ligatures: common-ligatures;
 }
 
-p,
-td,
-th {
+p, td, th {
   text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -36,19 +34,13 @@ table th {
   -ms-hyphens: none;
 }
 
-.only-dark {
-  display: none;
-}
-html[data-theme="dark"] .only-dark {
-  display: block;
-}
-html[data-theme="dark"] .only-light {
-  display: none;
-}
+.only-dark { display: none; }
+html[data-theme="dark"] .only-dark { display: block; }
+html[data-theme="dark"] .only-light { display: none; }
 
 /* Base: mobile (default) */
 .responsive-img {
-  width: 95%; /* mobile default size */
+  width: 95%;       /* mobile default size */
   /* max-width: 300px; */
 }
 
@@ -79,14 +71,11 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 /* Theme-aware images */
-html[data-theme="light"] .theme-img-dark {
-  display: none;
-}
-html[data-theme="dark"] .theme-img-light {
-  display: none;
-}
+html[data-theme="light"] .theme-img-dark { display: none; }
+html[data-theme="dark"] .theme-img-light { display: none; }
 
 /* LaTeX-style \paragraph{...} — use as **Label.**{:.paragraph} */
 .paragraph {
   color: var(--global-theme-color);
 }
+

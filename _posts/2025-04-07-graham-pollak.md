@@ -11,7 +11,7 @@ related_posts: false
 **Theorem**{:.paragraph} (Graham, Pollak; 1971):
 Let $D_n$ be the distance matrix of a tree, i.e.,
 
-$$ (D*n)*{xy} = d(x,y). $$
+$$ (D_n)_{xy} = d(x,y). $$
 
 Then
 
@@ -33,9 +33,9 @@ $$
 
 The remaining quantity has a clean closed form.
 
-**Lemma.**{:.paragraph} _For any tree $T$ on $n\geq 2$ vertices, $D_T\,\tau = (n-1)\,\mathbf 1$, where $\tau_w := 2-\deg(w)$._
+**Lemma.**{:.paragraph} *For any tree $T$ on $n\geq 2$ vertices, $D_T\,\tau = (n-1)\,\mathbf 1$, where $\tau_w := 2-\deg(w)$.*
 
-_Proof._ Induction on $n$. For $n=2$, $\tau=(1,1)^T$ and $D\tau=\mathbf 1$. For $n\geq 3$, take $\ell, v, T'$ as above. The only degrees that change between $T$ and $T'$ are at $v$ (loses one neighbor) and at $\ell$ (absent in $T'$), so
+*Proof.* Induction on $n$. For $n=2$, $\tau=(1,1)^T$ and $D\tau=\mathbf 1$. For $n\geq 3$, take $\ell, v, T'$ as above. The only degrees that change between $T$ and $T'$ are at $v$ (loses one neighbor) and at $\ell$ (absent in $T'$), so
 
 $$
 (\tau_T)_w = (\tau_{T'})_w \text{ for } w\neq v,\ell, \qquad (\tau_T)_v = (\tau_{T'})_v - 1, \qquad (\tau_T)_\ell = 1.

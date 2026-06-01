@@ -7,4 +7,4 @@ nav: true
 nav_order: 5
 ---
 
-- [Group representations](../assets/notes/gr.pdf)
+* [Group representations](../assets/notes/gr.pdf)

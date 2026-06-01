@@ -6,15 +6,14 @@ nav: true
 nav_order: 3
 ---
 
-- [preprints](#preprints)
-- [journal papers](#journal)
-- [conference proceedings](#conference)
-- [exposition](#exposition)
+* [preprints](#preprints)
+* [journal papers](#journal)
+* [conference proceedings](#conference)
+* [exposition](#exposition)
 
 ---
 
 <!-- ### <span style="color: var(--global-theme-color);">preprints</span> {#preprints} -->
-
 ### preprints {#preprints}
 
 <div class="publications">
