@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "Cumulative XOR via the shift operator on $\mathbb{F}_2^\infty$",
         
-        description: "A closed form for the prefix XOR $0 \oplus 1 \oplus \cdots \oplus n$, proved by telescoping against the unilateral shift on the sequence space $\mathbb{F}_2^\infty$.",
+        description: "A closed form for the prefix bitwise XOR, proved by telescoping against the unilateral shift on the sequence space $\mathbb{F}_2^\infty$.",
         section: "Posts",
         handler: () => {
           
