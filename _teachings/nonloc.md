@@ -6,7 +6,7 @@ img_light: assets/img/nonloc-logo.svg
 img_dark: assets/img/nonloc-logo-dark.svg
 description: NMMB470
 importance: 1
-category: fugure
+category: future
 year: "26/27"
 term: "summer"
 ---
