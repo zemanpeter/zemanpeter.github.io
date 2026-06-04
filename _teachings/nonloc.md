@@ -6,7 +6,7 @@ img_light: assets/img/nonloc-logo.svg
 img_dark: assets/img/nonloc-logo-dark.svg
 description: NMMB470
 importance: 1
-category: budúce (coming)
+category: budúce (upcoming)
 year: "26/27"
 term: "summer"
 ---
