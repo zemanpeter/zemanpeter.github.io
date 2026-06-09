@@ -207,8 +207,8 @@ ninja.data = [{
           description: "NMAL432",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/pg/";
-            },},{id: "teachings-quantum-information-tutorials",
-          title: 'Quantum information (tutorials)',
+            },},{id: "teachings-quantum-information-practicals",
+          title: 'Quantum information (practicals)',
           description: "NMMB534",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/qi/";
