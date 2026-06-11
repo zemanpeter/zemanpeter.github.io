@@ -79,6 +79,13 @@ html[data-theme="dark"] .theme-img-light { display: none; }
   color: var(--global-theme-color);
 }
 
+/* Toned-down fixed footer in dark mode (upstream uses a bright light-grey bar) */
+html[data-theme="dark"] {
+  --global-footer-bg-color: #212529;
+  --global-footer-text-color: #828282;
+  --global-footer-link-color: #a8a8a8;
+}
+
 /* Smaller course-name headings in teaching cards */
 .projects .card-title {
   font-size: 1.1rem;
