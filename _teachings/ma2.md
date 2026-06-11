@@ -11,4 +11,9 @@ year: "26/27"
 term: "winter"
 ---
 
-Practicals for mathematical analysis 2 for computer scientists.
+<div class="text-center mb-4">
+  <img src="/assets/img/ma2-logo.svg" class="theme-img-light img-fluid" style="width: 60%;" alt="Mathematical analysis 2 logog">
+  <img src="/assets/img/ma2-logo-dark.svg" class="theme-img-dark img-fluid" style="width: 60%;" alt="Mathematical analysis 2 logog">
+</div>
+
+Mathematical analysis 2 practicals. More information coming soon.
