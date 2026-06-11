@@ -2,8 +2,8 @@
 layout: page
 title: Quantum information (practicals)
 img: assets/img/qi.svg
-img_light: assets/img/qi.svg
-img_dark: assets/img/qi-dark.svg
+img_light: assets/img/qi-logo.svg
+img_dark: assets/img/qi-logo-dark.svg
 description: NMMB534
 importance: 1
 category: "25/26: letný semester (summer term)"
