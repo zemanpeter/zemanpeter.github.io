@@ -44,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/notes/";
           },
-        },{id: "nav-reading",
-          title: "reading",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/reading/";
-          },
         },{id: "post-cumulative-xor-via-the-shift-operator-on-mathbb-f-2-infty",
         
           title: "Cumulative XOR via the shift operator on $\mathbb{F}_2^\infty$",
