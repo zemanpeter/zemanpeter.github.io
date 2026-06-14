@@ -3,7 +3,7 @@ layout: page
 title: "QuCSPs 2026 — Call for Papers"
 nav_title: "qucsps26 — CFP"
 permalink: /qucsps2026/cfp/
-description: Call for papers for QuCSPs 2026, a satellite workshop of ICALP 2026.
+description: Call for talks for QuCSPs 2026, a satellite workshop of ICALP 2026.
 nav: false
 horizontal: false
 ---
@@ -52,14 +52,15 @@ We invite submissions of original research, work-in-progress, and survey abstrac
 
 ### Submission guidelines {#submission}
 
-Submissions take the form of extended abstracts (2–4 pages) for contributed talks. Submissions are made via the [online submission form](https://docs.google.com/forms/d/e/1FAIpQLSdPtNuHGd91k8g0oAOieR9_zeAgRWykjguSt6oNsCCm1rQEYA/viewform). Accepted contributions will be invited for presentation during the workshop.
+Submissions take the form of either **extended abstracts (2–4 pages)** or a **link to arXiv preprint** for contributed talks. Submissions are made via the [online submission form](https://docs.google.com/forms/d/e/1FAIpQLSdPtNuHGd91k8g0oAOieR9_zeAgRWykjguSt6oNsCCm1rQEYA/viewform). Accepted contributions will be invited for presentation during the workshop.
 
 
 <hr>
 
 ### Important dates {#dates}
 
-* **Submission deadline:** June 12, 2026
+* ~~**Submission deadline:** June 12, 2026~~
+* **Submission deadline:** June 19, 2026
 * **Notification of acceptance:** by June 17, 2026
 * **Workshop date:** July 6, 2026
 * **Main ICALP conference:** July 7–10, 2026
