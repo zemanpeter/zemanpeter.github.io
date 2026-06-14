@@ -61,7 +61,8 @@ Submissions take the form of either **extended abstracts (2–4 pages)** or a **
 
 * ~~**Submission deadline:** June 12, 2026~~
 * **Submission deadline:** June 19, 2026
-* **Notification of acceptance:** by June 17, 2026
+* ~~**Notification of acceptance:** by June 17, 2026~~
+* **Notification of acceptance:** by June 26, 2026
 * **Workshop date:** July 6, 2026
 * **Main ICALP conference:** July 7–10, 2026
 
