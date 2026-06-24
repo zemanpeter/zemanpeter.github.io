@@ -11,6 +11,7 @@ horizontal: false
 
 * [Aim and scope](#background)
 * [Call for talks](/qucsps2026/cfp/)
+* [Programme](#programme)
 * [Organizers](#organizers)
 
 <hr>
@@ -63,6 +64,29 @@ This can be represented by a square, where the first three equations correspond 
 The system of equations has no solution over the domain $$\{\pm 1\}$$.
 Mermin showed that the system has an *operator solution* consisting of linear operators on a four-dimensional Hilbert space, depicted on the right; the matrices $$X, Y, Z$$ are the well-known Pauli matrices.
 Mermin used this construction to prove the Bell-Kochen-Specker theorem on the impossibility to explain quantum mechanics via hidden variables. The solution exhibited in the figure can be used to construct a quantum strategy in the corresponding non-local game. Informally, this is achieved by performing the measurements that correspond to the operators in the table on an entangled quantum state shared between Alice and Bob.
+
+<hr>
+
+### Programme {#programme}
+
+The workshop takes place on **July 6, 2026** at Royal Holloway, University of London.
+
+| Time | Session |
+|:---|:---|
+| 09:00 – 10:00 | *Arrival* |
+| 10:00 – 10:30 | *Coffee break* |
+| 10:30 – 11:30 | Lorenzo Ciardo |
+| 11:30 – 12:00 | Prem Nigam Kar |
+| 12:00 – 12:30 | Jianwen Chen |
+| 12:30 – 14:00 | *Lunch* |
+| 14:00 – 14:30 | Stanislav Živný |
+| 14:30 – 15:00 | Bert Lindenhovius |
+| 15:00 – 15:30 | *Coffee break* |
+| 15:30 – 16:30 | Tom Gur |
+| 16:30 – 17:00 | Nadish de Silva |
+| 17:00 – 18:00 | Freeform discussion |
+
+*Programme subject to change.*
 
 <hr>
 
