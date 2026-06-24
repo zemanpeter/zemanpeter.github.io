@@ -71,20 +71,20 @@ Mermin used this construction to prove the Bell-Kochen-Specker theorem on the im
 
 The workshop takes place on **July 6, 2026** at Royal Holloway, University of London. All times are local UK time (BST, UTC+1).
 
-| Time | Session |
-|:---|:---|
-| 09:00 – 10:00 | *Arrival* |
-| 10:00 – 10:30 | *Coffee break* |
-| 10:30 – 11:30 | **Lorenzo Ciardo** *(invited)* |
-| 11:30 – 12:00 | Prem Nigam Kar |
-| 12:00 – 12:30 | Jianwen Chen |
-| 12:30 – 14:00 | *Lunch* |
-| 14:00 – 14:30 | **Stanislav Živný** *(invited)* |
-| 14:30 – 15:00 | Bert Lindenhovius |
-| 15:00 – 15:30 | *Coffee break* |
-| 15:30 – 16:30 | **Tom Gur** *(invited)* |
-| 16:30 – 17:00 | Nadish de Silva |
-| 17:00 – 18:00 | Freeform discussion |
+| Time | Speaker | Title |
+|:---|:---|:---|
+| 09:00 – 10:00 | *Arrival* | |
+| 10:00 – 10:30 | *Coffee break* | |
+| 10:30 – 11:30 | **Lorenzo Ciardo** *(invited)* | Quantum Polymorphisms and the Complexity of Quantum Constraint Satisfaction |
+| 11:30 – 12:00 | Prem Nigam Kar | NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability |
+| 12:00 – 12:30 | Jianwen Chen | Operator Satisfiability under Commutation-Group Constraints |
+| 12:30 – 14:00 | *Lunch* | |
+| 14:00 – 14:30 | **Stanislav Živný** *(invited)* | Satisfiability of commutative vs. non-commutative CSPs |
+| 14:30 – 15:00 | Bert Lindenhovius | The category of quantum graphs is closed |
+| 15:00 – 15:30 | *Coffee break* | |
+| 15:30 – 16:30 | **Tom Gur** *(invited)* | TBD |
+| 16:30 – 17:00 | Nadish de Silva | Three-qubit nonlocality paradoxes: beyond GHZ |
+| 17:00 – 18:00 | Freeform discussion | |
 
 *Programme subject to change.*
 
