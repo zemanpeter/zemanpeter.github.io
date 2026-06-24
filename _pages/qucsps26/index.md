@@ -69,7 +69,7 @@ Mermin used this construction to prove the Bell-Kochen-Specker theorem on the im
 
 ### Programme {#programme}
 
-The workshop takes place on **July 6, 2026** at Royal Holloway, University of London.
+The workshop takes place on **July 6, 2026** at Royal Holloway, University of London. All times are local UK time (BST, UTC+1).
 
 | Time | Session |
 |:---|:---|
