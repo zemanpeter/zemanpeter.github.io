@@ -82,7 +82,7 @@ The workshop takes place on **July 6, 2026** at Royal Holloway, University of Lo
 | 14:00 – 14:30 | **Stanislav Živný** *(invited)* | Satisfiability of commutative vs. non-commutative CSPs |
 | 14:30 – 15:00 | Bert Lindenhovius | The category of quantum graphs is closed |
 | 15:00 – 15:30 | *Coffee break* | |
-| 15:30 – 16:30 | **Tom Gur** *(invited)* | TBD |
+| 15:30 – 16:30 | **Tom Gur** *(invited)* | A Quantum Polynomial Freiman-Ruzsa Theorem |
 | 16:30 – 17:00 | Nadish de Silva | Three-qubit nonlocality paradoxes: beyond GHZ |
 | 17:00 – 18:00 | Freeform discussion | |
 
