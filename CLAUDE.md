@@ -50,7 +50,7 @@ These are deviations from stock al-folio that must be preserved when merging ups
 
 ### `_config.yml`
 - `theme_color: blue` (light mode; dark mode stays cyan — set in `_sass/_themes.scss`)
-- `enable_publication_thumbnails: false` (widens publication list to col-sm-10)
+- `enable_publication_thumbnails: false` (no thumbnails; entry column is then set to full width `col-sm-12` in `_layouts/bib.liquid`)
 - `max_author_limit:` (blank — show all authors)
 - `group_by: none` (publications not grouped by year)
 - `display_categories: []` / `display_tags: []` — unused; `_pages/blog.md` auto-derives from `site.categories` / `site.tags` so no manual curation is needed.
@@ -71,12 +71,18 @@ Based on `projects.liquid`. Supports `img_light`/`img_dark` front matter fields 
 - `h2.category` forced to `--global-text-color` (upstream renders it grey)
 - `mjx-container` display math: `overflow-x: visible` (removes unwanted scrollbar — don't reintroduce)
 - `html[data-theme] .theme-img-light/dark` rules for teaching card images
+- Dense publications list (works with `_layouts/bib.liquid`): author/title/periodical/links made `display: inline` with `. ` separators via `::before`/`::after`; pill buttons restyled as inline text links with `|` separators; entries numbered with a CSS counter (`counter-reset: bibcounter` per `<ol>`, so numbering restarts each section); `.links` is `inline-block`/`nowrap` so link groups wrap as a unit
 
 ### `_sass/_themes.scss`
 Light mode `--global-theme-color` changed from `$purple-color` to `$blue-color`.
 
 ### `_layouts/bib.liquid`
-The journal/year periodical line is suppressed for `category = {preprint}` entries (`{% unless entry.category == 'preprint' %}`) — preprints show only title, authors, the `note` field (e.g. "Under review, …"), and the arXiv button, not a "arXiv, YYYY" line. `year` is still kept in the bib for sorting. Journal/conference entries are unaffected.
+Heavily customized for a compact, dense one-paragraph-per-entry list ("Style D"). Deviations from upstream to preserve on merge:
+- **Author block moved above the title** and wrapped in `{% capture author_html %}…{% endcapture %}` + `{{ author_html | strip }}` (the strip removes trailing whitespace that would otherwise show as a space before the CSS-generated `. ` separator). Entries read: *Authors. Title. Venue, Year.* links.
+- **Periodical/note divs** are on one tight line each (`{{- … | strip -}}`), same reason.
+- **Preprint venue/year suppressed**: `{% unless entry.category == 'preprint' %}` around the periodical line — preprints show only authors, title, `note`, and links. `year` stays in the bib for sorting.
+- **Full-width column**: the no-thumbnail case uses `col-sm-12` (was `col-sm-10`).
+- The visual styling (inline text links instead of pill buttons, `. ` / `|` separators, `1.`-numbered list, spacing) lives in `assets/css/_custom.scss` under "dense block publications list". The `.btn` overrides must match al-folio's selector specificity (`.publications ol.bibliography li .links a.btn`) to win.
 
 ## Content Structure
 
