@@ -75,6 +75,9 @@ Based on `projects.liquid`. Supports `img_light`/`img_dark` front matter fields 
 ### `_sass/_themes.scss`
 Light mode `--global-theme-color` changed from `$purple-color` to `$blue-color`.
 
+### `_layouts/bib.liquid`
+The journal/year periodical line is suppressed for `category = {preprint}` entries (`{% unless entry.category == 'preprint' %}`) — preprints show only title, authors, the `note` field (e.g. "Under review, …"), and the arXiv button, not a "arXiv, YYYY" line. `year` is still kept in the bib for sorting. Journal/conference entries are unaffected.
+
 ## Content Structure
 
 | Directory | Purpose |
