@@ -126,18 +126,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-our-paper-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-got-accepted-to-icalp-2025",
+            },},{id: "news-our-paper-npa-hierarchy-for-quantum-isomorphism-and-homomorphism-indistinguishability-got-accepted-to-icalp-2025",
           title: 'Our paper NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability got accepted to...',
           description: "",
           section: "News",},{id: "news-our-paper-free-inhomogeneous-wreath-product-of-quantum-groups-just-appeared-on-arxiv",
@@ -169,6 +158,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-together-with-samson-abramsky-amin-karamlou-and-nihil-shah-we-will-be-organizing-an-icalp-2026-satellite-workshop-on-quantum-csps",
           title: 'Together with Samson Abramsky, Amin Karamlou and Nihil Shah, we will be organizing...',
+          description: "",
+          section: "News",},{id: "news-i-was-awarded-a-primus-grant-from-charles-university-to-study-the-power-of-quantum-entanglement-in-the-context-of-constraint-satisfaction-problems",
+          title: 'I was awarded a PRIMUS grant from Charles University to study the power...',
           description: "",
           section: "News",},{id: "teachings-introduction-to-the-complexity-of-csp",
           title: 'Introduction to the complexity of CSP',
