@@ -2,6 +2,7 @@
 layout: page
 permalink: /teaching/
 title: "výuka (teaching)"
+nav_title: "teaching"
 description:
 nav: true
 nav_order: 2
