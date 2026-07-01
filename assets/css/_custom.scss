@@ -95,3 +95,74 @@ html[data-theme="dark"] {
   // -ms-hyphens: auto;
 }
 
+/* ---------- Compact "dense block" publications list (Style D) ---------- */
+/* Each entry flows as one wrapped paragraph:                              */
+/*   Authors. Title. Venue Year. link | link | link                       */
+/* The bib.liquid template emits author -> title -> periodical -> links in */
+/* that DOM order; here we make them inline and add the separators.        */
+.publications ol.bibliography {
+  counter-reset: bibcounter;
+}
+.publications ol.bibliography li {
+  counter-increment: bibcounter;
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.7rem;
+  line-height: 1.5;
+}
+/* Number each entry, top = 1 (restarts per section) */
+.publications ol.bibliography li::before {
+  content: counter(bibcounter) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--global-text-color-light);
+  font-variant-numeric: tabular-nums;
+}
+.publications .author,
+.publications .title,
+.publications .periodical,
+.publications .links {
+  display: inline;
+}
+/* Sentence separators after each rendered part (empty parts aren't in DOM) */
+.publications .author::after,
+.publications .title::after,
+.publications .periodical::after {
+  content: ". ";
+}
+.publications .title {
+  font-weight: 600;
+}
+/* Keep all links together: inline-block makes the group atomic, so it   */
+/* wraps to a new line as a whole rather than splitting mid-way.         */
+.publications ol.bibliography li .links {
+  display: inline-block;
+  white-space: nowrap;
+}
+/* Turn the pill buttons into lightweight inline text links.            */
+/* Selector matches al-folio's own rule specificity so these win.       */
+.publications ol.bibliography li .links a.btn {
+  display: inline;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  box-shadow: none !important;
+  vertical-align: baseline;
+  color: var(--global-theme-color);
+}
+.publications ol.bibliography li .links a.btn:hover {
+  color: var(--global-theme-color);
+  border: none;
+  text-decoration: underline;
+}
+.publications ol.bibliography li .links a.btn:not(:first-child)::before {
+  content: "| ";
+  color: var(--global-divider-color);
+  text-decoration: none;
+}
+
