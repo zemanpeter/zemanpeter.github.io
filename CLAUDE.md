@@ -108,6 +108,14 @@ hidden: false
 ---
 ```
 
+### News items (`_news/`)
+
+Filename convention: `YYYY-MM-DD-slug.md` (sorts chronologically; slug is descriptive). These are `inline: true` items shown on the about page — **the date comes from the `date:` front matter, not the filename**, so the filename is purely for human organization. Front matter is `layout: post`, `inline: true`, `related_posts: false`.
+
+### Publications page (`_pages/publications.md`)
+
+Sections are hardcoded and driven by the `category` field in each `papers.bib` entry: `preprint`, `journal`, `conference`. Each section has a sticky nav pill with a live count. To add a paper, set its `category`; there is no `exposition` category (removed). Preprints don't render a venue/year line — see `_layouts/bib.liquid` above.
+
 ### Teaching entries (`_teachings/`)
 
 `img_light`/`img_dark` are required by the custom `teachings.liquid` for dark-mode SVG switching.
