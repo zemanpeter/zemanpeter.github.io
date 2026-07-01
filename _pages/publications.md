@@ -9,11 +9,9 @@ nav_order: 3
 {%- capture preprint_bib %}{% bibliography -q @*[category=preprint]* %}{% endcapture -%}
 {%- capture journal_bib %}{% bibliography -q @*[category=journal]* %}{% endcapture -%}
 {%- capture conference_bib %}{% bibliography -q @*[category=conference]* %}{% endcapture -%}
-{%- capture exposition_bib %}{% bibliography -q @*[category=exposition]* %}{% endcapture -%}
 {%- assign preprint_count = preprint_bib | split: "<li" | size | minus: 1 -%}
 {%- assign journal_count = journal_bib | split: "<li" | size | minus: 1 -%}
 {%- assign conference_count = conference_bib | split: "<li" | size | minus: 1 -%}
-{%- assign exposition_count = exposition_bib | split: "<li" | size | minus: 1 -%}
 
 <style>
   .papers-nav {
@@ -59,8 +57,7 @@ nav_order: 3
   }
   #preprints,
   #journal,
-  #conference,
-  #exposition {
+  #conference {
     scroll-margin-top: 120px; /* navbar + sticky pills */
     margin-top: 1.8rem;
   }
@@ -70,7 +67,6 @@ nav_order: 3
   <a href="#preprints">preprints<span class="count">{{ preprint_count }}</span></a>
   <a href="#journal">journal<span class="count">{{ journal_count }}</span></a>
   <a href="#conference">conference<span class="count">{{ conference_count }}</span></a>
-  <a href="#exposition">exposition<span class="count">{{ exposition_count }}</span></a>
 </nav>
 
 ### preprints {#preprints}
@@ -94,14 +90,6 @@ nav_order: 3
 <div class="publications">
 
 {{ conference_bib }}
-
-</div>
-
-### exposition {#exposition}
-
-<div class="publications">
-
-{{ exposition_bib }}
 
 </div>
 
