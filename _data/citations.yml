@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-07-01'
 papers:
   fljgbUIAAAAJ:-f6ydRqryjwC:
     citations: 1
@@ -30,7 +30,7 @@ papers:
     title: Recognizing H-graphs-beyond circular-arc graphs
     year: '2023'
   fljgbUIAAAAJ:9ZlFYXVOiuMC:
-    citations: 9
+    citations: 11
     title: NPA hierarchy for quantum isomorphism and homomorphism indistinguishability
     year: '2026'
   fljgbUIAAAAJ:9yKSN-GCB0IC:
@@ -142,7 +142,7 @@ papers:
     title: Free Inhomogeneous Wreath Product of Quantum Groups
     year: '2025'
   fljgbUIAAAAJ:eQOLeE2rZwMC:
-    citations: 18
+    citations: 19
     title: Quantum automorphism groups of trees
     year: '2025'
   fljgbUIAAAAJ:hC7cP41nSMkC:
