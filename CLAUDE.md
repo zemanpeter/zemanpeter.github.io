@@ -122,6 +122,17 @@ Filename convention: `YYYY-MM-DD-slug.md` (sorts chronologically; slug is descri
 
 Sections are hardcoded and driven by the `category` field in each `papers.bib` entry: `preprint`, `journal`, `conference`. Each section has a sticky nav pill with a live count. To add a paper, set its `category`; there is no `exposition` category (removed). Preprints don't render a venue/year line — see `_layouts/bib.liquid` above.
 
+#### Math in `papers.bib` abstracts
+
+jekyll-scholar runs every field through LaTeX→Unicode decoding (the step that turns `Bir\'o` → Biró). That step **recursively strips all `{}`** and **swallows the space after `\(...\)` when a letter follows** — so naive LaTeX math silently breaks in the rendered page (`\mathbb{C}` → `\mathbbC` shown in red by MathJax; `group \(G\) is` → `group \(G\)is`). Write inline math `\(...\)` so it survives:
+
+- Single-letter macro args in **space form**: `\mathbb C`, `\mathcal O`, `\mathfrak L` (never `\mathbb{C}`).
+- Multi-char super/subscripts via **escaped braces**: `n^\{3.5\}`, `\lVert H\rVert^\{10\}` — the decoder turns `\{`/`\}` into literal `{`/`}` that MathJax then uses for grouping. Single-char scripts (`^2`, `_n`) need no braces.
+- Put **`\)\ `** (backslash-space) before a following word to keep the space; a following `,` `.` `-` `)` is fine as-is.
+- Bars/norms `\lvert \rvert \lVert \rVert` are safe (no braces). Relation macros (`\subseteq`, `\to`, `\geq`) get unicode-ified but still render.
+
+Verify after editing: `bundle exec jekyll build --quiet`, then grep `_site/publications/index.html` for `\(?:mathbb|mathcal|mathfrak)[A-Z]`, `\^\d\d|\^\d\.\d`, and `\\\)[A-Za-z]` — all should be empty.
+
 ### Teaching entries (`_teachings/`)
 
 `img_light`/`img_dark` are required by the custom `teachings.liquid` for dark-mode SVG switching.
