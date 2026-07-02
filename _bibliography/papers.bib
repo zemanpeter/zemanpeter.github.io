@@ -7,7 +7,7 @@
 
     Our main results characterize both non-robust and robust commutativity gadgets purely in terms of quantum polymorphism spaces: in any model, existence of a commutativity gadget is equivalent to the collapse of the corresponding quantum polymorphisms to classical ones at arity \(\lvert A\rvert^2\), and robust gadgets are characterized by stable commutativity of the appropriate weighted polymorphism algebra. We use this characterisation to show relations between the classes of commutativity gadget, notably that existence of a robust commutativity gadget is equivalent to the existence of a corresponding non-robust one.
 
-    Finally, we prove that quantum polymorphisms of complete graphs \(K_n\) have a very special structure, wherein the noncommutative behaviour only comes from the quantum permutation group \(S_n^+\). Combining this with techniques from combinatorial group theory, we construct separations between commutativity-gadget classes: we exhibit a relational structure admitting a finite-dimensional commutativity gadget but no quantum approximate gadget, and, conditional on the existence of a non-hyperlinear group, a structure admitting a quantum approximate commutativity gadget but no commuting-operator gadget.},
+    Finally, we prove that quantum polymorphisms of complete graphs \(K_n\)\ have a very special structure, wherein the noncommutative behaviour only comes from the quantum permutation group \(S_n^+\). Combining this with techniques from combinatorial group theory, we construct separations between commutativity-gadget classes: we exhibit a relational structure admitting a finite-dimensional commutativity gadget but no quantum approximate gadget, and, conditional on the existence of a non-hyperlinear group, a structure admitting a quantum approximate commutativity gadget but no commuting-operator gadget.},
 	arxiv = {2604.01408},
 	category = {preprint}
 }
@@ -80,6 +80,7 @@
   journal = {{Algorithmica}},
   year = {2026},
   arxiv = {2107.10689},
+  abstract = {The computational complexity of the graph isomorphism problem is considered to be a major open problem in theoretical computer science. It is known that testing isomorphism of chordal graphs is polynomial-time equivalent to the general graph isomorphism problem. Every chordal graph can be represented as the intersection graph of some subtrees of a representing tree, and the leafage of a chordal graph is defined to be the minimum number of leaves in a representing tree for it. We prove that chordal graph isomorphism is fixed parameter tractable with leafage as parameter. In the process we introduce the problem of isomorphism testing for higher-order hypergraphs and show that finding the automorphism group of order-\(k\)\ hypergraphs with vertex color classes of size \(b\)\ is fixed parameter tractable for any constant \(k\)\ and \(b\)\ as fixed parameter.},
   category = {journal}
 }
 
@@ -143,6 +144,7 @@
   doi = {10.1007/s00453-021-00846-3},
   year = {2021},
   arxiv = {1608.02389},
+  abstract = {Biró et al. (1992) introduced \(H\)-graphs, intersection graphs of connected subgraphs of a subdivision of a graph \(H\). They are related to many classes of geometric intersection graphs, e.g., interval graphs, circular-arc graphs, split graphs, and chordal graphs. We negatively answer the 25-year-old question of Biró et al. which asks if \(H\)-graphs can be recognized in polynomial time, for a fixed graph \(H\). We prove that it is NP-complete if \(H\)\ contains the diamond graph as a minor. We provide a polynomial-time algorithm recognizing \(T\)-graphs, for each fixed tree \(T\). When \(T\)\ is a star \(S_d\)\ of degree \(d\), we have an \(\mathcal O(n^\{3.5\})\)-time algorithm. We give FPT- and XP-time algorithms solving the minimum dominating set problem on \(S_d\)-graphs and \(H\)-graphs parametrized by \(d\)\ and the size of \(H\), respectively. The algorithm for \(H\)-graphs adapts to an XP-time algorithm for the independent set and the independent dominating set problems on \(H\)-graphs. If \(H\)\ contains the double-triangle as a minor, we prove that \(H\)-graphs are GI-complete and that the clique problem is APX-hard. The clique problem can be solved in polynomial time if \(H\)\ is a cactus graph. When a graph \(G\)\ has a Helly \(H\)-representation, the clique problem can be solved in polynomial time. We show that both the \(k\)-clique and the list \(k\)-coloring problems are solvable in FPT-time on \(H\)-graphs (parameterized by \(k\)\ and the treewidth of \(H\)). In fact, these results apply to classes of graphs with treewidth bounded by a function of the clique number. We observe that \(H\)-graphs have at most \(n^\{\mathcal O(\lVert H\rVert)\}\)\ minimal separators which allows us to apply the meta-algorithmic framework of Fomin et al. (2015) to show that for each fixed \(t\), finding a maximum induced subgraph of treewidth \(t\)\ can be done in polynomial time. When \(H\)\ is a cactus, we improve the bound to \(\mathcal O(\lVert H\rVert n^2)\).},
   category = {journal},
 }
 
@@ -152,6 +154,7 @@
   journal = {SIAM Journal on Discrete Mathematics},
   doi = {10.1137/19M1299001},
   year = {2021},
+  abstract = {We obtain new polynomial kernels and compression algorithms for Path Cover and Cycle Cover, the well-known generalizations of the classical Hamiltonian Path and Hamiltonian Cycle problems. Our choice of parameterization is strongly influenced by the work of Biró, Hujter, and Tuza, who in 1992 introduced \(H\)-graphs, intersection graphs of connected subgraphs of a subdivision of a fixed (multi-)graph \(H\). In this work, we turn to proper \(H\)-graphs, where the containment relationship between the representations of the vertices is forbidden. As the treewidth of a graph measures how similar the graph is to a tree, the size of graph \(H\)\ is the parameter measuring the closeness of the graph to a proper interval graph. We prove the following results. Path Cover admits a kernel of size \(\mathcal O(\lVert H\rVert^8)\), where \(\lVert H\rVert\)\ is the size of graph \(H\). In other words, we design an algorithm that for an \(n\)-vertex graph \(G\)\ and integer \(k \geq 1\), in time polynomial in \(n\)\ and \(\lVert H\rVert\), outputs a graph \(G'\)\ of size \(\mathcal O(\lVert H\rVert^8)\)\ and \(k' \leq \lvert V(G')\rvert\)\ such that the vertex set of \(G\)\ is coverable by \(k\)\ vertex-disjoint paths if and only if the vertex set of \(G'\)\ is coverable by \(k'\)\ vertex-disjoint paths. Hamiltonian Cycle admits a kernel of size \(\mathcal O(\lVert H\rVert^8)\). Cycle Cover admits a polynomial kernel. We prove it by providing a compression of size \(\mathcal O(\lVert H\rVert^\{10\})\)\ into another NP-complete problem, namely, Prize Collecting Cycle Cover, that is, we design an algorithm that, in time polynomial in \(n\)\ and \(\lVert H\rVert\), outputs an equivalent instance of Prize Collecting Cycle Cover of size \(\mathcal O(\lVert H\rVert^\{10\})\). In all our algorithms we assume that a proper \(H\)-decomposition is given as a part of the input.},
   category = {journal}
 }
 
@@ -162,6 +165,7 @@
   doi = {10.1016/j.tcs.2021.01.027},
   year = {2021},
   arxiv = {1607.03918},
+  abstract = {The complexity of graph isomorphism (GraphIso) is a famous unresolved problem in theoretical computer science. For graphs \(G\)\ and \(H\), it asks whether they are the same up to a relabeling of vertices. In 1981, Lubiw proved that list restricted graph isomorphism (ListIso) is NP-complete: for each \(u \in V(G)\), we are given a list \(\mathfrak L(u) \subseteq V(H)\)\ of possible images of \(u\). After 35 years, we revive the study of this problem and consider which results for GraphIso translate to ListIso. We prove the following: (1) When GraphIso is GI-complete for a class of graphs, it translates into NP-completeness of ListIso. (2) Combinatorial algorithms for GraphIso translate into algorithms for ListIso: for trees, planar graphs, interval graphs, circle graphs, permutation graphs, bounded genus graphs, and bounded treewidth graphs. (3) Algorithms based on group theory do not translate: ListIso remains NP-complete for cubic colored graphs with sizes of color classes bounded by 8. Also, ListIso allows to classify results for the graph isomorphism problem. Some algorithms are robust and translate to ListIso. A fundamental problem is to construct a combinatorial polynomial-time algorithm for cubic graph isomorphism, avoiding group theory. By the 3rd result, ListIso is NP-hard for them, so no robust algorithm for cubic graph isomorphism exists, unless P = NP.},
   category = {journal}
 }
 
@@ -186,6 +190,7 @@
   timestamp    = {Tue, 05 Aug 2025 22:39:37 +0200},
   biburl       = {https://dblp.org/rec/conf/icalp/KarRS025.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {Mančinska and Roberson [FOCS'20] showed that two graphs are quantum isomorphic if and only if they admit the same number of homomorphisms from any planar graph. Atserias et al. [JCTB'19] proved that quantum isomorphism is undecidable in general, which motivates the study of its relaxations. In the classical setting, Roberson and Seppelt [ICALP'23] characterized the feasibility of each level of the Lasserre hierarchy of semidefinite programming relaxations of graph isomorphism in terms of equality of homomorphism counts from an appropriate graph class. The NPA hierarchy, a noncommutative generalization of the Lasserre hierarchy, provides a sequence of semidefinite programming relaxations for quantum isomorphism. In the quantum setting, we show that the feasibility of each level of the NPA hierarchy for quantum isomorphism is equivalent to equality of homomorphism counts from an appropriate class of planar graphs. Combining this characterization with the convergence of the NPA hierarchy, and noting that the union of these classes is the set of all planar graphs, we obtain a new proof of the result of Mančinska and Roberson [FOCS'20] that avoids the use of quantum groups. Moreover, this homomorphism indistinguishability characterization also yields a randomized polynomial-time algorithm deciding exact feasibility of each fixed level of the NPA hierarchy of SDP relaxations for quantum isomorphism.},
   category = {conference},
   arxiv = {2407.10635},
   video = {https://www.youtube.com/watch?v=nRG69FLoRq0}
@@ -211,6 +216,7 @@
   biburl       = {https://dblp.org/rec/conf/walcom/Cagirici024.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv = {2206.13372},
+  abstract = {An \(H\)-graph is an intersection graph of connected subgraphs of a suitable subdivision of a fixed graph \(H\). Many important classes of graphs, including interval graphs, circular-arc graphs, and chordal graphs, can be expressed as \(H\)-graphs, and, in particular, every graph is an \(H\)-graph for a suitable graph \(H\). An \(H\)-graph is called proper if it has a representation where no subgraph properly contains another. We consider the recognition and isomorphism problems for proper \(U\)-graphs where \(U\)\ is a unicyclic graph. We prove that testing whether a graph is a (proper) \(U\)-graph, for some \(U\), is NP-hard. On the positive side, we give an FPT-time recognition algorithm, parametrized by \(\lvert U\rvert\). As an application, we obtain an FPT-time isomorphism algorithm for proper \(U\)-graphs, parametrized by \(\lvert U\rvert\). To complement this, we prove that the isomorphism problem for (proper) \(H\)-graphs, is as hard as the general isomorphism problem for every fixed \(H\)\ which is not unicyclic.},
   category = {conference}
 }
 
@@ -240,6 +246,7 @@
   biburl       = {https://dblp.org/rec/conf/mfcs/CagiriciCDHHKK023.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv = {2212.05433},
+  abstract = {In 1992 Biró, Hujter and Tuza introduced, for every fixed connected graph \(H\), the class of \(H\)-graphs, defined as the intersection graphs of connected subgraphs of some subdivision of \(H\). Recently, quite a lot of research has been devoted to understanding the tractability border for various computational problems, such as recognition or isomorphism testing, in classes of \(H\)-graphs for different graphs \(H\). In this work we undertake this research topic, focusing on the recognition problem. Chaplick, Töpfer, Voborník, and Zeman showed, for every fixed tree \(T\), a polynomial-time algorithm recognizing \(T\)-graphs. Tucker showed a polynomial time algorithm recognizing \(K_3\)-graphs (circular-arc graphs). On the other hand, Chaplick at al. showed that recognition of \(H\)-graphs is NP-hard if \(H\)\ contains two different cycles sharing an edge. The main two results of this work narrow the gap between the NP-hard and P cases of \(H\)-graphs recognition. First, we show that recognition of \(H\)-graphs is NP-hard when \(H\)\ contains two different cycles. On the other hand, we show a polynomial-time algorithm recognizing \(L\)-graphs, where \(L\)\ is a graph containing a cycle and an edge attached to it (\(L\)-graphs are called lollipop graphs). Our work leaves open the recognition problems of \(M\)-graphs for every unicyclic graph \(M\)\ different from a cycle and a lollipop. Other results of this work, which shed some light on the cases that remain open, are as follows. Firstly, the recognition of \(M\)-graphs, where \(M\)\ is a fixed unicyclic graph, admits a polynomial time algorithm if we restrict the input to graphs containing particular holes (hence recognition of \(M\)-graphs is probably most difficult for chordal graphs). Secondly, the recognition of medusa graphs, which are defined as the union of \(M\)-graphs, where \(M\)\ runs over all unicyclic graphs, is NP-complete.},
   category = {conference}
 }
 
@@ -264,7 +271,8 @@
   biburl       = {https://dblp.org/rec/conf/tamc/KaliszKZ22.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv = {1908.09151},
-  category = {conference}  
+  abstract = {Circle graphs are intersection graphs of chords of a circle. In this paper, we present a new algorithm for the circle graph isomorphism problem running in time \(\mathcal O((n+m)\alpha(n+m))\)\ where \(n\)\ is the number of vertices, \(m\)\ is the number of edges and \(\alpha\)\ is the inverse Ackermann function. Our algorithm is based on the minimal split decomposition [Cunnigham, 1982] and uses the state-of-art circle graph recognition algorithm [Gioan, Paul, Tedder, Corneil, 2014] in the same running time. It improves the running time \(\mathcal O(nm)\)\ of the previous algorithm [Hsu, 1995] based on a similar approach.},
+  category = {conference}
 }
 
 
@@ -288,6 +296,7 @@
   biburl       = {https://dblp.org/rec/conf/wg/FialaRSZ22.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv = {2108.13076},
+  abstract = {The partial representation extension problem generalizes the recognition problem for classes of graphs defined in terms of vertex representations. We exhibit circular-arc graphs as the first example of a graph class where the recognition is polynomially solvable while the representation extension problem is NP-complete. In this setting, several arcs are predrawn and we ask whether this partial representation can be completed. We complement this hardness argument with tractability results of the representation extension problem on various subclasses of circular-arc graphs, most notably on all variants of Helly circular-arc graphs. In particular, we give linear-time algorithms for extending normal proper Helly and proper Helly representations. For normal Helly circular-arc representations we give an \(\mathcal O(n^3)\)-time algorithm. Surprisingly, for Helly representations, the complexity hinges on the seemingly irrelevant detail of whether the predrawn arcs have distinct or non-distinct endpoints: In the former case the previous algorithm can be extended, whereas the latter case turns out to be NP-complete. We also prove that representation extension problem of unit circular-arc graphs is NP-complete.},
   category = {conference}
 }
 
@@ -312,6 +321,7 @@
   biburl       = {https://dblp.org/rec/conf/icalp/KawarabayashiMN21.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv = {2008.01616},
+  abstract = {By a map we mean a 2-cell decomposition of a closed compact surface, i.e., an embedding of a graph such that every face is homeomorphic to an open disc. Automorphism of a map can be thought of as a permutation of the vertices which preserves the vertex-edge-face incidences in the embedding. When the underlying surface is orientable, every automorphism of a map determines an angle-preserving homeomorphism of the surface. While it is conjectured that there is no "truly subquadratic" algorithm for testing map isomorphism for unconstrained genus, we present a linear-time algorithm for computing the generators of the automorphism group of a map, parametrized by the genus of the underlying surface. The algorithm applies a sequence of local reductions and produces a uniform map, while preserving the automorphism group. The automorphism group of the original map can be reconstructed from the automorphism group of the uniform map in linear time. We also extend the algorithm to non-orientable surfaces by making use of the antipodal double-cover.},
   category = {conference}
 }
 
@@ -334,6 +344,7 @@
   biburl       = {https://dblp.org/rec/conf/wg/KlavikKZ20.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv = {1607.03918},
+  abstract = {The complexity of graph isomorphism (GraphIso) is a famous unresolved problem in theoretical computer science. For graphs \(G\)\ and \(H\), it asks whether they are the same up to a relabeling of vertices. In 1981, Lubiw proved that list restricted graph isomorphism (ListIso) is NP-complete: for each \(u \in V(G)\), we are given a list \(\mathfrak L(u) \subseteq V(H)\)\ of possible images of \(u\). After 35 years, we revive the study of this problem and consider which results for GraphIso translate to ListIso. We prove the following: (1) When GraphIso is GI-complete for a class of graphs, it translates into NP-completeness of ListIso. (2) Combinatorial algorithms for GraphIso translate into algorithms for ListIso: for trees, planar graphs, interval graphs, circle graphs, permutation graphs, bounded genus graphs, and bounded treewidth graphs. (3) Algorithms based on group theory do not translate: ListIso remains NP-complete for cubic colored graphs with sizes of color classes bounded by 8. Also, ListIso allows to classify results for the graph isomorphism problem. Some algorithms are robust and translate to ListIso. A fundamental problem is to construct a combinatorial polynomial-time algorithm for cubic graph isomorphism, avoiding group theory. By the 3rd result, ListIso is NP-hard for them, so no robust algorithm for cubic graph isomorphism exists, unless P = NP.},
   category = {conference}
 }
 
@@ -358,6 +369,7 @@
   timestamp    = {Mon, 15 Jun 2020 17:10:10 +0200},
   biburl       = {https://dblp.org/rec/conf/wads/ChaplickFGK019.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract = {We obtain new polynomial kernels and compression algorithms for Path Cover and Cycle Cover, the well-known generalizations of the classical Hamiltonian Path and Hamiltonian Cycle problems. Our choice of parameterization is strongly influenced by the work of Biró, Hujter, and Tuza, who in 1992 introduced \(H\)-graphs, intersection graphs of connected subgraphs of a subdivision of a fixed (multi-)graph \(H\). In this work, we turn to proper \(H\)-graphs, where the containment relationship between the representations of the vertices is forbidden. As the treewidth of a graph measures how similar the graph is to a tree, the size of graph \(H\)\ is the parameter measuring the closeness of the graph to a proper interval graph. We prove the following results. Path Cover admits a kernel of size \(\mathcal O(\lVert H\rVert^8)\), where \(\lVert H\rVert\)\ is the size of graph \(H\). In other words, we design an algorithm that for an \(n\)-vertex graph \(G\)\ and integer \(k \geq 1\), in time polynomial in \(n\)\ and \(\lVert H\rVert\), outputs a graph \(G'\)\ of size \(\mathcal O(\lVert H\rVert^8)\)\ and \(k' \leq \lvert V(G')\rvert\)\ such that the vertex set of \(G\)\ is coverable by \(k\)\ vertex-disjoint paths if and only if the vertex set of \(G'\)\ is coverable by \(k'\)\ vertex-disjoint paths. Hamiltonian Cycle admits a kernel of size \(\mathcal O(\lVert H\rVert^8)\). Cycle Cover admits a polynomial kernel. We prove it by providing a compression of size \(\mathcal O(\lVert H\rVert^\{10\})\)\ into another NP-complete problem, namely, Prize Collecting Cycle Cover, that is, we design an algorithm that, in time polynomial in \(n\)\ and \(\lVert H\rVert\), outputs an equivalent instance of Prize Collecting Cycle Cover of size \(\mathcal O(\lVert H\rVert^\{10\})\). In all our algorithms we assume that a proper \(H\)-decomposition is given as a part of the input.},
   category = {conference}
 }
 
@@ -381,6 +393,7 @@
   biburl       = {https://dblp.org/rec/conf/wg/Chaplick0VZ17.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv = {1608.02389},
+  abstract = {Biró et al. (1992) introduced \(H\)-graphs, intersection graphs of connected subgraphs of a subdivision of a graph \(H\). They are related to many classes of geometric intersection graphs, e.g., interval graphs, circular-arc graphs, split graphs, and chordal graphs. We negatively answer the 25-year-old question of Biró et al. which asks if \(H\)-graphs can be recognized in polynomial time, for a fixed graph \(H\). We prove that it is NP-complete if \(H\)\ contains the diamond graph as a minor. We provide a polynomial-time algorithm recognizing \(T\)-graphs, for each fixed tree \(T\). When \(T\)\ is a star \(S_d\)\ of degree \(d\), we have an \(\mathcal O(n^\{3.5\})\)-time algorithm. We give FPT- and XP-time algorithms solving the minimum dominating set problem on \(S_d\)-graphs and \(H\)-graphs parametrized by \(d\)\ and the size of \(H\), respectively. The algorithm for \(H\)-graphs adapts to an XP-time algorithm for the independent set and the independent dominating set problems on \(H\)-graphs. If \(H\)\ contains the double-triangle as a minor, we prove that \(H\)-graphs are GI-complete and that the clique problem is APX-hard. The clique problem can be solved in polynomial time if \(H\)\ is a cactus graph. When a graph \(G\)\ has a Helly \(H\)-representation, the clique problem can be solved in polynomial time. We show that both the \(k\)-clique and the list \(k\)-coloring problems are solvable in FPT-time on \(H\)-graphs (parameterized by \(k\)\ and the treewidth of \(H\)). In fact, these results apply to classes of graphs with treewidth bounded by a function of the clique number. We observe that \(H\)-graphs have at most \(n^\{\mathcal O(\lVert H\rVert)\}\)\ minimal separators which allows us to apply the meta-algorithmic framework of Fomin et al. (2015) to show that for each fixed \(t\), finding a maximum induced subgraph of treewidth \(t\)\ can be done in polynomial time. When \(H\)\ is a cactus, we improve the bound to \(\mathcal O(\lVert H\rVert n^2)\).},
   category = {conference}
 }
 
@@ -402,6 +415,7 @@
   biburl       = {https://dblp.org/rec/conf/stacs/KlavikZ15.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv = {1407.2136},
+  abstract = {We describe a technique to determine the automorphism group of a geometrically represented graph, by understanding the structure of the induced action on all geometric representations. Using this, we characterize automorphism groups of interval, permutation and circle graphs. We combine techniques from group theory (products, homomorphisms, actions) with data structures from computer science (PQ-trees, split trees, modular trees) that encode all geometric representations. We prove that interval graphs have the same automorphism groups as trees, and for a given interval graph, we construct a tree with the same automorphism group which answers a question of Hanlon [Trans. Amer. Math. Soc 272(2), 1982]. For permutation and circle graphs, we give an inductive characterization by semidirect and wreath products. We also prove that every abstract group can be realized by the automorphism group of a comparability graph/poset of the dimension at most four.},
   category = {conference}
 }
 
@@ -411,5 +425,6 @@
 	author = {Peter Zeman},
 	year = {2026},
 	arxiv = {1908.07154},
+	abstract = {Fourier analysis on a finite abelian group \(G\)\ is usually built from the orthogonality of characters of \(G\), a setup that draws on representation theory and can feel unmotivated at a first encounter. We give an elementary derivation that uses only linear algebra. Starting from the convolution product on \(\mathbb C^G\), we introduce the \(G\)-circulant matrix, decompose it recursively as a Kronecker sum, and read off the Fourier basis as the common eigenbasis of all \(G\)-circulants. Characters appear at the end: a theorem identifies these eigenvectors with the homomorphisms \(G \to \mathbb T\)\ into the unit circle. The discrete and fast Fourier transforms on the cyclic group \(\mathbb Z_n\)\ emerge as the special case along the way, and we close with the Fourier-analytic proof of the Blum--Luby--Rubinfeld linearity test on the Boolean cube \(\mathbb Z_2^n\).},
 	category = {preprint}
 }
