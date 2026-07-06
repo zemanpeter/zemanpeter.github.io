@@ -67,6 +67,8 @@ Mermin used this construction to prove the Bell-Kochen-Specker theorem on the im
 
 <hr>
 
+**Join online:** [https://cesnet.zoom.us/j/6835186125](https://cesnet.zoom.us/j/6835186125)
+
 ### Programme {#programme}
 
 The workshop takes place on **July 6, 2026** at Royal Holloway, University of London. All times are local UK time (BST, UTC+1) — [convert to your time zone](https://www.timeanddate.com/worldclock/fixedtime.html?day=6&month=7&year=2026&hour=9&min=0&sec=0&p1=136).
