@@ -71,22 +71,30 @@ Mermin used this construction to prove the Bell-Kochen-Specker theorem on the im
 
 The workshop takes place on **July 6, 2026** at Royal Holloway, University of London. All times are local UK time (BST, UTC+1) — [convert to your time zone](https://www.timeanddate.com/worldclock/fixedtime.html?day=6&month=7&year=2026&hour=9&min=0&sec=0&p1=136).
 
-**Join online:** [Zoom link](https://cesnet.zoom.us/j/6835186125)
+<style>
+.programme-table td:first-child,
+.programme-table th:first-child,
+.programme-table td:nth-child(2),
+.programme-table th:nth-child(2),
+.programme-table td:last-child,
+.programme-table th:last-child { white-space: nowrap; hyphens: none; }
+</style>
 
-| Time | Speaker | Title |
-|:---|:---|:---|
-| 09:00 – 10:00 | *Arrival* | |
-| 10:00 – 10:30 | *Coffee break* | |
-| 10:30 – 11:30 | **Lorenzo Ciardo** *(invited)* | Quantum Polymorphisms and the Complexity of Quantum Constraint Satisfaction |
-| 11:30 – 12:00 | Prem Nigam Kar | NPA Hierarchy for Quantum Isomorphism and Homomorphism Indistinguishability |
-| 12:00 – 12:30 | Jianwen Chen | Operator Satisfiability under Commutation-Group Constraints |
-| 12:30 – 14:00 | *Lunch* | |
-| 14:00 – 14:30 | **Stanislav Živný** *(invited)* | Satisfiability of commutative vs. non-commutative CSPs |
-| 14:30 – 15:00 | Bert Lindenhovius | The category of quantum graphs is closed |
-| 15:00 – 15:30 | *Coffee break* | |
-| 15:30 – 16:30 | **Tom Gur** *(invited)* | A Quantum Polynomial Freiman-Ruzsa Theorem |
-| 16:30 – 17:00 | Nadish de Silva | Three-qubit nonlocality paradoxes: beyond GHZ |
-| 17:00 – 18:00 | Freeform discussion | |
+| Time | Speaker | Title | Slides |
+|:---|:---|:---|:---|
+| 09:00 – 10:00 | *Arrival* | | |
+| 10:00 – 10:30 | *Coffee break* | | |
+| 10:30 – 11:30 | **Lorenzo Ciardo** *(invited)* | Quantum Polymorphisms and the Complexity of Quantum<br>Constraint Satisfaction | |
+| 11:30 – 12:00 | Prem Nigam Kar | NPA Hierarchy for Quantum Isomorphism and<br>Homomorphism Indistinguishability | |
+| 12:00 – 12:30 | Jianwen Chen | Operator Satisfiability under Commutation-Group Constraints | [slides](/assets/qucsps26/chen_slides.pptx) |
+| 12:30 – 14:00 | *Lunch* | | |
+| 14:00 – 14:30 | **Stanislav Živný** *(invited)* | Satisfiability of commutative vs. non-commutative CSPs | [slides](/assets/qucsps26/zivny_slides.pdf) |
+| 14:30 – 15:00 | Bert Lindenhovius | The category of quantum graphs is closed | [slides](/assets/qucsps26/bert_slides.pdf) |
+| 15:00 – 15:30 | *Coffee break* | | |
+| 15:30 – 16:30 | **Tom Gur** *(invited)* | A Quantum Polynomial Freiman-Ruzsa Theorem | [slides](/assets/qucsps26/gur_slides.pdf) |
+| 16:30 – 17:00 | Nadish de Silva | Three-qubit nonlocality paradoxes: beyond GHZ | [slides](/assets/qucsps26/nadish_slides.pdf) |
+| 17:00 – 18:00 | Freeform discussion | | |
+{: .programme-table}
 
 *Programme subject to change.*
 
