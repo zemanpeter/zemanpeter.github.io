@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-quantum-constraint-satisfaction-problems-2026",
-          title: "Quantum Constraint Satisfaction Problems 2026",
-          description: "Sattelite workshop of ICALP 2026.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/qucsps2026/";
-          },
-        },{id: "nav-výuka-teaching",
+  },{id: "nav-výuka-teaching",
           title: "výuka (teaching)",
           description: "",
           section: "Navigation",
