@@ -4,7 +4,7 @@ title: "Quantum Constraint Satisfaction Problems 2026"
 nav_title: "qucsps26"
 permalink: /qucsps2026/
 description: Sattelite workshop of ICALP 2026.
-nav: true
+nav: false
 nav_order: 1
 horizontal: false
 ---
