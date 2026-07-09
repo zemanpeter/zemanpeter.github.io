@@ -85,7 +85,7 @@ The workshop takes place on **July 6, 2026** at Royal Holloway, University of Lo
 | 09:00 – 10:00 | *Arrival* | | |
 | 10:00 – 10:30 | *Coffee break* | | |
 | 10:30 – 11:30 | **Lorenzo Ciardo** *(invited)* | Quantum Polymorphisms and the Complexity of Quantum<br>Constraint Satisfaction | |
-| 11:30 – 12:00 | Prem Nigam Kar | NPA Hierarchy for Quantum Isomorphism and<br>Homomorphism Indistinguishability | |
+| 11:30 – 12:00 | Prem Nigam Kar | NPA Hierarchy for Quantum Isomorphism and<br>Homomorphism Indistinguishability | [slides](/assets/qucsps26/prem_slides.pdf) |
 | 12:00 – 12:30 | Jianwen Chen | Operator Satisfiability under Commutation-Group Constraints | [slides](/assets/qucsps26/chen_slides.pptx) |
 | 12:30 – 14:00 | *Lunch* | | |
 | 14:00 – 14:30 | **Stanislav Živný** *(invited)* | Satisfiability of commutative vs. non-commutative CSPs | [slides](/assets/qucsps26/zivny_slides.pdf) |
