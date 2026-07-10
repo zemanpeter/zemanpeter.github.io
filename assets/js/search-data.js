@@ -171,8 +171,8 @@ ninja.data = [{
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/introduction-to-machine-learning/";
-            },},{id: "teachings-mathematical-analysis-2-practicals",
-          title: 'Mathematical analysis 2 (practicals)',
+            },},{id: "teachings-mathematical-analysis-2-tutorial",
+          title: 'Mathematical analysis 2 (tutorial)',
           description: "NMAI055",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/ma2/";
@@ -186,8 +186,8 @@ ninja.data = [{
           description: "NMAL432",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/pg/";
-            },},{id: "teachings-quantum-information-practicals",
-          title: 'Quantum information (practicals)',
+            },},{id: "teachings-quantum-information-tutorial",
+          title: 'Quantum information (tutorial)',
           description: "NMMB534",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/qi/";
