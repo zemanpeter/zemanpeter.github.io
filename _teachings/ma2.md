@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mathematical analysis 2 (practicals)
+title: Mathematical analysis 2 (tutorial)
 img: assets/img/ma2-logo.svg
 img_light: assets/img/ma2-logo.svg
 img_dark: assets/img/ma2-logo-dark.svg

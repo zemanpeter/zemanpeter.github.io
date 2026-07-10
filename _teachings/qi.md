@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quantum information (practicals)
+title: Quantum information (tutorial)
 img: assets/img/qi.svg
 img_light: assets/img/qi-logo.svg
 img_dark: assets/img/qi-logo-dark.svg
