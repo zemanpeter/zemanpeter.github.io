@@ -151,7 +151,12 @@ ninja.data = [{
           section: "News",},{id: "news-today-we-are-organizing-the-icalp-2026-satellite-workshop-on-quantum-csps",
           title: 'Today we are organizing the ICALP 2026 satellite workshop on quantum CSPs.',
           description: "",
-          section: "News",},{id: "teachings-introduction-to-the-complexity-of-csp",
+          section: "News",},{id: "projects-quantum-constraint-satisfaction-problems-qucsps",
+          title: 'Quantum constraint satisfaction problems (QuCSPs)',
+          description: "PRIMUS/27/SCI/045",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/primus/";
+            },},{id: "teachings-introduction-to-the-complexity-of-csp",
           title: 'Introduction to the complexity of CSP',
           description: "NMAG563",
           section: "Teachings",handler: () => {
