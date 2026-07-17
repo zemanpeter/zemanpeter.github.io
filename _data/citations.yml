@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-15'
 papers:
   fljgbUIAAAAJ:-f6ydRqryjwC:
     citations: 1
@@ -30,7 +30,7 @@ papers:
     title: Recognizing H-graphs-beyond circular-arc graphs
     year: '2023'
   fljgbUIAAAAJ:9ZlFYXVOiuMC:
-    citations: 11
+    citations: 13
     title: NPA hierarchy for quantum isomorphism and homomorphism indistinguishability
     year: '2026'
   fljgbUIAAAAJ:9yKSN-GCB0IC:
@@ -58,7 +58,7 @@ papers:
     title: Free Inhomogeneous Wreath Product of Compact Quantum Groups
     year: '2025'
   fljgbUIAAAAJ:LkGwnXOMwfcC:
-    citations: 5
+    citations: 6
     title: Automorphisms and isomorphisms of maps in linear time
     year: '2025'
   fljgbUIAAAAJ:M3ejUd6NZC8C:
@@ -134,7 +134,7 @@ papers:
     title: "BEYOND CIRCULAR-ARC GRAPHS\u2013RECOGNIZING LOLLIPOP GRAPHS AND MEDUSA GRAPHS."
     year: '2022'
   fljgbUIAAAAJ:aqlVkmm33-oC:
-    citations: 3
+    citations: 4
     title: Discrete and Fast Fourier Transform Made Clear
     year: '2019'
   fljgbUIAAAAJ:dhFuZR0502QC:
