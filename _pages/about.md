@@ -36,11 +36,10 @@ Apr 2023 -- Mar 2025: I was a postdoc at the [Technical University of Denmark](h
 
 Apr 2022 -- Mar 2023: I was a postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com).
 
-Oct 2016 -- Feb 2022: I was a PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en), [Charles University](https://cuni.cz/uken-1.html).
+Oct 2016 -- Feb 2022: I was a PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en), [Charles University](https://cuni.cz/uken-1.html), supervised by [Roman Nedela](https://www.sav.sk/?lang=en&doc=user-org-user&user_no=5699&action=cv).
 
 
 ### research
 
-* Mathematics of quantum information: problems arising from the interactions of [quantum information theory, quantum groups, operator algebras, and graph theory](https://www.newton.ac.uk/event/qia/); see also [this](https://www.mittag-leffler.se/activities/operator-algebras-and-quantum-information/). 
-* Quantum automorphism groups of graphs: see Moritz Weber's [exposition](https://www.math.uni-sb.de/ag/speicher/weber/SnapshotQuantumSymmetryMoritzWeber2019.pdf) on quantum symmetry.
-* Symmetries of discrete objects: [the graph isomorphism problem, automorphism groups of graphs, Weisfeiler-Leman dimension](https://dl.acm.org/doi/pdf/10.1145/3372123).
+* **Quantum information theory**, in particular [nonlocal games](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/chsh-game); see [my project]({% link _projects/primus.md %}) on nonlocal games arising from constraint satisfaction problems.
+* **Algebraic graph theory**, in particular [the graph isomorphism problem, automorphism groups of graphs, and the Weisfeiler–Leman dimension](https://dl.acm.org/doi/pdf/10.1145/3372123).
