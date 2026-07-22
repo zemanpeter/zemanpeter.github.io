@@ -41,5 +41,5 @@ Oct 2016 -- Feb 2022: I was a PhD student at the [Department of Applied Mathemat
 
 ### research
 
-* **Quantum information theory**, in particular [nonlocal games](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/entanglement-in-action/chsh-game); see [my project]({% link _projects/primus.md %}) on nonlocal games arising from constraint satisfaction problems.
-* **Algebraic graph theory**, in particular [the graph isomorphism problem, automorphism groups of graphs, and the Weisfeiler–Leman dimension](https://dl.acm.org/doi/pdf/10.1145/3372123).
+* **[Quantum information theory](https://en.wikipedia.org/wiki/Quantum_information)**, in particular [nonlocal games](https://en.wikipedia.org/wiki/CHSH_inequality); see [my project]({% link _projects/primus.md %}) on nonlocal games arising from constraint satisfaction problems.
+* **[Algebraic graph theory](https://en.wikipedia.org/wiki/Algebraic_graph_theory)**, in particular [the graph isomorphism problem](https://en.wikipedia.org/wiki/Graph_isomorphism_problem), [graph automorphisms](https://en.wikipedia.org/wiki/Graph_automorphism), [Weisfeiler–Leman dimension](https://en.wikipedia.org/wiki/Weisfeiler_Leman_graph_isomorphism_test), and [graph invariants](https://en.wikipedia.org/wiki/Graph_property).
