@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-07-27'
 papers:
   fljgbUIAAAAJ:-f6ydRqryjwC:
     citations: 1
@@ -32,11 +32,11 @@ papers:
   fljgbUIAAAAJ:9ZlFYXVOiuMC:
     citations: 13
     title: NPA hierarchy for quantum isomorphism and homomorphism indistinguishability
-    year: '2026'
+    year: '2024'
   fljgbUIAAAAJ:9yKSN-GCB0IC:
     citations: 18
     title: Automorphism groups of geometrically represented graphs
-    year: '2014'
+    year: '2015'
   fljgbUIAAAAJ:HDshCWvjkbEC:
     citations: 0
     title: Testing Isomorphism of Chordal Graphs of Bounded Leafage is Fixed-Parameter Tractable
@@ -142,9 +142,9 @@ papers:
     title: Free Inhomogeneous Wreath Product of Quantum Groups
     year: '2025'
   fljgbUIAAAAJ:eQOLeE2rZwMC:
-    citations: 19
+    citations: 18
     title: Quantum automorphism groups of trees
-    year: '2025'
+    year: '2023'
   fljgbUIAAAAJ:hC7cP41nSMkC:
     citations: 0
     title: Recognition and Isomorphism of Proper H-Graphs for Unicyclic H in FPT-Time
@@ -166,9 +166,9 @@ papers:
     title: Recognition and Isomorphism of Proper U-graphs in FPT-time.
     year: '2022'
   fljgbUIAAAAJ:mVmsd5A6BfQC:
-    citations: 21
+    citations: 22
     title: Testing isomorphism of chordal graphs of bounded leafage is fixed-parameter tractable
-    year: '2022'
+    year: '2021'
   fljgbUIAAAAJ:qjMakFHDy7sC:
     citations: 3
     title: Automorphism Groups of Geometrically Represented Graphs
