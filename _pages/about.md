@@ -41,7 +41,7 @@ Oct 2016 -- Feb 2022: I was a PhD student at the [Department of Applied Mathemat
 
 ### research
 
-* Quantum information theory, in particular [nonlocal games](https://en.wikipedia.org/wiki/CHSH_inequality).
+* Quantum information theory, in particular [nonlocal games](https://en.wikipedia.org/wiki/CHSH_inequality#CHSH_game).
 <!-- ; see [my project]({% link _projects/primus.md %}) on nonlocal games arising from constraint satisfaction problems. -->
 * Algebraic graph theory, in particular [the graph isomorphism problem](https://en.wikipedia.org/wiki/Graph_isomorphism_problem).
 <!-- , graph automorphisms, [the Weisfeiler–Leman algorithm](https://en.wikipedia.org/wiki/Weisfeiler_Leman_graph_isomorphism_test), and graph invariants. -->
