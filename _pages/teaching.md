@@ -6,7 +6,8 @@ nav_title: "teaching"
 description:
 nav: true
 nav_order: 2
-display_categories: ["25/26: letný semester (summer term)",
+display_categories: ["26/27: zimný semester (winter term)",
+                     "25/26: letný semester (summer term)",
                      "25/26: zimný semester (winter term)",
                      "budúce (upcoming)",
                      ]
