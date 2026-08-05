@@ -208,6 +208,16 @@ ninja.data = [{
           description: "NMMB537",
           section: "Teachings",handler: () => {
               window.location.href = "/teaching/qit/";
+            },},{id: "teachings-quantum-information-theory",
+          title: 'Quantum information theory',
+          description: "NMMB537",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/qit2526/";
+            },},{id: "teachings-teorie-informace-cvičení",
+          title: 'Teorie informace (cvičení)',
+          description: "NMMB210",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teaching/ti/";
             },},{
         id: 'social-email',
         title: 'email',
