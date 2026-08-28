@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-28'
 papers:
   fljgbUIAAAAJ:-f6ydRqryjwC:
     citations: 1
     title: "Recognizing H-Graphs\u2013Beyond Circular-Arc Graphs"
     year: '2023'
   fljgbUIAAAAJ:0EnyYjriUFMC:
-    citations: 25
+    citations: 26
     title: 'Kernelization of Graph Hamiltonicity: Proper -Graphs'
     year: '2021'
   fljgbUIAAAAJ:3fE2CSJIrl8C:
@@ -18,7 +18,7 @@ papers:
     title: Recognition and Isomorphism of Proper -graphs in FPT-time
     year: '2022'
   fljgbUIAAAAJ:4TOpqqG69KYC:
-    citations: 30
+    citations: 31
     title: On H-Topological Intersection Graphs
     year: '2021'
   fljgbUIAAAAJ:7PzlFSSx8tAC:
@@ -30,13 +30,13 @@ papers:
     title: Recognizing H-graphs-beyond circular-arc graphs
     year: '2023'
   fljgbUIAAAAJ:9ZlFYXVOiuMC:
-    citations: 13
+    citations: 14
     title: NPA hierarchy for quantum isomorphism and homomorphism indistinguishability
-    year: '2024'
+    year: '2026'
   fljgbUIAAAAJ:9yKSN-GCB0IC:
     citations: 18
     title: Automorphism groups of geometrically represented graphs
-    year: '2015'
+    year: '2014'
   fljgbUIAAAAJ:HDshCWvjkbEC:
     citations: 0
     title: Testing Isomorphism of Chordal Graphs of Bounded Leafage is Fixed-Parameter Tractable
@@ -82,7 +82,7 @@ papers:
     title: Quantum polymorphism characterisation of commutativity gadgets in all quantum models
     year: '2026'
   fljgbUIAAAAJ:Tyk-4Ss8FVUC:
-    citations: 14
+    citations: 16
     title: Jordan-like characterization of automorphism groups of planar graphs
     year: '2022'
   fljgbUIAAAAJ:ULOm3_A8WrAC:
@@ -122,7 +122,7 @@ papers:
     title: Automorphism groups of comparability graphs
     year: '2015'
   fljgbUIAAAAJ:Zph67rFs4hoC:
-    citations: 8
+    citations: 7
     title: Extending partial representations of circular-arc graphs
     year: '2022'
   fljgbUIAAAAJ:_FxGoFyzp5QC:
@@ -142,9 +142,9 @@ papers:
     title: Free Inhomogeneous Wreath Product of Quantum Groups
     year: '2025'
   fljgbUIAAAAJ:eQOLeE2rZwMC:
-    citations: 18
+    citations: 19
     title: Quantum automorphism groups of trees
-    year: '2023'
+    year: '2025'
   fljgbUIAAAAJ:hC7cP41nSMkC:
     citations: 0
     title: Recognition and Isomorphism of Proper H-Graphs for Unicyclic H in FPT-Time
@@ -163,14 +163,14 @@ papers:
     year: '2022'
   fljgbUIAAAAJ:mB3voiENLucC:
     citations: 5
-    title: Recognition and Isomorphism of Proper U-graphs in FPT-time.
+    title: Recognition and isomorphism of proper u-graphs in fpt-time
     year: '2022'
   fljgbUIAAAAJ:mVmsd5A6BfQC:
     citations: 22
     title: Testing isomorphism of chordal graphs of bounded leafage is fixed-parameter tractable
-    year: '2021'
+    year: '2022'
   fljgbUIAAAAJ:qjMakFHDy7sC:
-    citations: 3
+    citations: 4
     title: Automorphism Groups of Geometrically Represented Graphs
     year: '2014'
   fljgbUIAAAAJ:qxL8FJ1GzNcC:
