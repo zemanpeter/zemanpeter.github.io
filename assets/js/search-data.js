@@ -159,7 +159,7 @@ ninja.data = [{
           title: 'Today we are organizing the ICALP 2026 satellite workshop on quantum CSPs.',
           description: "",
           section: "News",},{id: "news-our-paper-mermin-peres-magic-rectangles-modulo-odd-primes-appeared-on-arxiv-today-a-little-arxiv-drama-lorenzo-ciardo-and-markus-frembs-independently-obtained-the-same-result-using-different-techniques-with-all-three-preprints-appearing-within-days-of-each-other",
-          title: 'Our paper Mermin-Peres Magic Rectangles Modulo Odd Primes appeared on arXiv today. A...',
+          title: 'Our paper Mermin-Peres magic rectangles modulo odd primes appeared on arXiv today. A...',
           description: "",
           section: "News",},{id: "projects-quantum-constraint-satisfaction-problems-qucsps",
           title: 'Quantum constraint satisfaction problems (QuCSPs)',
