@@ -242,7 +242,7 @@ The explicit $9\times9$ operator solution can be found in Section 2 of [our pape
 
 The nine operators in the original Mermin-Peres magic square generate the _real two-qubit Pauli group_, which has $32$ elements.
 Adjoining the scalar matrix $iI_4$ to this group gives the usual $64$-element two-qubit Pauli group.
-The real group admits a useful description as a semidirect product.
+We now describe the $32$-element real two-qubit Pauli group, denoted by $G$, as a semidirect product.
 
 Let $E=\mathbb F_2^2$, and let $\mathcal A_1=\operatorname{span}_{\mathbb F_2}\lbrace1,x,y\rbrace$ be the space of affine linear functions on $E$.
 Label the four standard basis vectors by $e_z$ for $z\in E$, and set $\omega=-1$.
