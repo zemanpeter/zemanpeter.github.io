@@ -104,8 +104,9 @@ The numbers to the right and below specify the required row and column sums, all
 
 Thus each row sums to $0$, the first two columns sum to $0$, and the last column sums to $1$.
 Adding the row equations says that the sum of all nine bits is $0$; adding the column equations says it is $1$.
-Here $\omega=e^{2\pi i/2}=-1$.
-Equivalently, putting $s_j=\omega^{x_j}$, we seek a square of signs whose row products are all $+1$ and whose column products are $+1,+1,\omega$.
+
+Equivalently, set $s_j=\omega^{x_j}$, where $\omega=e^{2\pi i/2}=-1$.
+We then seek a square of signs whose row products are all $+1$ and whose column products are $+1,+1,\omega$.
 No such square of numbers exists.
 
 Here is its operator solution. Take the Pauli matrices
@@ -118,7 +119,7 @@ Y=\begin{pmatrix}0&-i\\i&0\end{pmatrix},
 Z=\begin{pmatrix}1&0\\0&-1\end{pmatrix}.
 $$
 
-Writing $I=I_2$, replace each $x_j$ by the $4\times4$ matrix in the corresponding cell.
+Replace each sign $s_j$ by the $4\times4$ matrix in the corresponding cell below.
 The entries to the right and below now give the row and column products:
 
 <div class="table-responsive">
