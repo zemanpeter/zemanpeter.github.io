@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-cumulative-xor-via-the-shift-operator-on-mathbb-f-2-infty",
+        },{id: "post-mermin-peres-magic-rectangles",
+        
+          title: "Mermin-Peres magic rectangles",
+        
+        description: "Inconsistent linear equations can have solutions by matrices, even modulo odd primes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/magic-rectangles/";
+          
+        },
+      },{id: "post-cumulative-xor-via-the-shift-operator-on-mathbb-f-2-infty",
         
           title: "Cumulative XOR via the shift operator on $\mathbb{F}_2^\infty$",
         
