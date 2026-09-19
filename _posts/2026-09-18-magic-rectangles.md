@@ -81,6 +81,7 @@ U_j^d=I,
 $$
 
 There is one essential condition: **matrices belonging to variables in the same equation must commute**.
+This condition expresses **compatibility of measurements**; see [Section 3](#3-measurements-and-contextuality).
 Matrices appearing in different equations need not commute, and this is where new solutions become possible.
 Ordinary solutions correspond exactly to matrices of size $1$.
 
