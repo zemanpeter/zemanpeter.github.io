@@ -35,21 +35,21 @@ _styles: |
 
 <div class="table-responsive ma2-schedule" markdown="1">
 
-| Date   | Content                                                                                                                           | Materials                |
-| :----- | :-------------------------------------------------------------------------------------------------------------------------------- | :----------------------- |
-| 30.09. | **Overview.** Derivatives and linear approximation, Taylor polynomials and extrema, multivariable integration, and metric spaces. | [Notes 1 (PDF)][notes-1] |
-| 07.10. |                                                                                                                                   |                          |
-| 14.10. |                                                                                                                                   |                          |
-| 21.10. |                                                                                                                                   |                          |
-| 28.10. | _No tutorial._                                                                                                                    |                          |
-| 04.11. |                                                                                                                                   |                          |
-| 11.11. |                                                                                                                                   |                          |
-| 18.11. |                                                                                                                                   |                          |
-| 25.11. |                                                                                                                                   |                          |
-| 02.12. |                                                                                                                                   |                          |
-| 09.12. |                                                                                                                                   |                          |
-| 16.12. |                                                                                                                                   |                          |
-| 06.01. |                                                                                                                                   |                          |
+| Date   | Content                                                                                                                           | Materials        |
+| :----- | :-------------------------------------------------------------------------------------------------------------------------------- | :--------------- |
+| 30.09. | **Overview.** Derivatives and linear approximation, Taylor polynomials and extrema, multivariable integration, and metric spaces. | [Notes][notes-1] |
+| 07.10. |                                                                                                                                   |                  |
+| 14.10. |                                                                                                                                   |                  |
+| 21.10. |                                                                                                                                   |                  |
+| 28.10. | _No tutorial._                                                                                                                    |                  |
+| 04.11. |                                                                                                                                   |                  |
+| 11.11. |                                                                                                                                   |                  |
+| 18.11. |                                                                                                                                   |                  |
+| 25.11. |                                                                                                                                   |                  |
+| 02.12. |                                                                                                                                   |                  |
+| 09.12. |                                                                                                                                   |                  |
+| 16.12. |                                                                                                                                   |                  |
+| 06.01. |                                                                                                                                   |                  |
 
 </div>
 
