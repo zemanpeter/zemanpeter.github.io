@@ -185,12 +185,15 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
+  - it-admin/
   - LICENSE
   - lighthouse_results/
+  - ma2-admin/
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
   - purgecss.config.js
+  - qit-admin/
   - qucsps26-admin/
   - README.md
   - readme_preview/
