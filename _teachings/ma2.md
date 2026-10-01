@@ -29,6 +29,8 @@ _styles: |
 
 **Lectures:** [Course website](https://kam.mff.cuni.cz/~klazar/MAII26en.html) by Martin Klazar, with lecture notes and slides.
 
+**Conditions:** There will be three 45-minute written exams, one for each topic: metric spaces, differential calculus, and integrals. Let $p_i$ denote the maximum number of points available on exam $i$, for $i=1,2,3$. To pass the tutorials, you must earn at least $\frac{1}{2}(p_1+p_2+p_3)$ points in total across the three exams.
+
 <div class="clearfix"></div>
 
 #### Schedule and materials
