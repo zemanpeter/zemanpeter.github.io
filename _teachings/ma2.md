@@ -11,6 +11,9 @@ year: "26/27"
 term: "winter"
 _styles: |
   .post article h4 { margin-top: 2rem; margin-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .ma2-intro-text { display: flow-root; }
+  }
   .ma2-schedule table { width: 100%; }
   .ma2-schedule th:first-child { width: 12%; }
   .ma2-schedule th:nth-child(2) { width: 64%; }
@@ -23,6 +26,8 @@ _styles: |
   <img src="{{ '/assets/img/ma2-logo-dark.svg' | relative_url }}" class="theme-img-dark img-fluid" alt="Mathematical analysis 2 logo">
 </div>
 
+<div class="ma2-intro-text" markdown="1">
+
 **Tutorials:** Wednesday 14:00–15:30 in S1.
 
 **Tutor:** Peter Zeman.
@@ -30,6 +35,8 @@ _styles: |
 **Lectures:** [Course website](https://kam.mff.cuni.cz/~klazar/MAII26en.html) by Martin Klazar, with lecture notes and slides.
 
 **Conditions:** There will be three 45-minute written tests, one for each topic: metric spaces, differential calculus, and integrals. Let $p_i$ denote the maximum number of points available on test $i$, for $i=1,2,3$. To pass the tutorials, you must earn at least $\frac{1}{2}(p_1+p_2+p_3)$ points in total across the three tests. You may use any written or printed materials during the tests. Using electronic devices during a test will result in zero points for that test. The test problems will be similar to those covered during the tutorials.
+
+</div>
 
 <div class="clearfix"></div>
 
