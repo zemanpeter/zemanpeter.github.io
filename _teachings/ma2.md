@@ -55,10 +55,10 @@ _styles: |
 | 11.11. |                                                                                                                                   |                  |
 | 18.11. |                                                                                                                                   |                  |
 | 25.11. |                                                                                                                                   |                  |
-| 02.12. |                                                                                                                                   |                  |
+| 02.12. | **Second test: multivariable differential calculus.**                                                                             |                  |
 | 09.12. |                                                                                                                                   |                  |
 | 16.12. |                                                                                                                                   |                  |
-| 06.01. |                                                                                                                                   |                  |
+| 06.01. | **Third test: multivariable integral calculus.**                                                                                  |                  |
 
 </div>
 
