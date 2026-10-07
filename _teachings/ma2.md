@@ -44,26 +44,27 @@ _styles: |
 
 <div class="table-responsive ma2-schedule" markdown="1">
 
-| Date   | Content                                                                                                                           | Materials          |
-| :----- | :-------------------------------------------------------------------------------------------------------------------------------- | :----------------- |
-| 30.09. | **Overview.** Derivatives and linear approximation, Taylor polynomials and extrema, multivariable integration, and metric spaces. | [Notes][notes-1]   |
-| 07.10. | **Metric spaces 1.**                                                                                                              | [Sheet 1][sheet-1] |
-| 14.10. |                                                                                                                                   |                    |
-| 21.10. | **First test: metric spaces.**                                                                                                    |                    |
-| 28.10. | _No tutorial._                                                                                                                    |                    |
-| 04.11. |                                                                                                                                   |                    |
-| 11.11. |                                                                                                                                   |                    |
-| 18.11. |                                                                                                                                   |                    |
-| 25.11. |                                                                                                                                   |                    |
-| 02.12. | **Second test: multivariable differential calculus.**                                                                             |                    |
-| 09.12. |                                                                                                                                   |                    |
-| 16.12. |                                                                                                                                   |                    |
-| 06.01. | **Third test: multivariable integral calculus.**                                                                                  |                    |
+| Date   | Content                                                                                                                           | Materials                                     |
+| :----- | :-------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- |
+| 30.09. | **Overview.** Derivatives and linear approximation, Taylor polynomials and extrema, multivariable integration, and metric spaces. | [Notes][notes-1]                              |
+| 07.10. | **Metric spaces 1.**                                                                                                              | [Sheet 1][sheet-1] · [Solutions][solutions-1] |
+| 14.10. |                                                                                                                                   |                                               |
+| 21.10. | **First test: metric spaces.**                                                                                                    |                                               |
+| 28.10. | _No tutorial._                                                                                                                    |                                               |
+| 04.11. |                                                                                                                                   |                                               |
+| 11.11. |                                                                                                                                   |                                               |
+| 18.11. |                                                                                                                                   |                                               |
+| 25.11. |                                                                                                                                   |                                               |
+| 02.12. | **Second test: multivariable differential calculus.**                                                                             |                                               |
+| 09.12. |                                                                                                                                   |                                               |
+| 16.12. |                                                                                                                                   |                                               |
+| 06.01. | **Third test: multivariable integral calculus.**                                                                                  |                                               |
 
 </div>
 
 [notes-1]: {{ '/assets/notes/ma2_01.pdf' | relative_url }}
 [sheet-1]: {{ '/assets/notes/ma2_01_metric_spaces.pdf' | relative_url }}
+[solutions-1]: {{ '/assets/notes/ma2_01_metric_spaces_solutions.pdf' | relative_url }}
 
 #### Additional resources
 
