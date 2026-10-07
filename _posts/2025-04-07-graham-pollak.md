@@ -9,9 +9,11 @@ related_posts: false
 ---
 
 **Theorem**{:.paragraph} (Graham, Pollak; 1971):
-Let $D_n$ be the distance matrix of a tree, i.e.,
+Let $D_n$ be the distance matrix of a tree $T$ on $n\geq 1$ vertices, i.e.,
 
-$$ (D_n)_{xy} = d(x,y). $$
+$$
+(D_n)_{xy} = d(x,y).
+$$
 
 Then
 
@@ -19,13 +21,15 @@ $$\det(D_n) = (-1)^{n-1}(n-1)2^{n-2}.$$
 
 Thus, surprisingly, the determinant of $D_n$ depends solely on the number of vertices of a tree and not at all on its structure.
 
-**Proof.**{:.paragraph} Pick a leaf $\ell$ with neighbor $v$, and let $T'=T-\ell$ be the tree on $n-1$ vertices obtained by deleting $\ell$. Order the vertices so that $\ell$ is last. Since $\ell$ is a leaf, every path from $\ell$ to a vertex $i\neq\ell$ passes through $v$, hence $d_T(i,\ell)=d_{T'}(i,v)+1$. The operations $R_\ell\leftarrow R_\ell - R_v$ and $C_\ell\leftarrow C_\ell - C_v$ leave the determinant invariant and bring $D_n$ to
+**Proof.**{:.paragraph} For $n=1$, the determinant is $0$, as claimed. For $n\geq 2$, we proceed by induction on $n$. The base case $n=2$ gives $\det(D_2) = -1 = (-1)^1\cdot 1\cdot 2^0$. Suppose $n\geq 3$ and the formula holds for every tree on $n-1$ vertices.
+
+Pick a leaf $\ell$ with neighbor $v$, and let $T'=T-\ell$ be the tree on $n-1$ vertices obtained by deleting $\ell$. Order the vertices so that $\ell$ is last. Since $\ell$ is a leaf, every path from $\ell$ to a vertex $i\neq\ell$ passes through $v$, hence $d_T(i,\ell)=d_{T'}(i,v)+1$. The operations $R_\ell\leftarrow R_\ell - R_v$ and $C_\ell\leftarrow C_\ell - C_v$ leave the determinant invariant and bring $D_n$ to
 
 $$
 \widetilde D = \begin{pmatrix} D_{n-1} & \mathbf 1 \\ \mathbf 1^T & -2 \end{pmatrix},
 $$
 
-where $D_{n-1}$ is the distance matrix of $T'$ and $\mathbf 1$ is the all-ones column. By the Schur complement,
+where $D_{n-1}$ is the distance matrix of $T'$ and $\mathbf 1$ is the all-ones column. By the induction hypothesis, $\det(D_{n-1}) = (-1)^{n-2}(n-2)2^{n-3}\neq 0$, so $D_{n-1}$ is invertible. Thus, by the Schur complement,
 
 $$
 \det(D_n) \;=\; \det(D_{n-1})\cdot\bigl(-2 - \mathbf 1^T D_{n-1}^{-1}\mathbf 1\bigr). \qquad (\star)
@@ -33,9 +37,9 @@ $$
 
 The remaining quantity has a clean closed form.
 
-**Lemma.**{:.paragraph} *For any tree $T$ on $n\geq 2$ vertices, $D_T\,\tau = (n-1)\,\mathbf 1$, where $\tau_w := 2-\deg(w)$.*
+**Lemma.**{:.paragraph} _For any tree $T$ on $n\geq 2$ vertices, $D_T\,\tau = (n-1)\,\mathbf 1$, where $\tau_w := 2-\deg(w)$._
 
-*Proof.* Induction on $n$. For $n=2$, $\tau=(1,1)^T$ and $D\tau=\mathbf 1$. For $n\geq 3$, take $\ell, v, T'$ as above. The only degrees that change between $T$ and $T'$ are at $v$ (loses one neighbor) and at $\ell$ (absent in $T'$), so
+_Proof._ Induction on $n$. For $n=2$, $\tau=(1,1)^T$ and $D\tau=\mathbf 1$. For $n\geq 3$, take $\ell, v, T'$ as above. The only degrees that change between $T$ and $T'$ are at $v$ (loses one neighbor) and at $\ell$ (absent in $T'$), so
 
 $$
 (\tau_T)_w = (\tau_{T'})_w \text{ for } w\neq v,\ell, \qquad (\tau_T)_v = (\tau_{T'})_v - 1, \qquad (\tau_T)_\ell = 1.
@@ -71,7 +75,7 @@ $$
 \det(D_n) = \det(D_{n-1})\cdot\left(-2 - \tfrac{2}{n-2}\right) = -\tfrac{2(n-1)}{n-2}\,\det(D_{n-1}).
 $$
 
-The base case $n=2$ gives $\det(D_2) = -1 = (-1)^1\cdot 1\cdot 2^0$. Inductively for $n\geq 3$,
+Applying the induction hypothesis gives
 
 $$
 \det(D_n) = -\tfrac{2(n-1)}{n-2}\cdot(-1)^{n-2}(n-2)\,2^{n-3} = (-1)^{n-1}(n-1)\,2^{n-2}. \qquad\square
