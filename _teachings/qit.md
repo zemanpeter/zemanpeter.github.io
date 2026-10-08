@@ -38,7 +38,7 @@ _styles: |
 | date   | content | tutorials               | <span class="nohyphen">problems</span> |
 | ------ | ------- | ----------------------- | -------------------------------------- |
 | 01.10. |         | [Sheet&nbsp;1][sheet-1] |                                        |
-| 08.10. |         |                         |                                        |
+| 08.10. |         | [Sheet&nbsp;2][sheet-2] |                                        |
 | 15.10. |         |                         |                                        |
 | 22.10. |         |                         |                                        |
 | 29.10. |         |                         |                                        |
@@ -54,6 +54,7 @@ _styles: |
 </div>
 
 [sheet-1]: {{ '/assets/teaching/qit/sheet01.pdf' | relative_url }}
+[sheet-2]: {{ '/assets/teaching/qit/sheet02.pdf' | relative_url }}
 
 <br>
 
