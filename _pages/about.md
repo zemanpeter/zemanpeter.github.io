@@ -32,16 +32,12 @@ latest_posts:
 I am a postdoc at the [Department of Algebra](https://www.mff.cuni.cz/cs/math/ka/katedra), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en), [Charles University](https://cuni.cz/uken-1.html), Prague, Czech republic.
 I am working on the ERC Synergy project [POCOCOP](https://pococop.eu), supervised by [Libor Barto](https://www2.karlin.mff.cuni.cz/~barto/index.html).
 
-Apr 2023 -- Mar 2025: I was a postdoc at the [Technical University of Denmark](https://www.dtu.dk). I was working on a [project](https://www.carlsbergfondet.dk/da/Forskningsaktiviteter/Bevillingsstatistik/Bevillingsoversigt/CF21_0682_David-E-Roberson), led by [David Roberson](https://sites.google.com/site/davideroberson/), which relates [quantum information theory](https://en.wikipedia.org/wiki/Quantum_information) and [graph homomorphisms](https://en.wikipedia.org/wiki/Graph_homomorphism). 
-
-Apr 2022 -- Mar 2023: I was a postdoc at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com).
-
-Oct 2016 -- Feb 2022: I was a PhD student at the [Department of Applied Mathematics](https://www.mff.cuni.cz/en/kam), [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/en), [Charles University](https://cuni.cz/uken-1.html), supervised by [Roman Nedela](https://www.sav.sk/?lang=en&doc=user-org-user&user_no=5699&action=cv).
-
+Previously, I held postdoctoral positions at the [Technical University of Denmark](https://www.dtu.dk), working with [David Roberson](https://sites.google.com/site/davideroberson/), and at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com). I completed my PhD at [Charles University](https://cuni.cz/uken-1.html) under the supervision of [Roman Nedela](https://www.sav.sk/?lang=en&doc=user-org-user&user_no=5699&action=cv).
 
 ### research
 
-* Quantum information theory, in particular [nonlocal games](https://en.wikipedia.org/wiki/CHSH_inequality).
-<!-- ; see [my project]({% link _projects/primus.md %}) on nonlocal games arising from constraint satisfaction problems. -->
-* Algebraic graph theory, in particular [the graph isomorphism problem](https://en.wikipedia.org/wiki/Graph_isomorphism_problem).
-<!-- , graph automorphisms, [the Weisfeiler–Leman algorithm](https://en.wikipedia.org/wiki/Weisfeiler_Leman_graph_isomorphism_test), and graph invariants. -->
+My research interests lie in quantum information theory and algebraic and topological graph theory.
+
+In quantum information, I am particularly interested in [nonlocal games](https://en.wikipedia.org/wiki/CHSH_inequality#CHSH_game), [quantum correlations](https://en.wikipedia.org/wiki/Quantum_nonlocality#Quantum_correlations), [self-testing](https://en.wikipedia.org/wiki/Quantum_nonlocality#Self-testing), and the power and limitations of entanglement. My current focus is on quantum [constraint satisfaction problems](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem), including quantum graph homomorphisms and coloring, and the existence and complexity of perfect quantum strategies.
+
+In graph theory, my interests include [graph isomorphism](https://en.wikipedia.org/wiki/Graph_isomorphism_problem), automorphism groups, [spectral graph theory](https://en.wikipedia.org/wiki/Spectral_graph_theory), [homomorphism indistinguishability](https://tseppelt.github.io/homind-database/), and the power of the [Weisfeiler–Leman algorithm](https://en.wikipedia.org/wiki/Weisfeiler_Leman_graph_isomorphism_test). I am also interested in connections between graph theory and quantum information.
