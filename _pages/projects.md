@@ -2,7 +2,7 @@
 layout: page
 permalink: /projects/
 title: projects
-nav: true
+nav: false
 nav_order: 1.5
 description: Research projects and grants.
 horizontal: false
