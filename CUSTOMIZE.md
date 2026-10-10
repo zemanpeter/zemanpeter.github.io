@@ -62,7 +62,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [How it works](#how-it-works)
     - [Configuration](#configuration-1)
     - [Disable related posts for a specific post](#disable-related-posts-for-a-specific-post)
-    - [Additional configuration in _config.yml](#additional-configuration-in-_configyml)
+    - [Additional configuration in \_config.yml](#additional-configuration-in-_configyml)
   - [Managing publication display](#managing-publication-display)
   - [Adding a Google Calendar](#adding-a-google-calendar)
     - [Basic usage](#basic-usage)
@@ -1212,6 +1212,19 @@ Also In case you face the error: "Input required and not supplied: token" in the
 Due to the necessary permissions (PAT and others mentioned above), it is recommended to use it as a secret rather than an environment variable.
 
 ## Customizing fonts, spacing, and more
+
+### Optional Editorial appearance
+
+Set `appearance: editorial` in `_config.yml` to enable the optional Editorial
+appearance. It uses Source Serif 4 for text, Inter for navigation, a warm background,
+burgundy links, and a compact photo column on the left of the About page. Dark mode
+uses a matching warm charcoal palette.
+
+Set `appearance: classic` (or remove the setting) and rebuild to restore the
+original al-folio appearance. Restart Jekyll after changing configuration. All
+content, navigation, and bibliography behavior stay the same. The optional styles
+are in `assets/css/editorial.scss`; the extra fonts and stylesheet load only when
+the Editorial appearance is enabled.
 
 The `_sass/` directory contains specialized SCSS files organized by feature and usage. To customize fonts, spacing, colors, and other styles, edit the relevant file based on what you're modifying:
 
