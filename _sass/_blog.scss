@@ -33,6 +33,99 @@
   }
 }
 
+// Categories stay above the posts until there is room for a sidebar.
+.blog-categories {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  font-family: var(--editorial-sans, inherit);
+  font-size: 0.875rem;
+  line-height: 1.5;
+
+  h2 {
+    margin: 0 0 0.65rem;
+    color: var(--global-text-color-light);
+    font-family: inherit;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    min-width: 0;
+    text-align: left;
+    hyphens: none;
+  }
+
+  a {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.65rem 0;
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+  }
+
+  .category-count {
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.blog-posts {
+  min-width: 0;
+}
+
+@media (min-width: 992px) {
+  .blog-layout-with-categories {
+    display: grid;
+    grid-template-columns: 13rem minmax(0, 1fr);
+    column-gap: 2rem;
+    align-items: start;
+
+    .blog-categories {
+      padding: 0.35rem 1.5rem 0 0;
+      border-right: 1px solid var(--global-divider-color);
+      border-bottom: 0;
+
+      ul {
+        display: block;
+      }
+
+      a {
+        justify-content: space-between;
+        min-height: 0;
+        padding: 0.5rem 0;
+      }
+    }
+
+    .post-list > li:first-child {
+      padding-top: 0;
+
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;

@@ -29,20 +29,26 @@ pagination:
   </div>
   {% endif %}
 
+<div class="blog-layout{% if site.categories.size > 0 %} blog-layout-with-categories{% endif %}">
 {% if site.categories.size > 0 %}
-
-  <div class="tag-category-list">
-    <ul class="p-0 m-0">
+  <nav class="blog-categories" aria-label="Blog categories">
+    <h2>Categories</h2>
+    <ul>
       {% assign all_categories = site.categories | sort %}
       {% for cat_pair in all_categories %}
         {% assign category = cat_pair[0] %}
         <li>
-          <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a> ({{ cat_pair[1].size }}){% unless forloop.last %},{% endunless %}
+          <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
+            <span>{{ category | replace: '-', ' ' | escape }}</span>
+            <span class="category-count"><span class="sr-only">Posts: </span>{{ cat_pair[1].size }}</span>
+          </a>
         </li>
       {% endfor %}
     </ul>
-  </div>
+  </nav>
 {% endif %}
+
+<div class="blog-posts">
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
@@ -181,4 +187,6 @@ pagination:
 {% include pagination.liquid %}
 {% endif %}
 
+</div>
+</div>
 </div>
