@@ -4,6 +4,11 @@
 
 @use "variables" as v;
 
+// MathJax groups inline formulas with their adjacent punctuation after typesetting.
+.math-punctuation {
+  white-space: nowrap;
+}
+
 p,
 h1,
 h2,
