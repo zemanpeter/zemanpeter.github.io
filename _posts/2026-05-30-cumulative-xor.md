@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Cumulative XOR via the shift operator on $\\mathbb{F}_2^\\infty$"
+seo_title: Cumulative XOR via the shift operator on binary sequences
 date: 2026-05-30 12:00:00+0200
 description: A closed form for the prefix bitwise XOR, proved by telescoping against the unilateral shift on the sequence space $\mathbb{F}_2^\infty$.
+seo_description: A closed formula for the bitwise XOR of the integers from 0 to n, proved using the unilateral shift on binary sequences.
 categories: recreational-mathematics number-theory functional-analysis
 tags:
 related_posts: false
@@ -23,7 +25,7 @@ $$
 
 Here is a proof using elementary functional-analysis.
 
-**The sequence space.**{:.paragraph} Let $\mathbb F_2^\infty$ denote the space of eventually-zero $\mathbb F_2$-valued sequences, with standard basis vectors $e_0, e_1, e_2, \ldots$ The *unilateral shift* is the linear operator
+**The sequence space.**{:.paragraph} Let $\mathbb F_2^\infty$ denote the space of eventually-zero $\mathbb F_2$-valued sequences, with standard basis vectors $e_0, e_1, e_2, \ldots$ The _unilateral shift_ is the linear operator
 
 $$
 \sigma\colon\mathbb{F}_2^\infty\to\mathbb{F}_2^\infty,\qquad \sigma e_i=e_{i+1},

@@ -2,6 +2,7 @@
 layout: default
 permalink: /blog/
 title: posts
+description: Mathematical expositions by Peter Zeman on combinatorics, graph theory, algebra, quantum information, and olympiad problems.
 nav: true
 nav_order: 4
 pagination:

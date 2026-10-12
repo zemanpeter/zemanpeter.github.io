@@ -5,6 +5,7 @@ This guide helps you optimize your al-folio website for search engines so your r
 <!--ts-->
 
 - [SEO Best Practices Guide](#seo-best-practices-guide)
+  - [This Site's Post Metadata](#this-sites-post-metadata)
   - [Overview](#overview)
   - [Basic SEO Setup](#basic-seo-setup)
     - [Sitemap and Robots](#sitemap-and-robots)
@@ -34,6 +35,18 @@ This guide helps you optimize your al-folio website for search engines so your r
   - [Resources](#resources)
 
 <!--te-->
+
+## This Site's Post Metadata
+
+Posts automatically include `BlogPosting` structured data, an author link, publication dates, Open Graph metadata, and a canonical URL. They also appear in the sitemap and Atom feed. Archives are marked as ordinary pages, not articles.
+
+- Give each post a descriptive `title` and a short `description` explaining its result or method, using the names readers are likely to search for.
+- If a title or description contains LaTeX, add optional plain-text `seo_title` and `seo_description` fields. These override search and sharing metadata; the displayed mathematical title stays intact. See the cumulative-XOR post for an example.
+- Set `last_modified_at` to an ISO 8601 date with a timezone after a substantial content revision. It is not set to the deployment date.
+- `author` defaults to Peter Zeman. A guest post can specify an `author` name and `author_url` in its front matter.
+- After deployment, submit `https://zemanpeter.github.io/sitemap.xml` in Google Search Console and Bing Webmaster Tools, and inspect a representative post for indexing problems.
+
+The existing `robots.txt` allows search crawlers, including AI search crawlers. [Google's AI search guidance](https://developers.google.com/search/docs/appearance/ai-features) recommends the same foundations as ordinary search and does not require a special AI text file. Indexing, ranking, and inclusion in AI answers are still decided by the search service.
 
 ## Overview
 

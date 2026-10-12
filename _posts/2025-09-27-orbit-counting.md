@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Orbit counting lemma
+seo_title: Orbit counting lemma (Burnside's lemma)
 date: 2025-09-27 01:12:00-0400
-description: A graph-theoretic proof of the orbit-counting theorem.
+description: A graph-theoretic proof of Burnside's lemma, counting group-action orbits by double-counting edges in a bipartite graph.
 categories: combinatorics group-theory
 tags:
 related_posts: false
@@ -15,7 +16,7 @@ $$
 \frac{1}{|G|}\sum_{g\in G}\mathrm{fix}(g).
 $$
 
-*Proof.* Form a bipartite graph with parts $X$ and $G$, putting an edge between $x \in X$ and $g\in G$ whenever $x^g = x$. We count its edges two ways.
+_Proof._ Form a bipartite graph with parts $X$ and $G$, putting an edge between $x \in X$ and $g\in G$ whenever $x^g = x$. We count its edges two ways.
 
 From the $G$-side, vertex $g$ is incident to exactly $\mathrm{fix}(g)$ edges, so the total is
 

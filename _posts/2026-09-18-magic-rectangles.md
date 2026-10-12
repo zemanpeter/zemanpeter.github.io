@@ -2,7 +2,7 @@
 layout: post
 title: Mermin-Peres magic rectangles
 date: 2026-09-18
-description: Inconsistent linear equations can have solutions by matrices, even modulo odd primes.
+description: Mermin-Peres magic rectangles, quantum contextuality, and matrix solutions to inconsistent linear equations, even modulo odd primes.
 categories: quantum-information linear-algebra group-theory
 tags:
 related_posts: false
