@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-posts",
           title: "posts",
-          description: "",
+          description: "Mathematical expositions by Peter Zeman on combinatorics, graph theory, algebra, quantum information, and olympiad problems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "Mermin-Peres magic rectangles",
         
-        description: "Inconsistent linear equations can have solutions by matrices, even modulo odd primes.",
+        description: "Mermin-Peres magic rectangles, quantum contextuality, and matrix solutions to inconsistent linear equations, even modulo odd primes.",
         section: "Posts",
         handler: () => {
           
@@ -89,7 +89,7 @@ ninja.data = [{
         
           title: "Orbit counting lemma",
         
-        description: "A graph-theoretic proof of the orbit-counting theorem.",
+        description: "A graph-theoretic proof of Burnside&#39;s lemma, counting group-action orbits by double-counting edges in a bipartite graph.",
         section: "Posts",
         handler: () => {
           
