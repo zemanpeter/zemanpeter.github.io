@@ -48,8 +48,8 @@ _styles: |
 | :----- | :-------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- |
 | 30.09. | **Overview.** Derivatives and linear approximation, Taylor polynomials and extrema, multivariable integration, and metric spaces. | [Notes][notes-1]                              |
 | 07.10. | **Metric spaces 1.**                                                                                                              | [Sheet 1][sheet-1] · [Solutions][solutions-1] |
-| 14.10. |                                                                                                                                   |                                               |
-| 21.10. | **First test: metric spaces.**                                                                                                    |                                               |
+| 14.10. | **Metric spaces 2.**                                                                                                              | [Sheet 2][sheet-2]                            |
+| 21.10. | **First test: metric spaces.**                                                                                                    | [Mock exam][mock-1]                           |
 | 28.10. | _No tutorial._                                                                                                                    |                                               |
 | 04.11. |                                                                                                                                   |                                               |
 | 11.11. |                                                                                                                                   |                                               |
@@ -62,9 +62,15 @@ _styles: |
 
 </div>
 
-[notes-1]: {{ '/assets/notes/ma2_01.pdf' | relative_url }}
-[sheet-1]: {{ '/assets/notes/ma2_01_metric_spaces.pdf' | relative_url }}
-[solutions-1]: {{ '/assets/notes/ma2_01_metric_spaces_solutions.pdf' | relative_url }}
+The first test has two problems: proving that a distance is a metric and sketching a ball; and finding the domain of a function of two variables, deciding whether the domain is open or closed, and determining continuity. Each problem is worth 5 points (10 points total), with 45 minutes for the whole test. The mock exam illustrates the format and level.
+
+[notes-1]: {{ '/assets/teaching/ma2/ma2_01.pdf' | relative_url }}
+[sheet-1]: {{ '/assets/teaching/ma2/ma2_01_metric_spaces.pdf' | relative_url }}
+[solutions-1]: {{ '/assets/teaching/ma2/ma2_01_metric_spaces_solutions.pdf' | relative_url }}
+[sheet-2]: {{ '/assets/teaching/ma2/ma2_02_open_sets_continuity.pdf' | relative_url }}
+[solutions-2]: {{ '/assets/teaching/ma2/ma2_02_metric_spaces_solutions.pdf' | relative_url }}
+
+[mock-1]: {{ '/assets/teaching/ma2/ma2_03_mock_exam.pdf' | relative_url }}
 
 #### Additional resources
 
