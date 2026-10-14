@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -34,7 +34,7 @@ I am working on the ERC Synergy project [POCOCOP](https://pococop.eu), supervise
 
 Previously, I held postdoctoral positions at the [Technical University of Denmark](https://www.dtu.dk), working with [David Roberson](https://sites.google.com/site/davideroberson/), and at the [University of Neuchâtel](https://www.unine.ch), hosted by [Alexander Kolpakov](https://sashakolpakov.wordpress.com). I completed my PhD at [Charles University](https://cuni.cz/uken-1.html) under the supervision of [Roman Nedela](https://www.sav.sk/?lang=en&doc=user-org-user&user_no=5699&action=cv).
 
-### research
+## research
 
 My research interests lie in quantum information theory and algebraic and topological graph theory.
 
