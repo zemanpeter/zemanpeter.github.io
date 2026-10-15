@@ -48,7 +48,7 @@ _styles: |
 | :----- | :-------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- |
 | 30.09. | **Overview.** Derivatives and linear approximation, Taylor polynomials and extrema, multivariable integration, and metric spaces. | [Notes][notes-1]                              |
 | 07.10. | **Metric spaces 1.**                                                                                                              | [Sheet 1][sheet-1] · [Solutions][solutions-1] |
-| 14.10. | **Metric spaces 2.**                                                                                                              | [Sheet 2][sheet-2]                            |
+| 14.10. | **Metric spaces 2.**                                                                                                              | [Sheet 2][sheet-2] · [Solutions][solutions-1]    |
 | 21.10. | **First test: metric spaces.**                                                                                                    | [Mock exam][mock-1]                           |
 | 28.10. | _No tutorial._                                                                                                                    |                                               |
 | 04.11. |                                                                                                                                   |                                               |
