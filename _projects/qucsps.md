@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quantum constraint satisfaction problems (QuCSPs)
-description: PRIMUS/27/SCI/045
+description:
 img: assets/img/primus-logo.svg
 img_light: assets/img/primus-logo.svg
 img_dark: assets/img/primus-logo-dark.svg
@@ -9,8 +9,6 @@ importance: 1
 category: grant
 related_publications: false
 ---
-
-**Duration:** 1 January 2027 – 31 December 2030
 
 <div class="row justify-content-center my-3">
   <div class="col-8 col-md-4 col-lg-3">
