@@ -68,7 +68,7 @@ The first test has two problems: proving that a distance is a metric and sketchi
 [sheet-1]: {{ '/assets/teaching/ma2/ma2_01_metric_spaces.pdf' | relative_url }}
 [solutions-1]: {{ '/assets/teaching/ma2/ma2_01_metric_spaces_solutions.pdf' | relative_url }}
 [sheet-2]: {{ '/assets/teaching/ma2/ma2_02_open_sets_continuity.pdf' | relative_url }}
-[solutions-2]: {{ '/assets/teaching/ma2/ma2_02_metric_spaces_solutions.pdf' | relative_url }}
+[solutions-2]: {{ '/assets/teaching/ma2/ma2_02_open_sets_continuity_solutions.pdf' | relative_url }}
 
 [mock-1]: {{ '/assets/teaching/ma2/ma2_03_mock_exam.pdf' | relative_url }}
 
