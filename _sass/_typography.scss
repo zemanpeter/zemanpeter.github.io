@@ -9,6 +9,20 @@
   white-space: nowrap;
 }
 
+// Contents entries are short navigation labels, so justification creates large
+// word gaps on narrow screens. Keep prose and ordinary list items justified.
+.table-of-contents,
+#table-of-contents,
+#markdown-toc,
+#toc-sidebar {
+  li,
+  p {
+    text-align: start;
+    -webkit-hyphens: none;
+    hyphens: none;
+  }
+}
+
 p,
 h1,
 h2,
