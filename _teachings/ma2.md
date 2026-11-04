@@ -44,21 +44,21 @@ _styles: |
 
 <div class="table-responsive ma2-schedule" markdown="1">
 
-| Date   | Content                                                                                                                           | Materials                                     |
-| :----- | :-------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- |
-| 30.09. | **Overview.** Derivatives and linear approximation, Taylor polynomials and extrema, multivariable integration, and metric spaces. | [Notes][notes-1]                              |
-| 07.10. | **Metric spaces 1.**                                                                                                              | [Sheet 1][sheet-1] · [Solutions][solutions-1] |
-| 14.10. | **Metric spaces 2.**                                                                                                              | [Sheet 2][sheet-2] · [Solutions][solutions-2]    |
-| 21.10. | **First test: metric spaces.**                                                                                                    | [Mock exam][mock-1]                           |
-| 28.10. | _No tutorial._                                                                                                                    |                                               |
-| 04.11. |                                                                                                                                   |                                               |
-| 11.11. |                                                                                                                                   |                                               |
-| 18.11. |                                                                                                                                   |                                               |
-| 25.11. |                                                                                                                                   |                                               |
-| 02.12. | **Second test: multivariable differential calculus.**                                                                             |                                               |
-| 09.12. |                                                                                                                                   |                                               |
-| 16.12. |                                                                                                                                   |                                               |
-| 06.01. | **Third test: multivariable integral calculus.**                                                                                  |                                               |
+| Date   | Content                                                                                                                           | Materials                                      |
+| :----- | :-------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------- |
+| 30.09. | **Overview.** Derivatives and linear approximation, Taylor polynomials and extrema, multivariable integration, and metric spaces. | [Notes][notes-1]                               |
+| 07.10. | **Metric spaces 1.**                                                                                                              | [Sheet 1][sheet-1] · [Solutions][solutions-1]  |
+| 14.10. | **Metric spaces 2.**                                                                                                              | [Sheet 2][sheet-2] · [Solutions][solutions-2]  |
+| 21.10. | **First test: metric spaces.** [Mock exam][mock-1].                                                                               | [Exam][exam-1] · [Solutions][exam-solutions-1] |
+| 28.10. | _No tutorial._                                                                                                                    |                                                |
+| 04.11. |                                                                                                                                   | [Sheet 3][sheet-3]                             |
+| 11.11. |                                                                                                                                   |                                                |
+| 18.11. |                                                                                                                                   |                                                |
+| 25.11. |                                                                                                                                   |                                                |
+| 02.12. | **Second test: multivariable differential calculus.**                                                                             |                                                |
+| 09.12. |                                                                                                                                   |                                                |
+| 16.12. |                                                                                                                                   |                                                |
+| 06.01. | **Third test: multivariable integral calculus.**                                                                                  |                                                |
 
 </div>
 
@@ -70,7 +70,10 @@ The first test has two problems: proving that a distance is a metric and sketchi
 [sheet-2]: {{ '/assets/teaching/ma2/ma2_02_open_sets_continuity.pdf' | relative_url }}
 [solutions-2]: {{ '/assets/teaching/ma2/ma2_02_open_sets_continuity_solutions.pdf' | relative_url }}
 
-[mock-1]: {{ '/assets/teaching/ma2/ma2_03_mock_exam.pdf' | relative_url }}
+[mock-1]: {{ '/assets/teaching/ma2/ma2_04_mock_exam.pdf' | relative_url }}
+[exam-1]: {{ '/assets/teaching/ma2/ma2_04_exam.pdf' | relative_url }}
+[exam-solutions-1]: {{ '/assets/teaching/ma2/ma2_04_exam_solutions.pdf' | relative_url }}
+[sheet-3]: {{ '/assets/teaching/ma2/ma2_05_multivariable_derivatives.pdf' | relative_url }}
 
 #### Additional resources
 
