@@ -52,7 +52,7 @@ _styles: |
 | 21.10. | **First test: metric spaces.** [Mock exam][mock-4].   | [Exam][exam-4] · [Solutions][exam-solutions-4] |
 | 28.10. | _No tutorial._                                        |                                                |
 | 04.11. | **Multivariable derivatives 1.**                      | [Sheet 3][sheet-3] · [Solutions][solutions-3]  |
-| 11.11. | **Multivariable derivatives 2.**                      | [Sheet 4][sheet-4]                             |
+| 11.11. | **Multivariable derivatives 2.**                      | [Sheet 4][sheet-4] · [Solutions][solutions-4]  |
 | 18.11. |                                                       |                                                |
 | 25.11. |                                                       |                                                |
 | 02.12. | **Second test: multivariable differential calculus.** |                                                |
@@ -76,6 +76,7 @@ The first test has two problems: proving that a distance is a metric and sketchi
 [sheet-3]: {{ '/assets/teaching/ma2/ma2_05_multivariable_derivatives.pdf' | relative_url }}
 [solutions-3]: {{ '/assets/teaching/ma2/ma2_05_multivariable_derivatives_solutions.pdf' | relative_url }}
 [sheet-4]: {{ '/assets/teaching/ma2/ma2_06_multivariable_derivatives.pdf' | relative_url }}
+[solutions-4]: {{ '/assets/teaching/ma2/ma2_06_multivariable_derivatives_solutions.pdf' | relative_url }}
 
 #### Additional resources
 
