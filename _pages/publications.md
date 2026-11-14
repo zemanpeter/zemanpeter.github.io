@@ -13,57 +13,20 @@ nav_order: 3
 {%- assign journal_count = journal_bib | split: "<li" | size | minus: 1 -%}
 {%- assign conference_count = conference_bib | split: "<li" | size | minus: 1 -%}
 
-<style>
-  .papers-nav {
-    position: sticky;
-    top: 57px; /* height of fixed navbar */
-    z-index: 100;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0.6rem 0;
-    margin-bottom: 1.5rem;
-    background-color: var(--global-bg-color);
-    border-bottom: 1px solid var(--global-divider-color);
-  }
-  .papers-nav a {
-    display: inline-block;
-    padding: 0.3rem 0.9rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
-    font-size: 0.85rem;
-    line-height: 1.2;
-    color: var(--global-text-color);
-    text-decoration: none;
-    white-space: nowrap;
-    transition:
-      background-color 0.2s ease,
-      color 0.2s ease,
-      border-color 0.2s ease;
-  }
-  .papers-nav a:hover {
-    border-color: var(--global-theme-color);
-    color: var(--global-theme-color);
-  }
-  .papers-nav a.active {
-    background-color: var(--global-theme-color);
-    border-color: var(--global-theme-color);
-    color: #fff;
-  }
-  .papers-nav a .count {
-    opacity: 0.65;
-    font-size: 0.78em;
-    margin-left: 0.25rem;
-  }
-  #preprints,
-  #journal,
-  #conference {
-    scroll-margin-top: 120px; /* navbar + sticky pills */
-    margin-top: 1.8rem;
-  }
-</style>
+<div id="publication-filters" class="publication-filters" hidden>
+  <div class="publication-filter-label" id="publication-filter-label">filter by category</div>
+  <div class="publication-filter-buttons" role="group" aria-labelledby="publication-filter-label">
+    <button type="button" data-topic="all" aria-pressed="true">all<span class="count" aria-hidden="true"></span></button>
+    {% for topic in site.data.publication_topics %}
+      <button type="button" data-topic="{{ topic[0] | escape }}" aria-pressed="false">
+        {{ topic[1] | escape }}<span class="count" aria-hidden="true"></span>
+      </button>
+    {% endfor %}
+  </div>
+  <p id="publication-filter-status" class="publication-filter-status" role="status" aria-live="polite" aria-atomic="true"></p>
+</div>
 
-<nav class="papers-nav">
+<nav class="papers-nav" aria-label="Publication types">
   <a href="#preprints">preprints<span class="count">{{ preprint_count }}</span></a>
   <a href="#journal">journal<span class="count">{{ journal_count }}</span></a>
   <a href="#conference">conference<span class="count">{{ conference_count }}</span></a>
@@ -71,7 +34,7 @@ nav_order: 3
 
 ### preprints {#preprints}
 
-<div class="publications">
+<div class="publications" data-publication-section="preprints">
 
 {{ preprint_bib }}
 
@@ -79,7 +42,7 @@ nav_order: 3
 
 ### journal papers {#journal}
 
-<div class="publications">
+<div class="publications" data-publication-section="journal">
 
 {{ journal_bib }}
 
@@ -87,34 +50,10 @@ nav_order: 3
 
 ### conference proceedings {#conference}
 
-<div class="publications">
+<div class="publications" data-publication-section="conference">
 
 {{ conference_bib }}
 
 </div>
 
-<script>
-  (function () {
-    const links = Array.from(document.querySelectorAll(".papers-nav a"));
-    const byId = {};
-    links.forEach((l) => (byId[l.getAttribute("href").slice(1)] = l));
-    const sections = links
-      .map((l) => document.querySelector(l.getAttribute("href")))
-      .filter(Boolean);
-    if (!sections.length) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            links.forEach((l) => l.classList.remove("active"));
-            const active = byId[entry.target.id];
-            if (active) active.classList.add("active");
-          }
-        });
-      },
-      { rootMargin: "-120px 0px -65% 0px", threshold: 0 }
-    );
-    sections.forEach((s) => observer.observe(s));
-  })();
-</script>
+<script src="{{ '/assets/js/publication-filters.js' | relative_url }}" defer></script>

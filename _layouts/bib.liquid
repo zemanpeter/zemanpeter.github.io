@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row">
+<div class="row" data-publication-tags="{{ entry.tags | escape }}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -262,6 +262,20 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
+    {% if page.permalink == '/publications/' and entry.tags %}
+      <div class="publication-tags" aria-label="Paper categories">
+        {% assign publication_tags = entry.tags | split: ',' %}
+        {% for tag in publication_tags %}
+          {% assign topic = tag | strip %}
+          {% assign topic_label = site.data.publication_topics[topic] %}
+          {% if topic_label %}
+            <a class="publication-tag" data-topic="{{ topic | escape }}" href="{{ '/publications/' | relative_url }}?topic={{ topic | url_encode }}">
+              {{- topic_label | escape -}}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}

@@ -4,6 +4,118 @@
 
 @use "variables" as v;
 
+.publication-filters {
+  margin-bottom: 1.2rem;
+  scroll-margin-top: 80px;
+}
+
+.publication-filter-label,
+.publication-filter-status {
+  color: var(--global-text-color-light);
+  font-size: 0.8rem;
+}
+
+.publication-filter-label {
+  margin-bottom: 0.5rem;
+}
+
+.publication-filter-status {
+  margin: 0.6rem 0 0;
+}
+
+.publication-filter-buttons,
+.papers-nav,
+.publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.publication-filter-buttons button,
+.papers-nav a {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 0.85rem;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .count {
+    font-size: 0.8em;
+    margin-left: 0.35rem;
+    opacity: 0.8;
+  }
+}
+
+.publication-filter-buttons button[aria-pressed="true"],
+.papers-nav a.active {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+
+.publication-filter-buttons button:focus-visible,
+.publication-tag:focus-visible,
+.papers-nav a:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+.papers-nav {
+  position: sticky;
+  top: 57px;
+  z-index: 100;
+  padding: 0.6rem 0;
+  margin-bottom: 1.5rem;
+  background-color: var(--global-bg-color);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+#preprints,
+#journal,
+#conference {
+  scroll-margin-top: 130px;
+  margin-top: 1.8rem;
+}
+
+.publication-tags {
+  margin-top: 0.4rem;
+  gap: 0.2rem 0.65rem;
+}
+
+.publication-tag {
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+  line-height: 1.8;
+
+  &:hover,
+  &.is-active {
+    color: var(--global-theme-color);
+  }
+}
+
+.publication-filters[hidden],
+.papers-nav a[hidden],
+.publications[hidden],
+.publications li[hidden] {
+  display: none !important;
+}
+
 .publications {
   margin-top: 2rem;
 
