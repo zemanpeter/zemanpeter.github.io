@@ -54,7 +54,7 @@ _styles: |
 | 04.11. | **Multivariable derivatives 1.**                      | [Sheet 3][sheet-3] · [Solutions][solutions-3]  |
 | 11.11. | **Multivariable derivatives 2.**                      | [Sheet 4][sheet-4] · [Solutions][solutions-4]  |
 | 18.11. | **Chain rule.**                                       | [Sheet 5][sheet-5] · [Solutions][solutions-5]  |
-| 25.11. |                                                       |                                                |
+| 25.11. | **Local extrema and the Hessian.**                    | [Sheet 6][sheet-6]                             |
 | 02.12. | **Second test: multivariable differential calculus.** |                                                |
 | 09.12. |                                                       |                                                |
 | 16.12. |                                                       |                                                |
@@ -79,6 +79,7 @@ The first test has two problems: proving that a distance is a metric and sketchi
 [solutions-4]: {{ '/assets/teaching/ma2/ma2_06_multivariable_derivatives_solutions.pdf' | relative_url }}
 [sheet-5]: {{ '/assets/teaching/ma2/ma2_07_chain_rule.pdf' | relative_url }}
 [solutions-5]: {{ '/assets/teaching/ma2/ma2_07_chain_rule_solutions.pdf' | relative_url }}
+[sheet-6]: {{ '/assets/teaching/ma2/ma2_08_hessian.pdf' | relative_url }}
 
 #### Additional resources
 
