@@ -42,8 +42,8 @@ _styles: |
 | 15.10. |         |                         |                                        |
 | 22.10. |         |                         |                                        |
 | 29.10. |         |                         |                                        |
-| 05.11. | Non-local games and quantum foundations ([slides][slides-03]). |                         |                                        |
-| 12.11. | Quantum operations: unitary evolution and measurement updates ([slides][slides-04]). |                         |                                        |
+| 05.11. | Non-local games and quantum foundations ([slides][slides-03]). | [Sheet&nbsp;3][sheet-3] | [Homework&nbsp;3][hw-3] |
+| 12.11. | Quantum operations: unitary evolution and measurement updates ([slides][slides-04]). | [Sheet&nbsp;4][sheet-4] |                                        |
 | 19.11. |         |                         |                                        |
 | 26.11. |         |                         |                                        |
 | 03.12. |         |                         |                                        |
@@ -57,8 +57,11 @@ _styles: |
 [slides-04]: {{ '/assets/teaching/qit/04_quantum_operations.pdf' | relative_url }}
 [sheet-1]: {{ '/assets/teaching/qit/sheet01.pdf' | relative_url }}
 [sheet-2]: {{ '/assets/teaching/qit/sheet02.pdf' | relative_url }}
+[sheet-3]: {{ '/assets/teaching/qit/sheet03.pdf' | relative_url }}
+[sheet-4]: {{ '/assets/teaching/qit/sheet04.pdf' | relative_url }}
 [hw-1]: {{ '/assets/teaching/qit/hw01.pdf' | relative_url }}
 [hw-2]: {{ '/assets/teaching/qit/hw02.pdf' | relative_url }}
+[hw-3]: {{ '/assets/teaching/qit/hw03.pdf' | relative_url }}
 
 <br>
 
